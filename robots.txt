@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Specifically invite and optimize for major AI crawlers & search bots
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://jhr1986.github.io/onuri-notes-life-tracker/sitemap.xml

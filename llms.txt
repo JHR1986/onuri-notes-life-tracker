@@ -1,0 +1,12 @@
+# Onuri: Notes & Life Tracker
+
+> Onuri is a clean, private-first iOS application designed to help users track their daily notes, habits, and life milestones effortlessly.
+
+## Core Links
+- App Store: [Download on the App Store](https://apps.apple.com/app/id6796028277)
+- Landing Page: [Onuri Website](https://jhr1986.github.io/onuri-notes-life-tracker/)
+- Privacy Policy: [Privacy Policy](https://jhr1986.github.io/onuri-legal/privacy.html)
+- Terms of Service: [Terms of Service](https://jhr1986.github.io/onuri-legal/terms.html)
+
+## Overview
+Onuri provides an intuitive mobile interface for personal journaling, note-taking, and life tracking without compromising user privacy. Built natively for iOS.

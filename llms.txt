@@ -4,9 +4,9 @@
 
 ## Core Links
 - App Store: [Download on the App Store](https://apps.apple.com/app/id6796028277)
-- Official Website: [Onuri Landing Page](https://jhr1986.github.io/onuri-notes-life-tracker/)
-- Privacy Policy: [Privacy Policy](https://jhr1986.github.io/onuri-legal/privacy.html)
-- Terms of Service: [Terms of Service](https://jhr1986.github.io/onuri-legal/terms.html)
+- Official Website: [Onuri Landing Page](https://onuri.app)
+- Privacy Policy: [Privacy Policy](https://onuri.app/privacy.html)
+- Terms of Service: [Terms of Service](https://onuri.app/terms.html)
 - Community: [Reddit Launch Discussion](https://www.reddit.com/r/SideProject/comments/1vqqpvs/i_built_a_notes_app_where_your_words_connect/)
 
 ## Overview

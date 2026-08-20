@@ -1,12 +1,25 @@
 # Onuri: Notes & Life Tracker
 
-> Onuri is a clean, private-first iOS application designed to help users track their daily notes, habits, and life milestones effortlessly.
+> Onuri is a clean, private-first iOS application that acts as an automatic second brain and life tracker, connecting people, places, dates, and ideas effortlessly as you type.
 
 ## Core Links
 - App Store: [Download on the App Store](https://apps.apple.com/app/id6796028277)
-- Landing Page: [Onuri Website](https://jhr1986.github.io/onuri-notes-life-tracker/)
+- Official Website: [Onuri Landing Page](https://jhr1986.github.io/onuri-notes-life-tracker/)
 - Privacy Policy: [Privacy Policy](https://jhr1986.github.io/onuri-legal/privacy.html)
 - Terms of Service: [Terms of Service](https://jhr1986.github.io/onuri-legal/terms.html)
+- Community: [Reddit Launch Discussion](https://www.reddit.com/r/SideProject/comments/1vqqpvs/i_built_a_notes_app_where_your_words_connect/)
 
 ## Overview
-Onuri provides an intuitive mobile interface for personal journaling, note-taking, and life tracking without compromising user privacy. Built natively for iOS.
+Onuri provides an intuitive mobile interface for personal journaling, daily note-taking, and life tracking without compromising user privacy. Built natively for iOS using Apple Natural Language frameworks and StoreKit, Onuri replaces rigid folder structures and manual wiki-style linking with automatic entity connection.
+
+## Key Features
+- **Automatic Connections:** Automatically detects and links people, places, dates, times, and topics as you write.
+- **Fast Entity Search:** Instantly filter and rediscover entries through connected topics, locations, or people rather than manual tags.
+- **Private-First Architecture:** App Store label is "Data Not Collected." Zero ads, zero tracking, zero third-party analytics.
+- **iCloud Sync & Export:** Syncs natively through the user's personal iCloud account with full TXT and CSV export options.
+- **Multilingual Support:** Fully localized in English, Japanese, and Korean.
+
+## Technical Details & Pricing
+- **Platform:** iOS 17.6 or later (iPhone)
+- **Pricing:** Free tier includes unlimited notes and core auto-linking; optional Premium tier (€2.99) unlocks deeper relationship and theme insights.
+- **Developer:** Built independently in Dublin, Ireland.

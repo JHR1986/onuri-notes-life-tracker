@@ -20,4 +20,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://jhr1986.github.io/onuri-notes-life-tracker/sitemap.xml
+Sitemap: https://onuri.app/sitemap.xml

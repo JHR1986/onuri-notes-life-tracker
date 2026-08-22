@@ -18,13 +18,11 @@
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="apple-itunes-app" content="app-id=6796028277, app-argument=https://apps.apple.com/app/id6796028277">
 <meta name="google-site-verification" content="iJRp57dxQIIMdW0w99VvaUCPEFcfl3Cj-1YCLpVx8jw">
-<meta name="theme-color" content="#f7f6f2">
 <link rel="canonical" href="https://onuri.app/">
 
-<!-- Favicons & Apple Touch Icons (Self-Hosted on onuri.app) -->
-<link rel="icon" type="image/png" sizes="32x32" href="https://onuri.app/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="https://onuri.app/android-icon-48x48.png">
-<link rel="apple-touch-icon" href="https://onuri.app/apple-touch-icon.png">
+<!-- Favicon & Search Display Icons (Matching Stillkeep pattern) -->
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="android-icon-48x48.png">
 
 <!-- Multilingual International SEO -->
 <link rel="alternate" hreflang="x-default" href="https://onuri.app/">
@@ -39,14 +37,12 @@
 <meta property="og:url" content="https://onuri.app/">
 <meta property="og:title" content="Onuri — Automatic Second Brain &amp; Life Tracker for iPhone">
 <meta property="og:description" content="A private notes app and automatic second brain for iPhone that connects people, places, dates, and ideas in your writing as you type. Download free on the App Store.">
-<meta property="og:image" content="https://onuri.app/og-image.png">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="https://onuri.app/">
 <meta name="twitter:title" content="Onuri — Automatic Second Brain &amp; Life Tracker for iPhone">
 <meta name="twitter:description" content="Notes that connect themselves. A private, zero-ads notes and life tracking app for iOS.">
-<meta name="twitter:image" content="https://onuri.app/og-image.png">
 
 <!-- Performance Preconnect Hints -->
 <link rel="preconnect" href="https://apps.apple.com">
@@ -60,14 +56,8 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "WebSite",
-      "@id": "https://onuri.app/#site",
-      "url": "https://onuri.app/",
-      "name": "Onuri: Free Notes & Life Tracker"
-    },
-    {
       "@type": ["MobileApplication", "SoftwareApplication"],
-      "@id": "https://onuri.app/#onuri",
+      "@id": "https://onuri.app/#application",
       "name": "Onuri: Notes & Life Tracker",
       "alternateName": ["Onuri", "Onuri Notes App", "Onuri Second Brain", "Onuri iPhone App"],
       "operatingSystem": "iOS 17.6 or later",
@@ -87,6 +77,12 @@
         "availability": "https://schema.org/InStock",
         "description": "Free notes app with unlimited note taking; optional Premium upgrade (€2.99)" 
       },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://onuri.app/#organization",
+        "name": "Onuri",
+        "url": "https://onuri.app/"
+      },
       "featureList": [
         "Free Private Note Taking",
         "Automatic Second Brain & entity connection (People, Places, Dates, Topics)",
@@ -97,7 +93,8 @@
       ],
       "sameAs": [
         "https://apps.apple.com/ie/app/onuri-notes-life-tracker/id6796028277",
-        "https://www.reddit.com/r/SideProject/comments/1vqqpvs/i_built_a_notes_app_where_your_words_connect/"
+        "https://www.reddit.com/r/SideProject/comments/1vqqpvs/i_built_a_notes_app_where_your_words_connect/",
+        "https://onuri.app/"
       ]
     },
     {
@@ -109,13 +106,6 @@
           "@id": "https://onuri.app/#breadcrumb-item-1",
           "position": 1,
           "name": "Home",
-          "item": "https://onuri.app/"
-        },
-        {
-          "@type": "ListItem",
-          "@id": "https://onuri.app/#breadcrumb-item-2",
-          "position": 2,
-          "name": "Onuri Notes & Life Tracker",
           "item": "https://onuri.app/"
         }
       ]
@@ -204,7 +194,7 @@
   .wrap{max-width:960px;margin:0 auto;padding:0 22px}
 
   header{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
-  .brand{font-size:1.4rem;text-decoration:none;color:var(--ink)}
+  .brand{font-size:1.35rem;text-decoration:none;color:var(--ink)}
   .brand span{color:var(--indigo)}
   .navlink{font-size:.95rem;text-decoration:none;border:1.5px solid var(--indigo);
     border-radius:999px;padding:8px 16px;color:var(--indigo)}
@@ -254,6 +244,7 @@
   ul{margin:14px 0;padding-left:22px}
   li{margin:7px 0}
   .links{font-size:.95rem;padding:10px 0 40px}
+  .fine{color:var(--muted);font-size:.95rem}
 
   .band{background:var(--indigo);color:#fff;text-align:center;border-radius:16px;padding:48px 26px;margin:56px 0 60px}
   .band h2{color:#fff;margin-bottom:12px}
@@ -274,13 +265,13 @@
 </head>
 <body>
 
-<div class="wrap">
+<main class="wrap">
   <header>
-    <a class="brand" href="https://onuri.app/">On<span>uri</span></a>
-    <a class="navlink" href="https://apps.apple.com/app/id6796028277" title="Download Onuri Free on the iOS App Store">Get the app</a>
+    <a class="brand" href="#">On<span>uri</span></a>
+    <a class="navlink" href="https://apps.apple.com/app/id6796028277" title="Download Onuri Free on the iOS App Store">Get App Free</a>
   </header>
 
-  <div class="hero">
+  <section class="hero" aria-label="Introduction">
     <div>
       <p class="eyebrow">Automatic Second Brain &amp; Life Tracker for iPhone</p>
       <h1>Notes that connect <em>themselves</em>.</h1>
@@ -296,8 +287,8 @@
         <div class="note-found">connections<span class="tag">Mina</span><span class="tag">Kyoto</span><span class="tag">temples</span><span class="tag">2021</span></div>
       </div>
     </div>
-  </div>
-</div>
+  </section>
+</main>
 
 <div class="trail">
   <div class="wrap">
@@ -309,7 +300,7 @@
   </div>
 </div>
 
-<div class="wrap">
+<main class="wrap">
   <section id="about">
     <h2>Your words, quietly organised</h2>
     <p>You just write naturally, and Onuri quietly builds the structure for you, acting as an automatic second brain so everything you've ever written becomes easy to rediscover. Trying to remember a temple you visited in Kyoto five years ago? No digging through categories — tap Japan → Kyoto → temple → found it.</p>
@@ -322,7 +313,7 @@
       <li><strong>Insights &amp; Connections:</strong> Onuri Premium (€2.99) reveals recurring themes and relationship patterns</li>
       <li><strong>Multilingual Support:</strong> Available in English, Japanese, and Korean</li>
     </ul>
-    <p>If you love the depth of linked-note workflows but hate manually typing wiki-style links — or if you've outgrown rigid folder structures in Apple Notes — that's the exact gap Onuri is built for. Launched on the App&nbsp;Store in July&nbsp;2026 for iOS&nbsp;17.6+.</p>
+    <p class="fine">If you love the depth of linked-note workflows but hate manually typing wiki-style links — or if you've outgrown rigid folder structures in Apple Notes — that's the exact gap Onuri is built for. Launched on the App&nbsp;Store in July&nbsp;2026 for iOS&nbsp;17.6+.</p>
     <p class="links">
       <a href="https://apps.apple.com/app/id6796028277" title="Onuri on Apple App Store">Download Onuri on App Store</a> ·
       <a href="https://www.reddit.com/r/SideProject/comments/1vqqpvs/i_built_a_notes_app_where_your_words_connect/" rel="noopener">Launch discussion on r/SideProject</a> ·
@@ -361,7 +352,7 @@
     <p>A private notes app and automatic second brain that builds the structure for you — available in English, Japanese and Korean, made by an independent developer in Dublin, Ireland.</p>
     <a class="cta" href="https://apps.apple.com/app/id6796028277" title="Download Onuri Free on the iOS App Store">Download Onuri free</a>
   </div>
-</div>
+</main>
 
 <footer>
   <div class="wrap">

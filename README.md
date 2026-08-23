@@ -7,7 +7,7 @@ Just write. There are no folders to maintain, tags to remember, or systems to or
 ## Get Onuri
 
 - **Website:** [onuri.app](https://onuri.app)
-- **App Store:** [Onuri: Notes & Life Tracker](https://apps.apple.com/us/app/onuri-notes-life-tracker/id6742767073)
+- **App Store:** [Onuri: Notes & Life Tracker](https://apps.apple.com/app/id6796028277)
 
 ---
 

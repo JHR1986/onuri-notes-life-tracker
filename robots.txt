@@ -1,23 +1,4 @@
 User-agent: *
 Allow: /
 
-# Specifically invite and optimize for major AI crawlers & search bots
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
 Sitemap: https://onuri.app/sitemap.xml

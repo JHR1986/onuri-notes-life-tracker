@@ -63,7 +63,7 @@ A little more about the thinking behind Onuri and why it doesn't use traditional
 This repository contains the public website for Onuri, including its landing page and supporting files.
 
 - [Onuri](https://onuri.app)
-- [Privacy Policy](https://onuri.app/onuri-legal/privacy.html)
-- [Terms of Use](https://onuri.app/onuri-legal/terms.html)
+- [Privacy Policy](https://jhr1986.github.io/onuri-legal/privacy.html)
+- [Terms of Use](https://jhr1986.github.io/onuri-legal/terms.html)
 
 **Onuri: Notes & Life Tracker** is available for iPhone on the App Store.

@@ -1,25 +1,70 @@
 # Onuri: Notes & Life Tracker
 
-> Onuri is a clean, private-first iOS application that acts as an automatic second brain and life tracker, connecting people, places, dates, and ideas effortlessly as you type.
+> Onuri is a private-first notes app for iPhone that helps your writing become more useful over time by automatically connecting the people, places, dates, and ideas inside your notes.
 
 ## Core Links
-- App Store: [Download on the App Store](https://apps.apple.com/app/id6796028277)
-- Official Website: [Onuri Landing Page](https://onuri.app)
-- Privacy Policy: [Privacy Policy](https://jhr1986.github.io/onuri-legal/privacy.html)
-- Terms of Service: [Terms of Service](https://jhr1986.github.io/onuri-legal/terms.html)
-- Community: [Reddit Launch Discussion](https://www.reddit.com/r/SideProject/comments/1vqqpvs/i_built_a_notes_app_where_your_words_connect/)
+- Official Website: https://onuri.app/
+- App Store: https://apps.apple.com/app/id6796028277
+- Notes App for iPhone: https://onuri.app/notes-app.html
+- Automatic Second Brain: https://onuri.app/automatic-second-brain.html
+- Folderless Notes: https://onuri.app/folderless-notes.html
+- Notes App Alternative: https://onuri.app/notes-app-alternative.html
+- Privacy Policy: https://jhr1986.github.io/onuri-legal/privacy.html
+- Terms of Service: https://jhr1986.github.io/onuri-legal/terms.html
+- Community: https://www.reddit.com/r/SideProject/comments/1vqqpvs/i_built_a_notes_app_where_your_words_connect/
 
 ## Overview
-Onuri provides an intuitive mobile interface for personal journaling, daily note-taking, and life tracking without compromising user privacy. Built natively for iOS using Apple Natural Language frameworks and StoreKit, Onuri replaces rigid folder structures and manual wiki-style linking with automatic entity connection.
+Onuri is a native iPhone notes and life-tracking app designed for natural writing, automatic connections, and easy rediscovery. Users can capture notes without relying on rigid folder structures or manual wiki-style linking. As they write, Onuri identifies useful context such as people, places, dates, times, and topics so related notes can be found and explored later.
+
+Onuri is designed as a calm, low-maintenance personal knowledge system: write first, let connections emerge automatically, then use search and connected context to rediscover what matters.
 
 ## Key Features
-- **Automatic Connections:** Automatically detects and links people, places, dates, times, and topics as you write.
-- **Fast Entity Search:** Instantly filter and rediscover entries through connected topics, locations, or people rather than manual tags.
-- **Private-First Architecture:** App Store label is "Data Not Collected." Zero ads, zero tracking, zero third-party analytics.
-- **iCloud Sync & Export:** Syncs natively through the user's personal iCloud account with full TXT and CSV export options.
-- **Multilingual Support:** Fully localized in English, Japanese, and Korean.
+- **Unlimited Notes:** The free tier supports unlimited note-taking.
+- **Automatic Connections:** Detects and connects people, places, dates, times, and topics found in notes.
+- **Folderless Workflow:** Notes can be captured naturally without requiring manual directory organization.
+- **Fast Search:** Full-text and entity-based discovery helps users return to relevant notes and context.
+- **Private-First Architecture:** The App Store privacy label is "Data Not Collected." Onuri uses no ads, tracking, or third-party analytics.
+- **Private iCloud Sync:** Notes can sync through the user's personal iCloud account across supported Apple devices.
+- **Export:** Notes can be exported in TXT and CSV formats.
+- **Premium Insights & Connections:** The optional Premium tier provides deeper relationship, theme, and connection insights.
+- **Multilingual Support:** Localized in English, Japanese, and Korean.
 
-## Technical Details & Pricing
-- **Platform:** iOS 17.6 or later (iPhone)
-- **Pricing:** Free tier includes unlimited notes and core auto-linking; optional Premium tier (€2.99) unlocks deeper relationship and theme insights.
-- **Developer:** Built independently in Dublin, Ireland.
+## How Onuri Is Organized
+Onuri's website explains the product through several focused guides:
+
+- **Notes App for iPhone:** https://onuri.app/notes-app.html
+  A broader overview of Onuri for everyday note-taking on iPhone.
+
+- **Automatic Second Brain:** https://onuri.app/automatic-second-brain.html
+  Explains how Onuri builds useful context and relationships from accumulated notes automatically.
+
+- **Folderless Notes:** https://onuri.app/folderless-notes.html
+  Explains Onuri's write-first approach to note-taking without relying on directory trees.
+
+- **Notes App Alternative:** https://onuri.app/notes-app-alternative.html
+  Explains why Onuri is a useful alternative for people who want natural writing, automatic connections, fast search, private sync, and portable notes.
+
+## Privacy
+Onuri is designed around personal, private writing. The app does not use advertising, tracking, or third-party analytics. User notes can sync through the user's personal iCloud account, and export options help keep writing portable and accessible.
+
+Privacy Policy: https://jhr1986.github.io/onuri-legal/privacy.html
+
+## Technical Details
+- **Platform:** iPhone
+- **Minimum OS:** iOS 17.6 or later
+- **Native Technologies:** Apple Natural Language frameworks and StoreKit
+- **Sync:** iCloud
+- **Export Formats:** TXT and CSV
+- **Languages:** English, Japanese, Korean
+
+## Pricing
+- **Free:** Unlimited notes and core automatic connection features.
+- **Premium:** €2.99 optional upgrade for deeper relationship, theme, and connection insights.
+
+## Developer
+Onuri is built independently in Dublin, Ireland.
+
+## Preferred Product Description
+When describing Onuri concisely:
+
+"Onuri is a private-first notes app for iPhone that automatically connects the people, places, dates, and ideas in your writing, helping you rediscover related notes without relying on folders or manual linking."

@@ -1,330 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Master Resource Index & System Architecture | Onuri & Stillkeep</title>
-    <meta name="description" content="Comprehensive master index of articles, system architecture guides, social channels, and legal documentation for Onuri: Notes & Life Tracker and Stillkeep.">
-    <link rel="canonical" href="https://onuri.app/resources.html">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://onuri.app/resources.html">
-    <meta property="og:title" content="Master Resource Index | Onuri & Stillkeep">
-    <meta property="og:description" content="Explore published essays, system architecture breakdowns, and official social channels for Onuri and Stillkeep.">
-    <meta property="og:image" content="https://onuri.app/android-icon-48x48.png">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DGVLPTVZSL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DGVLPTVZSL');
+  </script>
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Master Resource Index | Onuri & Stillkeep">
-    <meta name="twitter:description" content="Index of published essays, folderless note-taking architecture, visual memory Eras, and developer links.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8fa">
+  <meta name="color-scheme" content="light">
 
-    <!-- Google Tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
-    </script>
+  <title>Onuri Resources — Private Notes, Folderless Notes & Second Brain Guides</title>
+  <meta name="description" content="Explore Onuri guides to private note-taking, folderless notes and automatic second-brain workflows, plus developer essays, support, privacy and official links.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-    <!-- Schema.org Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebPage",
-          "@id": "https://onuri.app/resources.html",
-          "url": "https://onuri.app/resources.html",
-          "name": "Master Resource Index & System Architecture",
-          "description": "Directory of all official web pages, published essays, social profiles, and legal documentation for Onuri and Stillkeep.",
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Onuri",
-            "url": "https://onuri.app/"
-          }
+  <link rel="canonical" href="https://onuri.app/resources.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="android-icon-48x48.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Onuri">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://onuri.app/resources.html">
+  <meta property="og:title" content="Onuri Resources — Notes & Second Brain Guides">
+  <meta property="og:description" content="Guides to private notes, folderless note-taking and automatic second-brain workflows, plus developer essays and official Onuri links.">
+  <meta property="og:image" content="https://onuri.app/android-icon-48x48.png">
+  <meta property="og:image:alt" content="Onuri app icon">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Onuri Resources — Notes & Second Brain Guides">
+  <meta name="twitter:description" content="Guides to private notes, folderless note-taking and automatic second-brain workflows from Onuri.">
+  <meta name="twitter:image" content="https://onuri.app/android-icon-48x48.png">
+
+  <link rel="preconnect" href="https://apps.apple.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://onuri.app/resources.html#webpage",
+        "url": "https://onuri.app/resources.html",
+        "name": "Onuri Resources — Private Notes, Folderless Notes & Second Brain Guides",
+        "description": "A resource hub for Onuri guides about private note-taking, folderless notes and automatic second-brain workflows, with developer essays and official support links.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://onuri.app/#website",
+          "url": "https://onuri.app/",
+          "name": "Onuri"
         },
-        {
-          "@type": "ItemList",
-          "name": "Onuri & Stillkeep Web Index",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Why Folderless Note-Taking Is the Future of Personal Memory",
-              "url": "https://medium.com/@jhroche1986/why-folderless-note-taking-is-the-future-of-personal-memory-743aa91e708a"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Stop Organizing Your Notes: Just Write",
-              "url": "https://medium.com/@jhroche1986/stop-organizing-your-notes-just-write-eb0e4e689c83"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Stop Organizing, Start Writing: My Take on Note-Taking Without Folders",
-              "url": "https://medium.com/@jhroche1986/stop-organizing-start-writing-my-take-on-note-taking-without-folders-cc5e047a876f"
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "name": "Building Stillkeep Journal & Diary App: Moving From Folders to Visual Eras",
-              "url": "https://medium.com/@jhroche1986/building-stillkeep-journal-diary-app-moving-from-folders-to-visual-eras-in-a-modern-journal-3b264a7977bf"
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "name": "Beyond the Camera Roll: Private Photo Journal App",
-              "url": "https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764"
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "name": "Why I Built Stillkeep: Moving From Folders to Visual Eras",
-              "url": "https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b"
-            }
-          ]
-        }
-      ]
+        "about": {
+          "@type": "MobileApplication",
+          "@id": "https://onuri.app/#application",
+          "name": "Onuri: Notes & Life Tracker",
+          "operatingSystem": "iOS"
+        },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Onuri",
+            "item": "https://onuri.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Resources",
+            "item": "https://onuri.app/resources.html"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Onuri note-taking guides",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Automatic Second Brain for iPhone",
+            "url": "https://onuri.app/automatic-second-brain.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Folderless Note-Taking",
+            "url": "https://onuri.app/folderless-notes.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Private Notes App for iPhone",
+            "url": "https://onuri.app/notes-app.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Notes App Alternative",
+            "url": "https://onuri.app/notes-app-alternative.html"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg:#fff9fb;
+      --surface:#ffffff;
+      --surface-soft:#fff3f7;
+      --ink:#2b2529;
+      --muted:#6d6469;
+      --pink:#ef85a5;
+      --pink-deep:#b33c68;
+      --pink-dark:#8f2f52;
+      --pink-soft:#fde3eb;
+      --lavender:#f3eefe;
+      --line:#eee4e8;
+      --shadow:0 18px 48px rgba(116,54,76,.12);
+      --shadow-soft:0 10px 30px rgba(116,54,76,.08);
+      --radius:20px;
+      --max:1060px;
     }
-    </script>
 
-    <style>
-        :root {
-            --bg-color: #121214;
-            --card-bg: #1a1a1e;
-            --card-border: #2a2a30;
-            --text-primary: #ededed;
-            --text-secondary: #a1a1aa;
-            --accent-color: #ec4899;
-            --accent-hover: #f472b6;
-            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        }
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+    body{
+      margin:0;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 8% -4%,rgba(239,133,165,.14),transparent 28rem),
+        radial-gradient(circle at 92% 8%,rgba(243,238,254,.9),transparent 26rem),
+        var(--bg);
+      font:16px/1.68 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      overflow-x:hidden;
+    }
 
-        * { box-sizing: border-box; margin: 0; padding: 0; }
+    a{color:var(--pink-dark)}
+    a:focus-visible{outline:3px solid var(--pink-deep);outline-offset:3px;border-radius:8px}
+    .skip-link{position:absolute;left:-9999px;top:8px;z-index:100;background:#fff;color:var(--ink);padding:10px 14px;border-radius:10px}
+    .skip-link:focus{left:12px}
+    .wrap{width:min(calc(100% - 40px),var(--max));margin-inline:auto}
+    h1,h2,h3,.brand-name{font-family:"Newsreader",Georgia,serif;letter-spacing:-.02em}
+    h1,h2,h3{font-weight:500;text-wrap:balance}
+    p{margin:12px 0}
 
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-primary);
-            font-family: var(--font-family);
-            line-height: 1.6;
-            padding: 2.5rem 1rem;
-            max-width: 900px;
-            margin: 0 auto;
-        }
+    header{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 0}
+    .brand{display:inline-flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;flex-shrink:0}
+    .brand img{width:38px;height:38px;border-radius:10px}
+    .brand-name{font-size:1.42rem;font-weight:600}
+    .nav{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}
+    .nav a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:8px 13px;border-radius:999px;text-decoration:none;color:var(--muted);font-size:.91rem;font-weight:600}
+    .nav a:hover{background:rgba(255,255,255,.75);color:var(--pink-dark)}
+    .nav .nav-cta{color:#fff;background:var(--pink-deep);padding-inline:16px;box-shadow:0 7px 20px rgba(179,60,104,.2)}
+    .nav .nav-cta:hover{background:var(--pink-dark);color:#fff}
 
-        header {
-            margin-bottom: 3rem;
-            border-bottom: 1px solid var(--card-border);
-            padding-bottom: 1.5rem;
-        }
+    .hero{padding:62px 0 58px;max-width:800px}
+    .eyebrow{margin:0 0 14px;color:var(--pink-dark);font-size:.78rem;line-height:1.3;font-weight:800;text-transform:uppercase;letter-spacing:.13em}
+    h1{font-size:clamp(2.8rem,6vw,4.6rem);line-height:1.02;margin:0 0 20px;max-width:13ch}
+    h1 em{font-style:normal;color:var(--pink-deep)}
+    .lede{max-width:66ch;margin:0;color:var(--muted);font-size:1.1rem}
+    .lede strong{color:var(--ink)}
 
-        h1 { font-size: 2.25rem; font-weight: 700; margin-bottom: 0.5rem; }
-        p.subtitle { color: var(--text-secondary); font-size: 1.1rem; }
+    .jump-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+    .jump-links a{display:inline-flex;padding:7px 11px;border:1px solid var(--line);background:rgba(255,255,255,.7);border-radius:999px;text-decoration:none;color:var(--muted);font-size:.86rem;font-weight:650}
+    .jump-links a:hover{border-color:#f2aec3;color:var(--pink-dark)}
 
-        .app-badge {
-            display: inline-block;
-            font-size: 0.75rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            padding: 0.2rem 0.5rem;
-            border-radius: 4px;
-            margin-bottom: 0.5rem;
-        }
-        .badge-onuri { background-color: #831843; color: #fbcfe8; }
-        .badge-stillkeep { background-color: #831843; color: #fbcfe8; }
-        .badge-social { background-color: #500724; color: #fce7f3; }
+    .section{padding:34px 0 24px}
+    .section-head{max-width:720px;margin-bottom:22px}
+    h2{font-size:clamp(1.9rem,4vw,2.65rem);line-height:1.08;margin:0 0 10px}
+    .section-head p{color:var(--muted);font-size:1rem}
+    .resource-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .resource-card{display:flex;flex-direction:column;min-height:100%;background:rgba(255,255,255,.84);border:1px solid var(--line);border-radius:var(--radius);padding:23px;box-shadow:var(--shadow-soft);transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+    .resource-card:hover{transform:translateY(-2px);border-color:#f2aec3;box-shadow:var(--shadow)}
+    .resource-card .label{display:inline-flex;align-self:flex-start;margin-bottom:12px;padding:4px 9px;border-radius:999px;background:var(--pink-soft);color:var(--pink-dark);font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+    .resource-card .label.alt{background:var(--lavender);color:#5e4a8d}
+    .resource-card .label.neutral{background:#f5f1f3;color:#6a5d63}
+    .resource-card h3{font-size:1.35rem;line-height:1.16;margin:0 0 8px}
+    .resource-card h3 a{text-decoration:none;color:var(--ink)}
+    .resource-card h3 a:hover{color:var(--pink-dark);text-decoration:underline;text-underline-offset:4px}
+    .resource-card p{margin:0;color:var(--muted);font-size:.94rem}
+    .resource-card .meta{margin-top:auto;padding-top:14px;font-size:.82rem;color:#8a7e84}
 
-        .category-group { margin-bottom: 2.5rem; }
-        .category-title { font-size: 1.3rem; font-weight: 600; margin-bottom: 1rem; }
+    .feature-card{grid-column:1/-1;display:grid;grid-template-columns:1.05fr .95fr;gap:26px;align-items:center;background:linear-gradient(145deg,#fff,#fff3f7);border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:var(--shadow-soft)}
+    .feature-card h3{font-size:1.6rem;margin:0 0 8px}
+    .feature-card p{color:var(--muted);margin:0}
+    .feature-links{display:grid;gap:8px}
+    .feature-links a{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:13px;background:#fff;text-decoration:none;font-weight:650;color:var(--ink)}
+    .feature-links a::after{content:"→";color:var(--pink-deep)}
+    .feature-links a:hover{border-color:#f2aec3;color:var(--pink-dark)}
 
-        .grid { display: grid; grid-template-columns: 1fr; gap: 1rem; }
-        @media(min-width: 640px) { .grid { grid-template-columns: 1fr 1fr; } }
+    .band{position:relative;overflow:hidden;margin:64px 0;padding:46px 30px;border-radius:24px;background:#342a30;color:#fff;text-align:center;box-shadow:var(--shadow)}
+    .band::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 10% 0%,rgba(239,133,165,.35),transparent 38%),radial-gradient(circle at 95% 100%,rgba(214,197,248,.26),transparent 40%)}
+    .band>*{position:relative}.band h2{color:#fff}.band p{max-width:630px;margin:0 auto 22px;color:#eee7eb}
+    .cta{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:13px 22px;border-radius:14px;background:#fff;color:var(--pink-dark);text-decoration:none;font-weight:750}
+    .cta:hover{background:#fff3f7}
 
-        .card {
-            background-color: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 12px;
-            padding: 1.25rem;
-            transition: border-color 0.2s ease, transform 0.2s ease;
-        }
-        .card:hover { border-color: var(--accent-color); transform: translateY(-2px); }
+    footer{border-top:1px solid var(--line);padding:30px 0 54px;color:var(--muted);font-size:.88rem}
+    .footer-row{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .footer-links{display:flex;gap:14px 18px;flex-wrap:wrap}
+    .footer-links a{color:var(--muted);text-decoration:none}.footer-links a:hover{color:var(--pink-dark);text-decoration:underline;text-underline-offset:3px}
 
-        .card a {
-            color: var(--accent-color);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.05rem;
-            display: inline-block;
-            margin-bottom: 0.35rem;
-        }
-        .card a:hover { color: var(--accent-hover); text-decoration: underline; }
-        .card p { color: var(--text-secondary); font-size: 0.92rem; }
-
-        footer {
-            margin-top: 4rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--card-border);
-            text-align: center;
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-        }
-        footer a { color: var(--text-primary); text-decoration: none; margin: 0 0.5rem; }
-        footer a:hover { text-decoration: underline; }
-    </style>
+    @media(max-width:760px){
+      .resource-grid,.feature-card{grid-template-columns:1fr}
+      .hero{padding:40px 0 34px}
+      h1{font-size:clamp(2.65rem,13vw,3.55rem)}
+    }
+    @media(max-width:660px){
+      .wrap{width:min(calc(100% - 28px),var(--max))}
+      header{align-items:flex-start}.nav{gap:4px}.nav a:not(.nav-cta){display:none}.brand-name{font-size:1.34rem}
+      .section{padding-top:28px}.resource-card,.feature-card{padding:20px}.band{margin-top:48px;padding:40px 20px}
+      .footer-row{justify-content:center;text-align:center}.footer-links{justify-content:center}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+  </style>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <header>
-        <h1>Master Resource & Architecture Index</h1>
-        <p class="subtitle">Official index of internal product pages, published essays, developer links, and social channels for Onuri and Stillkeep.</p>
-    </header>
+  <header class="wrap">
+    <a class="brand" href="/" aria-label="Onuri home">
+      <img src="android-icon-48x48.png" width="48" height="48" alt="">
+      <span class="brand-name">Onuri</span>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="automatic-second-brain.html">Second Brain</a>
+      <a href="folderless-notes.html">Folderless Notes</a>
+      <a href="notes-app.html">Notes App</a>
+      <a class="nav-cta" href="https://apps.apple.com/app/id6796028277">Download Free</a>
+    </nav>
+  </header>
 
-    <main>
-        <!-- Section 1: Onuri Core Application Pages -->
-        <section class="category-group">
-            <h2 class="category-title">Onuri App Pages & Architecture</h2>
-            <div class="grid">
-                <article class="card">
-                    <span class="app-badge badge-onuri">Onuri</span>
-                    <a href="https://onuri.app/">Onuri Homepage</a>
-                    <p>Frictionless, folderless note-taking powered by local natural language processing on iOS.</p>
-                </article>
-                <article class="card">
-                    <span class="app-badge badge-onuri">Onuri</span>
-                    <a href="https://onuri.app/folderless-notes.html">Folderless Note-Taking System</a>
-                    <p>In-depth architectural breakdown of automatic entity linking replacing nested folders.</p>
-                </article>
-                <article class="card">
-                    <span class="app-badge badge-onuri">Onuri</span>
-                    <a href="https://onuri.app/automatic-second-brain.html">Automatic Second Brain for iPhone</a>
-                    <p>How native Apple Natural Language models construct an effortless personal knowledge graph.</p>
-                </article>
-                <article class="card">
-                    <span class="app-badge badge-onuri">Onuri</span>
-                    <a href="https://onuri.app/notes-app-alternative.html">Private Notes App Alternative</a>
-                    <p>Comparing zero-cloud local note storage against server-side processing for private journaling.</p>
-                </article>
-                <article class="card">
-                    <span class="app-badge badge-onuri">Onuri</span>
-                    <a href="https://onuri.app/notes-app.html">On-Device Intelligence Features</a>
-                    <p>Inline entity extraction, location recognition, and historical timeline querying on iOS.</p>
-                </article>
-                <article class="card">
-                    <span class="app-badge badge-onuri">Onuri</span>
-                    <a href="https://onuri.app/llms.txt">LLMs Context File (llms.txt)</a>
-                    <p>Machine-readable system manifest optimized for AI web crawlers and language model ingestion.</p>
-                </article>
-            </div>
-        </section>
+  <main id="main-content">
+    <section class="hero wrap" aria-labelledby="resources-title">
+      <p class="eyebrow">Onuri resource hub</p>
+      <h1 id="resources-title">Resources for <em>simpler note-taking.</em></h1>
+      <p class="lede">Start with Onuri's in-depth guides to <strong>private notes, folderless note-taking and automatic second-brain workflows</strong>. Then explore developer essays, support documentation and official project links.</p>
+      <nav class="jump-links" aria-label="Resource sections">
+        <a href="#guides">Onuri guides</a>
+        <a href="#essays">Developer essays</a>
+        <a href="#official">Official links</a>
+        <a href="#stillkeep">Stillkeep</a>
+      </nav>
+    </section>
 
-        <!-- Section 2: Onuri Published Essays -->
-        <section class="category-group">
-            <h2 class="category-title">Onuri Medium Essays</h2>
-            <div class="grid">
-                <article class="card">
-                    <span class="app-badge badge-onuri">Onuri</span>
-                    <a href="https://medium.com/@jhroche1986/why-folderless-note-taking-is-the-future-of-personal-memory-743aa91e708a" target="_blank" rel="noopener">Why Folderless Note-Taking Is the Future of Personal Memory</a>
-                    <p>Published on Medium: Eliminating manual tags and nested folders in favor of automated entity connections.</p>
-                </article>
-                <article class="card">
-                    <span class="app-badge badge-onuri">Onuri</span>
-                    <a href="https://medium.com/@jhroche1986/stop-organizing-your-notes-just-write-eb0e4e689c83" target="_blank" rel="noopener">Stop Organizing Your Notes: Just Write</a>
-                    <p>Published on Medium: Addressing the cognitive tax of complex productivity systems and filing fatigue.</p>
-                </article>
-                <article class="card">
-                    <span class="app-badge badge-onuri">Onuri</span>
-                    <a href="https://medium.com/@jhroche1986/stop-organizing-start-writing-my-take-on-note-taking-without-folders-cc5e047a876f" target="_blank" rel="noopener">Stop Organizing, Start Writing: Note-Taking Without Folders</a>
-                    <p>Published on Medium: Building a frictionless capture workflow for personal memory management.</p>
-                </article>
-            </div>
-        </section>
+    <section class="section wrap" id="guides" aria-labelledby="guides-title">
+      <div class="section-head">
+        <p class="eyebrow">Start here</p>
+        <h2 id="guides-title">Onuri note-taking guides</h2>
+        <p>These pages explain the core ideas behind Onuri and are the best starting point if you're comparing note-taking approaches or looking for a more automatic way to organise what you write.</p>
+      </div>
+      <div class="resource-grid">
+        <article class="resource-card">
+          <span class="label">Core guide</span>
+          <h3><a href="automatic-second-brain.html">Automatic Second Brain for iPhone</a></h3>
+          <p>Learn how Onuri recognises and connects useful information as you write, so your personal knowledge system grows without manual filing or tagging.</p>
+          <span class="meta">Automatic connections · private on-device intelligence</span>
+        </article>
+        <article class="resource-card">
+          <span class="label">Core guide</span>
+          <h3><a href="folderless-notes.html">Folderless Note-Taking</a></h3>
+          <p>Explore a note-taking workflow built around natural writing, search and connections rather than nested folders and constant organisation.</p>
+          <span class="meta">Folderless workflow · personal knowledge management</span>
+        </article>
+        <article class="resource-card">
+          <span class="label">Product guide</span>
+          <h3><a href="notes-app.html">Private Notes App for iPhone</a></h3>
+          <p>See how Onuri combines fast capture, private iCloud sync, search and automatic connections in a focused notes app for iPhone.</p>
+          <span class="meta">Private notes · iPhone · iCloud sync</span>
+        </article>
+        <article class="resource-card">
+          <span class="label">Comparison guide</span>
+          <h3><a href="notes-app-alternative.html">A Simpler Notes App Alternative</a></h3>
+          <p>Compare Onuri's low-maintenance approach with more structured note systems when you want less setup and more time to simply write.</p>
+          <span class="meta">Notes app alternative · less manual organisation</span>
+        </article>
+        <div class="feature-card">
+          <div>
+            <p class="eyebrow">About the product</p>
+            <h3>New to Onuri?</h3>
+            <p>The homepage gives the shortest overview of how Onuri works, what stays private, and what is included for free.</p>
+          </div>
+          <div class="feature-links">
+            <a href="index.html">Visit the Onuri homepage</a>
+            <a href="https://apps.apple.com/app/id6796028277">View Onuri on the App Store</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Section 3: Stillkeep Published Essays -->
-        <section class="category-group">
-            <h2 class="category-title">Stillkeep Medium Essays</h2>
-            <div class="grid">
-                <article class="card">
-                    <span class="app-badge badge-stillkeep">Stillkeep</span>
-                    <a href="https://medium.com/@jhroche1986/building-stillkeep-journal-diary-app-moving-from-folders-to-visual-eras-in-a-modern-journal-3b264a7977bf" target="_blank" rel="noopener">Building Stillkeep: Moving From Folders to Visual Eras</a>
-                    <p>Published on Medium: How visual chapters replace traditional photo albums and text-heavy journals.</p>
-                </article>
-                <article class="card">
-                    <span class="app-badge badge-stillkeep">Stillkeep</span>
-                    <a href="https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764" target="_blank" rel="noopener">Beyond the Camera Roll: Private Photo Journal App</a>
-                    <p>Published on Medium: Resurfacing past memories safely using local-first storage architecture.</p>
-                </article>
-                <article class="card">
-                    <span class="app-badge badge-stillkeep">Stillkeep</span>
-                    <a href="https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b" target="_blank" rel="noopener">Why I Built Stillkeep: Visual Eras in a Modern Journal</a>
-                    <p>Published on Medium: Combining photos and narrative reflections into print-ready PDF keepsakes.</p>
-                </article>
-            </div>
-        </section>
+    <section class="section wrap" id="essays" aria-labelledby="essays-title">
+      <div class="section-head">
+        <p class="eyebrow">From the developer</p>
+        <h2 id="essays-title">Essays about better note-taking</h2>
+        <p>Longer reflections on why rigid organisation can create friction, and how automatic connections can make personal notes easier to capture and rediscover.</p>
+      </div>
+      <div class="resource-grid">
+        <article class="resource-card">
+          <span class="label alt">Medium</span>
+          <h3><a href="https://medium.com/@jhroche1986/why-folderless-note-taking-is-the-future-of-personal-memory-743aa91e708a" target="_blank" rel="noopener noreferrer">Why Folderless Note-Taking Is the Future of Personal Memory</a></h3>
+          <p>A case for replacing manual tags and nested folders with automatic connections that emerge from the writing itself.</p>
+        </article>
+        <article class="resource-card">
+          <span class="label alt">Medium</span>
+          <h3><a href="https://medium.com/@jhroche1986/stop-organizing-your-notes-just-write-eb0e4e689c83" target="_blank" rel="noopener noreferrer">Stop Organizing Your Notes: Just Write</a></h3>
+          <p>Why the cognitive cost of maintaining a productivity system can get in the way of capturing what actually matters.</p>
+        </article>
+        <article class="resource-card">
+          <span class="label alt">Medium</span>
+          <h3><a href="https://medium.com/@jhroche1986/stop-organizing-start-writing-my-take-on-note-taking-without-folders-cc5e047a876f" target="_blank" rel="noopener noreferrer">Stop Organizing, Start Writing</a></h3>
+          <p>A closer look at note-taking without folders and how automatic recognition can reduce ongoing maintenance.</p>
+        </article>
+      </div>
+    </section>
 
-        <!-- Section 4: Social Channels & Company Profiles -->
-        <section class="category-group">
-            <h2 class="category-title">Official Social & Network Profiles</h2>
-            <div class="grid">
-                <article class="card">
-                    <span class="app-badge badge-social">X / Twitter</span>
-                    <a href="https://x.com/stillkeeponuri" target="_blank" rel="noopener">Official X (@stillkeeponuri)</a>
-                    <p>Official product announcements, app release updates, and design insights on X.</p>
-                </article>
-                <article class="card">
-                    <span class="app-badge badge-social">X / Twitter</span>
-                    <a href="https://x.com/stillkeeponuri/status/2092542724285108256" target="_blank" rel="noopener">Official Launch Status Announcement</a>
-                    <p>Direct launch thread and feature overview for Stillkeep and Onuri.</p>
-                </article>
-                <article class="card">
-                    <span class="app-badge badge-social">Pinterest</span>
-                    <a href="https://ie.pinterest.com/stillkeeponuri/" target="_blank" rel="noopener">Official Pinterest Profile</a>
-                    <p>Visual mood boards, visual Era concepts, and product UI showcases.</p>
-                </article>
-                <article class="card">
-                    <span class="app-badge badge-social">LinkedIn</span>
-                    <a href="https://www.linkedin.com/company/115799377/" target="_blank" rel="noopener">Onuri on LinkedIn</a>
-                    <p>Official LinkedIn page for Onuri release notes, feature updates, and product announcements.</p>
-                </article>
-                <article class="card">
-                    <span class="app-badge badge-social">LinkedIn</span>
-                    <a href="https://www.linkedin.com/company/139364710/" target="_blank" rel="noopener">Stillkeep on LinkedIn</a>
-                    <p>Official LinkedIn page for Stillkeep photo journal updates and visual memory concepts.</p>
-                </article>
-            </div>
-        </section>
+    <section class="section wrap" id="official" aria-labelledby="official-title">
+      <div class="section-head">
+        <p class="eyebrow">Official Onuri links</p>
+        <h2 id="official-title">Support, privacy and project profiles</h2>
+        <p>Use these links for product support, legal information, release updates and official Onuri profiles.</p>
+      </div>
+      <div class="resource-grid">
+        <article class="resource-card">
+          <span class="label neutral">Support</span>
+          <h3><a href="https://jhr1986.github.io/onuri-legal/support.html" target="_blank" rel="noopener noreferrer">Onuri Support</a></h3>
+          <p>Technical help and the official support page for Onuri.</p>
+        </article>
+        <article class="resource-card">
+          <span class="label neutral">Privacy</span>
+          <h3><a href="https://jhr1986.github.io/onuri-legal/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a></h3>
+          <p>Details about Onuri's privacy model, app data handling and storage.</p>
+        </article>
+        <article class="resource-card">
+          <span class="label neutral">Terms</span>
+          <h3><a href="https://jhr1986.github.io/onuri-legal/terms.html" target="_blank" rel="noopener noreferrer">Terms of Service</a></h3>
+          <p>The terms governing use of the Onuri application.</p>
+        </article>
+        <article class="resource-card">
+          <span class="label neutral">Machine-readable</span>
+          <h3><a href="llms.txt">LLMs.txt</a></h3>
+          <p>A concise machine-readable guide to Onuri's key pages and product context.</p>
+        </article>
+        <article class="resource-card">
+          <span class="label neutral">LinkedIn</span>
+          <h3><a href="https://www.linkedin.com/company/115799377/" target="_blank" rel="noopener noreferrer">Onuri on LinkedIn</a></h3>
+          <p>Official product and release updates from Onuri.</p>
+        </article>
+        <article class="resource-card">
+          <span class="label neutral">X</span>
+          <h3><a href="https://x.com/stillkeeponuri" target="_blank" rel="noopener noreferrer">Onuri & Stillkeep on X</a></h3>
+          <p>Product announcements, release notes and design updates.</p>
+        </article>
+      </div>
+    </section>
 
-        <!-- Section 5: Legal Policies & Developer Support -->
-        <section class="category-group">
-            <h2 class="category-title">Legal Policies & Developer Support</h2>
-            <div class="grid">
-                <article class="card">
-                    <a href="https://jhr1986.github.io/onuri-legal/privacy.html" target="_blank" rel="noopener">Onuri Privacy Policy</a>
-                    <p>Detailed documentation on local-only processing, zero tracking, and on-device storage security.</p>
-                </article>
-                <article class="card">
-                    <a href="https://jhr1986.github.io/onuri-legal/terms.html" target="_blank" rel="noopener">Onuri Terms of Service</a>
-                    <p>Legal terms governing usage of the Onuri software application.</p>
-                </article>
-                <article class="card">
-                    <a href="https://jhr1986.github.io/onuri-legal/support.html" target="_blank" rel="noopener">Developer Support & Technical Help</a>
-                    <p>Official support desk, feature submission guidelines, and technical help articles.</p>
-                </article>
-            </div>
-        </section>
-    </main>
+    <section class="section wrap" id="stillkeep" aria-labelledby="stillkeep-title">
+      <div class="section-head">
+        <p class="eyebrow">Related project</p>
+        <h2 id="stillkeep-title">Stillkeep journal resources</h2>
+        <p>Stillkeep is a separate related project focused on visual memory and private photo journaling. These links are kept here for people following both projects.</p>
+      </div>
+      <div class="resource-grid">
+        <article class="resource-card">
+          <span class="label alt">Medium</span>
+          <h3><a href="https://medium.com/@jhroche1986/building-stillkeep-journal-diary-app-moving-from-folders-to-visual-eras-in-a-modern-journal-3b264a7977bf" target="_blank" rel="noopener noreferrer">Building Stillkeep: Moving From Folders to Visual Eras</a></h3>
+          <p>How visual chapters can replace traditional photo albums and text-heavy journal structures.</p>
+        </article>
+        <article class="resource-card">
+          <span class="label alt">Medium</span>
+          <h3><a href="https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764" target="_blank" rel="noopener noreferrer">Beyond the Camera Roll</a></h3>
+          <p>Why a private photo journal can create more meaningful ways to revisit personal memories.</p>
+        </article>
+        <article class="resource-card">
+          <span class="label alt">Medium</span>
+          <h3><a href="https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b" target="_blank" rel="noopener noreferrer">Why I Built Stillkeep</a></h3>
+          <p>The thinking behind visual Eras and a calmer approach to preserving photos and reflections.</p>
+        </article>
+        <article class="resource-card">
+          <span class="label neutral">Official</span>
+          <h3><a href="https://ie.pinterest.com/stillkeeponuri/" target="_blank" rel="noopener noreferrer">Stillkeep on Pinterest</a></h3>
+          <p>Visual concepts, product imagery and ideas around photo journaling and memory.</p>
+        </article>
+        <article class="resource-card">
+          <span class="label neutral">Official</span>
+          <h3><a href="https://www.linkedin.com/company/139364710/" target="_blank" rel="noopener noreferrer">Stillkeep on LinkedIn</a></h3>
+          <p>Official Stillkeep product updates and announcements.</p>
+        </article>
+      </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2026 Onuri & Stillkeep. All rights reserved.</p>
-        <p style="margin-top: 0.5rem;">
-            <a href="https://onuri.app/">Home</a> | 
-            <a href="https://onuri.app/sitemap.xml">Sitemap</a> | 
-            <a href="https://onuri.app/llms.txt">LLMs Text</a>
-        </p>
-    </footer>
+    <div class="wrap">
+      <div class="band">
+        <p class="eyebrow" style="color:#f7bdd0">Write freely</p>
+        <h2>Build a second brain without maintaining one.</h2>
+        <p>Onuri is a private notes app for iPhone that automatically connects people, places, dates and ideas as you write — with no folders or manual tags to manage.</p>
+        <a class="cta" href="https://apps.apple.com/app/id6796028277">Download Onuri Free</a>
+      </div>
+    </div>
+  </main>
 
+  <footer>
+    <div class="wrap footer-row">
+      <span>© 2026 Onuri · John Henry Roche</span>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="automatic-second-brain.html">Automatic Second Brain</a>
+        <a href="folderless-notes.html">Folderless Notes</a>
+        <a href="notes-app.html">Notes App</a>
+        <a href="notes-app-alternative.html">Notes App Alternative</a>
+        <a href="resources.html">Resources</a>
+        <a href="https://apps.apple.com/app/id6796028277">App Store</a>
+        <a href="https://jhr1986.github.io/onuri-legal/privacy.html">Privacy</a>
+        <a href="https://jhr1986.github.io/onuri-legal/terms.html">Terms</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>

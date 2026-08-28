@@ -222,7 +222,8 @@
     .premium-card{border-radius:var(--radius);padding:26px;background:linear-gradient(145deg,#fff,#fff3f7);border:1px solid var(--line);box-shadow:var(--shadow-soft)}
     .premium-card h3{font-size:1.45rem;margin:0 0 8px}.premium-card p{color:var(--muted)}
 
-    .seo-links{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .seo-links{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:18px}
+    @media(min-width:768px){ .seo-links{grid-template-columns:repeat(4,1fr);} }
     .seo-link{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;color:var(--ink);transition:transform .18s ease,border-color .18s ease}
     .seo-link:hover{transform:translateY(-2px);border-color:#f2aec3}.seo-link strong{display:block;font-family:"Newsreader",Georgia,serif;font-size:1.16rem}.seo-link span{display:block;color:var(--muted);font-size:.88rem;margin-top:5px}
 
@@ -237,10 +238,10 @@
     footer{border-top:1px solid var(--line);padding:30px 0 54px;color:var(--muted);font-size:.88rem}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-links{display:flex;gap:14px 18px;flex-wrap:wrap}.footer-links a{color:var(--muted);text-decoration:none}.footer-links a:hover{color:var(--pink-dark);text-decoration:underline;text-underline-offset:3px}
 
     @media (max-width:860px){
-      .hero{grid-template-columns:1fr;padding:42px 0 56px}.hero-copy{max-width:680px}.demo{max-width:620px;margin-inline:auto;width:100%}.feature-grid{grid-template-columns:repeat(2,1fr)}.feature:last-child{grid-column:1/-1}.how,.privacy{grid-template-columns:1fr}.seo-links{grid-template-columns:1fr}.trust-row{grid-template-columns:repeat(2,1fr)}.trust-item:nth-child(2){border-right:0}.trust-item:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+      .hero{grid-template-columns:1fr;padding:42px 0 56px}.hero-copy{max-width:680px}.demo{max-width:620px;margin-inline:auto;width:100%}.feature-grid{grid-template-columns:repeat(2,1fr)}.feature:last-child{grid-column:1/-1}.how,.privacy{grid-template-columns:1fr}.trust-row{grid-template-columns:repeat(2,1fr)}.trust-item:nth-child(2){border-right:0}.trust-item:nth-child(-n+2){border-bottom:1px solid var(--line)}}
 
     @media (max-width:660px){
-      .wrap{width:min(calc(100% - 28px),var(--max))}header{align-items:flex-start}.nav{gap:4px}.nav a:not(.nav-cta){display:none}.brand-name{font-size:1.34rem}.hero{padding-top:30px;gap:20px}h1{font-size:clamp(2.65rem,13vw,3.55rem)}.lede{font-size:1.03rem}.actions{align-items:stretch}.cta{width:100%}.secondary-link{width:100%;text-align:center;padding:8px}.note-card{padding:20px}.note-card::after{inset:10px -8px -10px 8px}.feature-grid,.articles{grid-template-columns:1fr}.feature:last-child{grid-column:auto}.trust-item{padding:16px 10px}.trust-item strong{font-size:.86rem}.trust-item span{font-size:.76rem}section.content{padding-top:58px}.privacy-card,.premium-card{padding:22px}.band{margin-top:60px;padding:40px 20px}.footer-row{justify-content:center;text-align:center}.footer-links{justify-content:center}}
+      .wrap{width:min(calc(100% - 28px),var(--max))}header{align-items:flex-start}.nav{gap:4px}.nav a:not(.nav-cta){display:none}.brand-name{font-size:1.34rem}.hero{padding-top:30px;gap:20px}h1{font-size:clamp(2.65rem,13vw,3.55rem)}.lede{font-size:1.03rem}.actions{align-items:stretch}.cta{width:100%}.secondary-link{width:100%;text-align:center;padding:8px}.note-card{padding:20px}.note-card::after{inset:10px -8px -10px 8px}.feature-grid,.articles,.seo-links{grid-template-columns:1fr}.feature:last-child{grid-column:auto}.trust-item{padding:16px 10px}.trust-item strong{font-size:.86rem}.trust-item span{font-size:.76rem}section.content{padding-top:58px}.privacy-card,.premium-card{padding:22px}.band{margin-top:60px;padding:40px 20px}.footer-row{justify-content:center;text-align:center}.footer-links{justify-content:center}}
 
     @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
   </style>
@@ -258,6 +259,7 @@
       <a href="folderless-notes.html">Folderless Notes</a>
       <a href="notes-app.html">Notes App</a>
       <a href="notes-app-alternative.html">Alternative</a>
+      <a href="resources.html">Resources</a>
       <a class="nav-cta" href="https://apps.apple.com/app/id6796028277">Get App Free</a>
     </nav>
   </header>
@@ -354,6 +356,7 @@
         <a class="seo-link" href="automatic-second-brain.html"><strong>Automatic Second Brain</strong><span>How Onuri connects your notes automatically as you write.</span></a>
         <a class="seo-link" href="folderless-notes.html"><strong>Folderless Notes</strong><span>A note-taking workflow without rigid folders or manual organisation.</span></a>
         <a class="seo-link" href="notes-app.html"><strong>Private Notes App for iPhone</strong><span>Onuri as a private, searchable notes app with iCloud sync.</span></a>
+        <a class="seo-link" href="resources.html"><strong>Resource Hub &amp; Index</strong><span>Published essays, architecture guides, and social profiles.</span></a>
       </div>
     </section>
 
@@ -397,6 +400,7 @@
         <a href="folderless-notes.html">Folderless Notes</a>
         <a href="notes-app.html">Notes App</a>
         <a href="notes-app-alternative.html">Notes App Alternative</a>
+        <a href="resources.html">Resources</a>
         <a href="https://apps.apple.com/app/id6796028277">App Store</a>
         <a href="https://jhr1986.github.io/onuri-legal/privacy.html">Privacy</a>
         <a href="https://jhr1986.github.io/onuri-legal/terms.html">Terms</a>

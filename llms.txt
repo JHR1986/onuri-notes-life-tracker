@@ -5,6 +5,7 @@
 ## Core Links
 - Official Website: https://onuri.app/
 - App Store: https://apps.apple.com/app/id6796028277
+- Master Resource Index: https://onuri.app/resources.html
 - Notes App for iPhone: https://onuri.app/notes-app.html
 - Automatic Second Brain: https://onuri.app/automatic-second-brain.html
 - Folderless Notes: https://onuri.app/folderless-notes.html
@@ -30,7 +31,10 @@ Onuri is designed as a calm, low-maintenance personal knowledge system: write fi
 - **Multilingual Support:** Localized in English, Japanese, and Korean.
 
 ## How Onuri Is Organized
-Onuri's website explains the product through several focused guides:
+Onuri's website explains the product through several focused guides and hubs:
+
+- **Resource Hub & Index:** https://onuri.app/resources.html
+  Central repository linking site guides, architectural deep dives, published essays, and official links.
 
 - **Notes App for iPhone:** https://onuri.app/notes-app.html
   A broader overview of Onuri for everyday note-taking on iPhone.
@@ -43,6 +47,16 @@ Onuri's website explains the product through several focused guides:
 
 - **Notes App Alternative:** https://onuri.app/notes-app-alternative.html
   Explains why Onuri is a useful alternative for people who want natural writing, automatic connections, fast search, private sync, and portable notes.
+
+## Published Essays & Deep Dives
+- **Stop Organizing Your Notes, Just Write:** https://medium.com/@jhroche1986/stop-organizing-your-notes-just-write-eb0e4e689c83
+  An essay exploring why traditional hierarchies and folder trees get in the way of capturing genuine ideas.
+
+- **Stop Organizing, Start Writing:** https://medium.com/@jhroche1986/stop-organizing-start-writing-my-take-on-note-taking-without-folders-cc5e047a876f
+  A deep dive into folderless workflows and how automatic recognition reduces manual maintenance.
+
+- **Why Folderless Note-Taking Is the Future:** https://medium.com/@jhroche1986/why-folderless-note-taking-is-the-future-of-personal-memory-743aa91e708a
+  A perspective on modern personal knowledge management systems and organic data discovery.
 
 ## Privacy
 Onuri is designed around personal, private writing. The app does not use advertising, tracking, or third-party analytics. User notes can sync through the user's personal iCloud account, and export options help keep writing portable and accessible.

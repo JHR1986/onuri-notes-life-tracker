@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DGVLPTVZSL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-DGVLPTVZSL');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#d9578f">
+<meta name="color-scheme" content="light">
+<title>Onuri System Architecture & Capabilities — Automatic Second Brain</title>
+<meta name="description" content="Technical breakdown and capabilities matrix for Onuri: Notes & Life Tracker. Explore automatic entity recognition, local-first privacy model, iCloud sync, and folderless design.">
+<meta name="keywords" content="onuri app capabilities, automatic second brain ios, private notes app architecture, local first note taking, folderless notes system">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://onuri.app/capabilities.html">
+
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Onuri: Notes & Life Tracker">
+<meta property="og:url" content="https://onuri.app/capabilities.html">
+<meta property="og:title" content="Onuri Capabilities & Technical Architecture">
+<meta property="og:description" content="Structured breakdown of Onuri's core automatic second brain capabilities, local-first privacy engine, and folderless architecture.">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Onuri System Architecture & Capabilities">
+<meta name="twitter:description" content="Capabilities matrix for Onuri: Notes & Life Tracker on iOS.">
+
+<link rel="preconnect" href="https://apps.apple.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital@0;1&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://onuri.app/capabilities.html#webpage",
+      "url": "https://onuri.app/capabilities.html",
+      "name": "Onuri System Architecture & Capabilities",
+      "isPartOf": { "@id": "https://onuri.app/#application" },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://onuri.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Capabilities", "item": "https://onuri.app/capabilities.html" }
+        ]
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://onuri.app/#application",
+      "name": "Onuri: Notes & Life Tracker",
+      "operatingSystem": "iOS 17.6 or later",
+      "applicationCategory": "ProductivityApplication",
+      "downloadUrl": "https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "name": "Onuri System Capabilities & Technical Matrix",
+      "description": "Structured functional specification covering Onuri automatic entity recognition, local-first privacy guarantees, iCloud sync, and folderless note-taking mechanics.",
+      "url": "https://onuri.app/capabilities.html",
+      "isAccessibleForFree": true,
+      "creator": {
+        "@type": "Organization",
+        "name": "Onuri",
+        "url": "https://onuri.app"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://onuri.app/capabilities.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does Onuri execute entity recognition locally on device?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Onuri parses prose on-device to extract people, places, dates, and ideas without transmitting raw text to third-party LLM cloud servers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Onuri handle data synchronization?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notes synchronize directly between your iOS devices using your personal Apple iCloud (CloudKit) account, maintaining end-to-end privacy with zero external database middleman."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --paper:#fffafd;
+    --paper-soft:#fff5f9;
+    --card:#ffffff;
+    --ink:#2b2430;
+    --muted:#706673;
+    --pink:#d9578f;
+    --pink-deep:#b83f73;
+    --pink-soft:#fde7f0;
+    --rose:#ef86ab;
+    --blush:#f8c7d8;
+    --lavender:#f4edf8;
+    --rule:#eee3e9;
+    --shadow:0 14px 36px rgba(99,62,81,.10);
+    --shadow-soft:0 8px 24px rgba(99,62,81,.07);
+    --radius:20px;
+  }
+
+  *,*::before,*::after{box-sizing:border-box}
+
+  html{
+    scroll-behavior:smooth;
+    -webkit-text-size-adjust:100%;
+  }
+
+  body{
+    margin:0;
+    background:
+      radial-gradient(circle at 8% 0%,rgba(239,134,171,.12),transparent 26rem),
+      radial-gradient(circle at 92% 8%,rgba(248,199,216,.20),transparent 28rem),
+      var(--paper);
+    color:var(--ink);
+    font:16.5px/1.68 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    overflow-x:hidden;
+  }
+
+  h1,h2,.brand{
+    font-family:"Newsreader",Georgia,serif;
+    font-weight:400;
+    letter-spacing:-.018em;
+  }
+
+  h1,h2,h3,p{overflow-wrap:break-word}
+  a{color:var(--pink-deep)}
+
+  a:focus-visible{
+    outline:3px solid var(--pink);
+    outline-offset:3px;
+    border-radius:8px;
+  }
+
+  .wrap{
+    width:min(100% - 44px,980px);
+    margin-inline:auto;
+  }
+
+  header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:18px;
+    padding:22px 0;
+  }
+
+  .brand{
+    font-size:1.55rem;
+    line-height:1;
+    text-decoration:none;
+    color:var(--ink);
+    white-space:nowrap;
+  }
+
+  .brand span{color:var(--pink)}
+
+  .navlink{
+    min-height:44px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    font-size:.92rem;
+    font-weight:650;
+    text-decoration:none;
+    color:#fff;
+    border:1px solid transparent;
+    border-radius:999px;
+    padding:9px 17px;
+    background:linear-gradient(135deg,var(--pink),var(--rose));
+    box-shadow:0 8px 20px rgba(217,87,143,.20);
+    transition:transform .2s ease,box-shadow .2s ease,filter .2s ease;
+  }
+
+  .navlink:hover{
+    transform:translateY(-1px);
+    box-shadow:0 11px 25px rgba(217,87,143,.24);
+    filter:saturate(1.05);
+  }
+
+  .hero{
+    position:relative;
+    padding:64px 0 46px;
+  }
+
+  .hero::after{
+    content:"";
+    position:absolute;
+    right:-70px;
+    top:8px;
+    width:290px;
+    aspect-ratio:1;
+    border-radius:50%;
+    background:
+      radial-gradient(circle at 50% 26%,rgba(239,134,171,.24),transparent 28%),
+      radial-gradient(circle at 28% 50%,rgba(217,87,143,.14),transparent 30%),
+      radial-gradient(circle at 72% 52%,rgba(248,199,216,.34),transparent 32%);
+    filter:blur(2px);
+    pointer-events:none;
+  }
+
+  .hero > *{
+    position:relative;
+    z-index:1;
+  }
+
+  .eyebrow{
+    text-transform:uppercase;
+    letter-spacing:.14em;
+    font-size:.76rem;
+    color:var(--pink-deep);
+    margin:0 0 14px;
+    font-weight:750;
+  }
+
+  h1{
+    max-width:820px;
+    font-size:clamp(2.5rem,5.8vw,4rem);
+    line-height:1.05;
+    margin:0 0 20px;
+    text-wrap:balance;
+  }
+
+  h1 em{
+    color:var(--pink-deep);
+    font-style:italic;
+  }
+
+  .lede{
+    max-width:68ch;
+    font-size:1.1rem;
+    line-height:1.75;
+    color:var(--muted);
+    margin:0 0 28px;
+  }
+
+  .cta{
+    min-height:52px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(135deg,var(--pink),var(--rose));
+    color:#fff;
+    text-decoration:none;
+    border-radius:15px;
+    padding:14px 24px;
+    font-weight:700;
+    box-shadow:0 9px 22px rgba(217,87,143,.22);
+    transition:transform .2s ease,box-shadow .2s ease,filter .2s ease;
+  }
+
+  .cta:hover{
+    transform:translateY(-2px);
+    box-shadow:0 13px 30px rgba(217,87,143,.26);
+    filter:saturate(1.04);
+  }
+
+  .trail{
+    border-top:1px solid var(--rule);
+    border-bottom:1px solid var(--rule);
+    padding:20px 0;
+    background:rgba(255,255,255,.78);
+    backdrop-filter:blur(12px);
+    margin:10px 0 24px;
+  }
+
+  .trail .wrap{
+    display:flex;
+    gap:9px;
+    flex-wrap:wrap;
+    align-items:center;
+    font:.9rem ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+
+  .trail p{
+    margin:0 10px 0 0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    color:var(--muted);
+    font-weight:650;
+  }
+
+  .crumb{
+    background:var(--paper-soft);
+    border:1px solid var(--rule);
+    border-radius:999px;
+    padding:7px 13px;
+    color:#655966;
+  }
+
+  .crumb.hit{
+    background:var(--pink-soft);
+    color:var(--pink-deep);
+    border-color:#e7a7c0;
+    font-weight:700;
+  }
+
+  .arrow{
+    color:#b7a9b1;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  }
+
+  section{
+    padding:42px 0;
+  }
+
+  section + section{
+    border-top:1px solid var(--rule);
+  }
+
+  h2{
+    font-size:clamp(1.75rem,3.2vw,2.25rem);
+    line-height:1.2;
+    margin:0 0 10px;
+    text-wrap:balance;
+  }
+
+  .section-intro{
+    color:var(--muted);
+    font-size:1.02rem;
+    max-width:72ch;
+    margin:0 0 18px;
+  }
+
+  .table-container{
+    width:100%;
+    overflow-x:auto;
+    margin:18px 0 28px;
+    border-radius:var(--radius);
+    box-shadow:var(--shadow-soft);
+    border:1px solid var(--rule);
+    background:var(--card);
+  }
+
+  table{
+    width:100%;
+    border-collapse:collapse;
+    text-align:left;
+    font-size:0.98rem;
+  }
+
+  th, td{
+    padding:16px 20px;
+    vertical-align:top;
+    border-bottom:1px solid var(--rule);
+  }
+
+  th{
+    background-color:var(--pink-soft);
+    color:var(--pink-deep);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    font-weight:700;
+    font-size:0.88rem;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+  }
+
+  th:first-child{ width:40%; }
+  th:last-child{ width:60%; }
+
+  tr:last-child td{ border-bottom:none; }
+
+  td:first-child{
+    font-weight:650;
+    color:var(--ink);
+  }
+
+  td:last-child{
+    color:var(--muted);
+  }
+
+  .band{
+    position:relative;
+    overflow:hidden;
+    background:#4b2a3d;
+    color:#fff;
+    text-align:center;
+    border-radius:24px;
+    padding:clamp(42px,6vw,58px) clamp(24px,5vw,48px);
+    margin:54px 0 62px;
+    box-shadow:var(--shadow);
+  }
+
+  .band::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+      radial-gradient(circle at 0 0,rgba(239,134,171,.30),transparent 42%),
+      radial-gradient(circle at 100% 100%,rgba(248,199,216,.18),transparent 44%);
+    pointer-events:none;
+  }
+
+  .band > *{position:relative}
+
+  .band h2{
+    color:#fff;
+    margin-bottom:12px;
+  }
+
+  .band p{
+    color:#f7eaf0;
+    max-width:52ch;
+    margin:0 auto 24px;
+  }
+
+  .band .cta{
+    background:#fff;
+    color:var(--pink-deep);
+    box-shadow:0 8px 22px rgba(0,0,0,.18);
+  }
+
+  .band .cta:hover{background:#fff9fc}
+
+  footer{
+    border-top:1px solid var(--rule);
+    padding:30px 0 58px;
+    font-size:.9rem;
+    color:var(--muted);
+  }
+
+  footer .wrap{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:10px 20px;
+  }
+
+  footer a{
+    color:var(--muted);
+    text-decoration:none;
+    text-underline-offset:3px;
+  }
+
+  footer a:hover{
+    color:var(--pink-deep);
+    text-decoration:underline;
+  }
+
+  @media (max-width:720px){
+    .wrap{width:min(100% - 34px,980px)}
+
+    header{ padding:18px 0 20px; }
+
+    .hero{ padding:46px 0 36px; }
+
+    .hero::after{
+      width:220px;
+      right:-110px;
+      top:25px;
+    }
+
+    h1{ font-size:clamp(2.35rem,10vw,3.25rem); }
+
+    th, td{
+      padding:12px 14px;
+      font-size:0.92rem;
+    }
+
+    section{ padding:36px 0; }
+  }
+
+  @media (max-width:520px){
+    .wrap{width:min(100% - 28px,980px)}
+
+    .cta{ width:100%; }
+
+    .trail{ padding:16px 0; }
+
+    .band{
+      border-radius:20px;
+      margin:42px 0 48px;
+    }
+
+    footer .wrap{
+      justify-content:center;
+      text-align:center;
+    }
+
+    footer .wrap span{ flex-basis:100%; }
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    *,*::before,*::after{
+      transition-duration:.01ms!important;
+      animation-duration:.01ms!important;
+      animation-iteration-count:1!important;
+    }
+  }
+</style>
+</head>
+<body>
+
+<main class="wrap">
+  <header>
+    <a class="brand" href="index.html">On<span>uri</span></a>
+    <a class="navlink" href="https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277">Get App Free</a>
+  </header>
+
+  <section class="hero">
+    <p class="eyebrow">Technical Reference &amp; Specifications</p>
+    <h1>Onuri System Capabilities &amp; <em>Architecture</em></h1>
+    <p class="lede">A comprehensive breakdown detailing how Onuri natively handles zero-friction entity recognition, local-first data security, folderless note organization, and lightweight iOS execution.</p>
+    <a class="cta" href="https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277">Download Onuri on App Store</a>
+  </section>
+</main>
+
+<div class="trail">
+  <div class="wrap">
+    <p>System Layer:</p>
+    <span class="crumb"><a href="index.html">Home</a></span><span class="arrow">→</span>
+    <span class="crumb"><a href="automatic-second-brain.html">Second Brain</a></span><span class="arrow">→</span>
+    <span class="crumb hit">Capabilities Matrix ✓</span>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section>
+    <h2>1. Automatic Second Brain &amp; Entity Mechanics</h2>
+    <p class="section-intro">How Onuri autonomously extracts structured knowledge from unstructured writing without manual bracket syntax or tag maintenance.</p>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Your Goal / User Objective</th>
+            <th>How Onuri Natively Executes It</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Connect notes automatically while typing</td>
+            <td>Onuri parses natural writing on-device to instantly extract and link people, places, dates, and ideas.</td>
+          </tr>
+          <tr>
+            <td>Eliminate manual [[wiki-links]] and brackets</td>
+            <td>Identifies named entities directly from standard text without requiring custom syntax or markdown formatting.</td>
+          </tr>
+          <tr>
+            <td>Rediscover related past thoughts effortlessly</td>
+            <td>Tapping any highlighted entity opens an interactive context timeline filtering all matching historical entries.</td>
+          </tr>
+          <tr>
+            <td>Retrieve vague or partially remembered details</td>
+            <td>Features connection-aware full-text search that surfaces contextually linked entries despite imprecise queries.</td>
+          </tr>
+          <tr>
+            <td>Uncover recurring life themes and relationships</td>
+            <td>Optional Premium Insights algorithms analyze entity co-occurrence to surface long-term personal patterns.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>2. Privacy, Infrastructure &amp; Data Governance</h2>
+    <p class="section-intro">Detailed breakdown of Onuri's local-first architecture, device-bound processing, and zero-tracking privacy parameters.</p>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Your Goal / User Objective</th>
+            <th>How Onuri Natively Executes It</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ensure 100% personal note privacy</td>
+            <td>Operates on a strict local-first model where all note contents reside directly on your iPhone storage.</td>
+          </tr>
+          <tr>
+            <td>Prevent tracking and ad network profiling</td>
+            <td>Engineered with zero third-party SDKs, earning an official "Data Not Collected" App Store rating.</td>
+          </tr>
+          <tr>
+            <td>Sync notes across personal Apple devices</td>
+            <td>Backs up and syncs data end-to-end through your private Apple iCloud account via native CloudKit APIs.</td>
+          </tr>
+          <tr>
+            <td>Retain total ownership and portability</td>
+            <td>Provides immediate, unconstrained export options into open plain text (.TXT) and structured spreadsheet (.CSV) files.</td>
+          </tr>
+          <tr>
+            <td>Protect notes from cloud AI scraping</td>
+            <td>Natural language processing runs entirely on-device, preventing your private thoughts from hitting remote LLM servers.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>3. Interface Dynamics &amp; Folderless Design</h2>
+    <p class="section-intro">Design principles governing Onuri's friction-free writing environment and dynamic relational navigation.</p>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Your Goal / User Objective</th>
+            <th>How Onuri Natively Executes It</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Write immediately without categorizing</td>
+            <td>Employs a stream-of-consciousness input layout that lets you write first and lets software organize later.</td>
+          </tr>
+          <tr>
+            <td>Avoid managing tag trees and directory folders</td>
+            <td>Replaces static nested folders with a self-organizing entity graph that generates connections dynamically.</td>
+          </tr>
+          <tr>
+            <td>Timestamp and anchor thoughts chronologically</td>
+            <td>Automatically stamps entries and parses temporal phrasing into searchable calendar entities.</td>
+          </tr>
+          <tr>
+            <td>Maintain a clean, quiet visual space</td>
+            <td>Crafted with minimalist typography, warm paper tones, and focused controls to minimize visual distractions.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>4. Platform Performance &amp; Hardware Specs</h2>
+    <p class="section-intro">Technical optimization benchmarks ensuring fast execution, low memory overhead, and long battery life on iOS.</p>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Your Goal / User Objective</th>
+            <th>How Onuri Natively Executes It</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Run smoothly on modern iOS devices</td>
+            <td>Engineered natively with Swift and SwiftUI specifically targeted for iOS 17.6 and later.</td>
+          </tr>
+          <tr>
+            <td>Maximize iPhone battery efficiency</td>
+            <td>Leverages hardware-accelerated Apple Silicon frameworks for instant on-device text parsing with minimal energy impact.</td>
+          </tr>
+          <tr>
+            <td>Enjoy instant app launches and low storage use</td>
+            <td>Maintains a lightweight binary footprint that installs quickly and loads instantly without webview bloat.</td>
+          </tr>
+          <tr>
+            <td>Take notes reliably without cellular connection</td>
+            <td>Fully operational offline; local edits sync automatically to iCloud once connectivity is restored.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>5. Commercial Model, Distribution &amp; Localization</h2>
+    <p class="section-intro">Clear details regarding free features, optional premium upgrades, language support, and App Store safety ratings.</p>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Your Goal / User Objective</th>
+            <th>How Onuri Natively Executes It</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Access unlimited note-taking without paywalls</td>
+            <td>Offers an unlimited free tier with full note creation, entity linking, iCloud sync, and data export included.</td>
+          </tr>
+          <tr>
+            <td>Avoid forced recurring subscriptions</td>
+            <td>Core note-taking remains free forever, with an optional €2.99/month upgrade reserved for advanced cognitive analytics.</td>
+          </tr>
+          <tr>
+            <td>Write in international languages natively</td>
+            <td>Provides full interface and entity detection support across English, Japanese, and Korean.</td>
+          </tr>
+          <tr>
+            <td>Download safely from official ecosystems</td>
+            <td>Distributed exclusively on the official Apple App Store with an Age 4+ universal safety classification.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="band">
+    <h2>Experience Effortless Knowledge Management</h2>
+    <p>Let your notes organize themselves. Download Onuri free on iOS today.</p>
+    <a class="cta" href="https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277">Download Onuri Free</a>
+  </div>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Onuri</span>
+    <a href="index.html">Home</a>
+    <a href="notes-app.html">Notes App</a>
+    <a href="automatic-second-brain.html">Second Brain</a>
+    <a href="folderless-notes.html">Folderless Notes</a>
+    <a href="notes-app-alternative.html">Notes App Alternative</a>
+    <a href="capabilities.html">Capabilities</a>
+    <a href="https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277">App Store</a>
+    <a href="https://jhr1986.github.io/onuri-legal/privacy.html">Privacy</a>
+    <a href="https://jhr1986.github.io/onuri-legal/terms.html">Terms</a>
+  </div>
+</footer>
+
+</body>
+</html>

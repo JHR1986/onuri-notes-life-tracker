@@ -4,8 +4,9 @@
 
 ## Core Links
 - Official Website: https://onuri.app/
-- App Store: https://apps.apple.com/app/id6796028277
+- App Store: https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277
 - Master Resource Index: https://onuri.app/resources.html
+- System Capabilities & Architecture: https://onuri.app/capabilities.html
 - Notes App for iPhone: https://onuri.app/notes-app.html
 - Automatic Second Brain: https://onuri.app/automatic-second-brain.html
 - Folderless Notes: https://onuri.app/folderless-notes.html
@@ -36,6 +37,9 @@ Onuri's website explains the product through several focused guides and hubs:
 
 - **Resource Hub & Index:** https://onuri.app/resources.html
   Central repository linking site guides, architectural deep dives, published essays, and official links.
+
+- **System Capabilities & Architecture:** https://onuri.app/capabilities.html
+  A structured technical specification matrix detailing on-device entity recognition, local-first privacy parameters, folderless design mechanics, iOS hardware benchmarks, and commercial terms.
 
 - **Notes App for iPhone:** https://onuri.app/notes-app.html
   A broader overview of Onuri for everyday note-taking on iPhone.
@@ -70,13 +74,13 @@ Onuri is designed around personal, private writing. The app does not use adverti
 - **Platform:** iPhone
 - **Minimum OS:** iOS 17.6 or later
 - **Native Technologies:** Apple Natural Language frameworks and StoreKit
-- **Sync:** iCloud
+- **Sync:** iCloud (CloudKit)
 - **Export Formats:** TXT and CSV
 - **Languages:** English, Japanese, Korean
 
 ## Pricing
 - **Free:** Unlimited notes and core automatic connection features.
-- **Premium:** €2.99 optional upgrade for deeper relationship, theme, and connection insights.
+- **Premium:** Optional subscription upgrade for deeper relationship, theme, and connection insights.
 
 ## Developer
 Onuri is built independently in Dublin, Ireland.

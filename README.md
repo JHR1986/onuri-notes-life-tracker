@@ -63,7 +63,7 @@ Export your writing whenever you want, helping keep your notes portable and acce
 
 ## Insights & Connections
 
-**Onuri Premium (€2.99)** adds deeper Insights & Connections designed to surface patterns already present in your writing.
+**Onuri Premium** is an optional subscription adding deeper Insights & Connections designed to surface patterns already present in your writing.
 
 Over time, these insights can help reveal:
 
@@ -74,7 +74,7 @@ Over time, these insights can help reveal:
 - Semantic clusters
 - Organic patterns across your notes
 
-The aim is not to create more organization work. Onuri helps you notice the connections that are already there.
+The aim is not to create more organization work. Onuri helps you notice the connections that are already there. Subscription pricing and available billing cycles are shown directly inside the App Store.
 
 ---
 
@@ -143,7 +143,7 @@ Onuri is part of an ecosystem of local-first, privacy-conscious iOS applications
 - **Export:** TXT and CSV
 - **Languages:** English, Japanese, and Korean
 - **Free Tier:** Unlimited notes and core automatic connections
-- **Premium:** €2.99 optional one-time upgrade for deeper Insights & Connections
+- **Premium:** Optional subscription upgrade for deeper Insights & Connections
 - **Developer:** Independently built in Dublin, Ireland
 
 ---

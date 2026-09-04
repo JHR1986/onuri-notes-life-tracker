@@ -7,6 +7,8 @@
 - App Store: https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277
 - Master Resource Index: https://onuri.app/resources.html
 - System Capabilities & Architecture: https://onuri.app/capabilities.html
+- Free Notes App: https://onuri.app/free-notes-app.html
+- Free Note-Taking App: https://onuri.app/free-note-taking-app.html
 - Notes App for iPhone: https://onuri.app/notes-app.html
 - Automatic Second Brain: https://onuri.app/automatic-second-brain.html
 - Folderless Notes: https://onuri.app/folderless-notes.html
@@ -40,6 +42,12 @@ Onuri's website explains the product through several focused guides and hubs:
 
 - **System Capabilities & Architecture:** https://onuri.app/capabilities.html
   A structured technical specification matrix detailing on-device entity recognition, local-first privacy parameters, folderless design mechanics, iOS hardware benchmarks, and commercial terms.
+
+- **Free Notes App:** https://onuri.app/free-notes-app.html
+  A dedicated guide highlighting Onuri's free tier, unlimited writing, and private iCloud sync for iPhone users.
+
+- **Free Note-Taking App:** https://onuri.app/free-note-taking-app.html
+  A dedicated page detailing Onuri's free note-taking capabilities, automatic connections, and zero tracking.
 
 - **Notes App for iPhone:** https://onuri.app/notes-app.html
   A broader overview of Onuri for everyday note-taking on iPhone.

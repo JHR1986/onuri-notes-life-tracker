@@ -531,13 +531,62 @@
       animation-iteration-count:1!important;
     }
   }
+
+/* Final Onuri brand/header consistency */
+header .brand,
+.brand{
+  font-size:clamp(1.72rem,2.2vw,2.05rem) !important;
+  line-height:1 !important;
+  letter-spacing:-0.025em;
+  font-weight:700;
+}
+
+header{
+  min-height:76px;
+  display:flex;
+  align-items:center;
+}
+
+header .navlinks-group,
+.navlinks-group{
+  align-items:center;
+}
+
+header .navlink,
+.navlink{
+  min-height:42px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:.66rem .95rem;
+  border-radius:999px;
+  line-height:1.1;
+}
+
+@media (max-width:760px){
+  header{
+    min-height:66px;
+  }
+
+  header .brand,
+  .brand{
+    font-size:1.62rem !important;
+  }
+
+  header .navlink,
+  .navlink{
+    min-height:38px;
+    padding:.58rem .8rem;
+  }
+}
+
 </style>
 </head>
 <body>
 
 <main class="wrap">
   <header>
-    <a class="brand" href="index.html">On<span>uri</span></a>
+    <a class="brand" href="index.html">Onuri</a>
     <a class="navlink" href="https://apps.apple.com/app/id6796028277">Get App Free</a>
   </header>
 

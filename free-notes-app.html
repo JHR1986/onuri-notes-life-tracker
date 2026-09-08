@@ -240,15 +240,61 @@
       .wrap{width:min(calc(100% - 28px),var(--max))}header{align-items:flex-start}.nav{gap:4px}.nav a:not(.nav-cta){display:none}.brand-name{font-size:1.34rem}.hero{padding-top:30px;gap:20px}h1{font-size:clamp(2.65rem,13vw,3.55rem)}.lede{font-size:1.03rem}.actions{align-items:stretch}.cta{width:100%}.secondary-link{width:100%;text-align:center;padding:8px}.note-card{padding:20px}.note-card::after{inset:10px -8px -10px 8px}.feature-grid,.seo-links{grid-template-columns:1fr}.feature:last-child{grid-column:auto}.trust-item{padding:16px 10px}.trust-item strong{font-size:.86rem}.trust-item span{font-size:.76rem}section.content{padding-top:58px}.privacy-card,.premium-card{padding:22px}.band{margin-top:60px;padding:40px 20px}.footer-row{justify-content:center;text-align:center}.footer-links{justify-content:center}}
 
     @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
-  </style>
+  
+/* Final Onuri brand/header consistency */
+header .brand,
+.brand{
+  font-size:clamp(1.72rem,2.2vw,2.05rem) !important;
+  line-height:1 !important;
+  letter-spacing:-0.025em;
+  font-weight:700;
+}
+
+header{
+  min-height:76px;
+  display:flex;
+  align-items:center;
+}
+
+header .navlinks-group,
+.navlinks-group{
+  align-items:center;
+}
+
+header .navlink,
+.navlink{
+  min-height:42px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:.66rem .95rem;
+  border-radius:999px;
+  line-height:1.1;
+}
+
+@media (max-width:760px){
+  header{
+    min-height:66px;
+  }
+
+  header .brand,
+  .brand{
+    font-size:1.62rem !important;
+  }
+
+  header .navlink,
+  .navlink{
+    min-height:38px;
+    padding:.58rem .8rem;
+  }
+}
+
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header class="wrap">
-<a aria-label="Onuri home" class="brand" href="/">
-<img alt="" height="48" src="android-icon-48x48.png" width="48"/>
-<span class="brand-name">Onuri</span>
-</a>
+<a aria-label="Onuri home" class="brand" href="/">Onuri</a>
 <nav aria-label="Primary navigation" class="nav">
 <a href="automatic-second-brain.html">Second Brain</a>
 <a href="folderless-notes.html">Folderless Notes</a>

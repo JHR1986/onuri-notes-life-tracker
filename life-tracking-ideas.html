@@ -551,7 +551,56 @@ th{background:var(--paper-soft);font-weight:750;position:sticky;top:0;z-index:1}
 .kicker{text-transform:uppercase;letter-spacing:.12em;font-size:.75rem;font-weight:800;color:var(--pink-deep)}.section-title{margin-top:48px}
 .note{padding:18px 20px;border-radius:16px;background:var(--lavender);color:var(--muted);margin:22px 0 38px}.cta-ref{text-align:center;margin:52px 0 16px;padding:30px;border:1px solid var(--rule);border-radius:22px;background:#fff}
 @media(max-width:640px){.wrap{width:min(100% - 28px,980px)}table{font-size:.88rem}th,td{padding:12px}}
-</style></head><body><div class="wrap"><header><a class="brand" href="index.html">Onuri<span>.</span></a><a class="navlink" href="https://apps.apple.com/app/id6796028277">Download</a></header></div>
+
+/* Final Onuri brand/header consistency */
+header .brand,
+.brand{
+  font-size:clamp(1.72rem,2.2vw,2.05rem) !important;
+  line-height:1 !important;
+  letter-spacing:-0.025em;
+  font-weight:700;
+}
+
+header{
+  min-height:76px;
+  display:flex;
+  align-items:center;
+}
+
+header .navlinks-group,
+.navlinks-group{
+  align-items:center;
+}
+
+header .navlink,
+.navlink{
+  min-height:42px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:.66rem .95rem;
+  border-radius:999px;
+  line-height:1.1;
+}
+
+@media (max-width:760px){
+  header{
+    min-height:66px;
+  }
+
+  header .brand,
+  .brand{
+    font-size:1.62rem !important;
+  }
+
+  header .navlink,
+  .navlink{
+    min-height:38px;
+    padding:.58rem .8rem;
+  }
+}
+
+</style></head><body><div class="wrap"><header><a class="brand" href="index.html">Onuri</a><a class="navlink" href="https://apps.apple.com/app/id6796028277">Download</a></header></div>
 <main class="wrap"><section class="reference-intro"><p class="kicker">Life tracking reference</p><h1>What Can You Track in a Life Tracker?</h1>
 <p>Life is not one metric. It is people you meet, places you return to, conversations you want to remember, decisions you make, projects you finish, ideas you nearly forget and ordinary moments that become meaningful later.</p>
 <p>This reference contains <strong>100 practical examples</strong> of things a person might choose to remember in natural notes. It is not a checklist, and Onuri does not automatically monitor your life. You decide what to write; Onuri helps connect recognised people, places, dates and ideas so related context can be rediscovered later.</p><div class="jump"><a href="#people-relationships">People &amp; relationships</a><a href="#places-travel">Places &amp; travel</a><a href="#work-study-projects">Work, study &amp; projects</a><a href="#decisions-personal-knowledge">Decisions &amp; personal knowledge</a><a href="#everyday-life-memories">Everyday life &amp; memories</a><a href="#culture-recommendations">Culture &amp; recommendations</a><a href="#home-practical-context">Home &amp; practical context</a><a href="#plans-future-context">Plans &amp; future context</a><a href="#reflection-self-understanding">Reflection &amp; self-understanding</a></div></section>

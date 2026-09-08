@@ -237,6 +237,123 @@
       .wrap{width:min(calc(100% - 28px),var(--max))}header{align-items:flex-start}.nav{gap:4px}.nav a:not(.nav-cta){display:none}.brand-name{font-size:1.34rem}.hero{padding-top:30px;gap:20px}h1{font-size:clamp(2.65rem,13vw,3.55rem)}.lede{font-size:1.03rem}.actions{align-items:stretch}.cta{width:100%}.secondary-link{width:100%;text-align:center;padding:8px}.note-card{padding:20px}.note-card::after{inset:10px -8px -10px 8px}.feature-grid,.articles,.seo-links{grid-template-columns:1fr}.feature:last-child{grid-column:auto}.trust-item{padding:16px 10px}.trust-item strong{font-size:.86rem}.trust-item span{font-size:.76rem}section.content{padding-top:58px}.privacy-card,.premium-card{padding:22px}.band{margin-top:60px;padding:40px 20px}.footer-row{justify-content:center;text-align:center}.footer-links{justify-content:center}}
 
     @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+  
+    /* Product screenshots */
+    .product-showcase{
+      margin:54px 0 58px;
+      padding:42px 0 8px;
+    }
+
+    .showcase-head{
+      max-width:720px;
+      margin:0 auto 28px;
+      text-align:center;
+    }
+
+    .showcase-head .eyebrow{
+      margin-bottom:8px;
+    }
+
+    .showcase-head h2{
+      margin:0 0 12px;
+      font-size:clamp(2rem,4vw,3rem);
+    }
+
+    .showcase-head p{
+      margin:0;
+      color:var(--muted);
+    }
+
+    .screenshot-grid{
+      display:grid;
+      grid-template-columns:repeat(4,minmax(0,1fr));
+      gap:18px;
+      align-items:start;
+    }
+
+    .screenshot-card{
+      margin:0;
+      min-width:0;
+    }
+
+    .screenshot-frame{
+      overflow:hidden;
+      border:1px solid var(--rule);
+      border-radius:26px;
+      background:#fff;
+      box-shadow:var(--shadow-soft);
+    }
+
+    .screenshot-frame img{
+      display:block;
+      width:100%;
+      height:auto;
+      aspect-ratio:941 / 2048;
+      object-fit:cover;
+    }
+
+    .screenshot-card figcaption{
+      padding:13px 4px 0;
+      text-align:center;
+    }
+
+    .screenshot-card figcaption strong{
+      display:block;
+      margin-bottom:3px;
+      color:var(--ink);
+      font-size:.98rem;
+    }
+
+    .screenshot-card figcaption span{
+      display:block;
+      color:var(--muted);
+      font-size:.84rem;
+      line-height:1.45;
+    }
+
+    @media (max-width:900px){
+      .screenshot-grid{
+        grid-template-columns:repeat(2,minmax(0,1fr));
+        gap:22px 18px;
+      }
+    }
+
+    @media (max-width:600px){
+      .product-showcase{
+        margin:44px 0 52px;
+        padding-top:32px;
+      }
+
+      .showcase-head{
+        text-align:left;
+        margin-bottom:22px;
+      }
+
+      .screenshot-grid{
+        display:flex;
+        gap:16px;
+        overflow-x:auto;
+        scroll-snap-type:x mandatory;
+        padding:2px 18px 14px 2px;
+        margin-right:-17px;
+        scrollbar-width:none;
+        -webkit-overflow-scrolling:touch;
+      }
+
+      .screenshot-grid::-webkit-scrollbar{display:none}
+
+      .screenshot-card{
+        flex:0 0 min(78vw,300px);
+        scroll-snap-align:start;
+      }
+
+      .screenshot-card figcaption{
+        text-align:left;
+        padding-left:2px;
+        padding-right:2px;
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -373,6 +490,85 @@
 <a class="cta" href="https://apps.apple.com/app/id6796028277">Download Onuri Free</a>
 </div>
 </div>
+
+    <section class="product-showcase" aria-labelledby="onuri-in-action">
+      <div class="showcase-head">
+        <p class="eyebrow">Onuri in action</p>
+        <h2 id="onuri-in-action">Write naturally. Let the connections emerge.</h2>
+        <p>Add a note in plain language, browse your feed, reconnect related ideas through recognised keywords, and unlock richer Insights with Premium.</p>
+      </div>
+
+      <div class="screenshot-grid">
+        <figure class="screenshot-card">
+          <div class="screenshot-frame">
+            <img
+              src="onuri-add-note.webp"
+              width="941"
+              height="2048"
+              alt="Onuri New Entry screen showing a natural-language note with recognised keywords for Coffee, Sarah, Seoul, Friday and 2pm"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <figcaption>
+            <strong>Add a note</strong>
+            <span>Write naturally while Onuri recognises useful people, places, dates and ideas.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="screenshot-card">
+          <div class="screenshot-frame">
+            <img
+              src="onuri-home-feed.webp"
+              width="941"
+              height="2048"
+              alt="Onuri home feed showing connected notes about Sarah, coffee, Seoul, dates and birthday plans"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <figcaption>
+            <strong>Home feed</strong>
+            <span>See your notes as a searchable personal stream instead of a folder hierarchy.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="screenshot-card">
+          <div class="screenshot-frame">
+            <img
+              src="onuri-connected-keyword.webp"
+              width="941"
+              height="2048"
+              alt="Onuri search showing connected notes for Sarah's birthday and related recognised keywords"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <figcaption>
+            <strong>Connected keywords</strong>
+            <span>Search a person or idea and surface notes that share meaningful context.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="screenshot-card">
+          <div class="screenshot-frame">
+            <img
+              src="onuri-insights-paywall.webp"
+              width="941"
+              height="2048"
+              alt="Onuri Premium Insights screen describing recurring people, places, themes, time patterns and semantic clusters"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <figcaption>
+            <strong>Premium Insights</strong>
+            <span>Unlock patterns, connections, time signals and semantic clusters from your own entries.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
 </main>
 <footer>
 <div class="wrap footer-row">

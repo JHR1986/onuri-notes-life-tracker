@@ -3,6 +3,7 @@
 > Onuri is a private-first notes app for iPhone that helps your writing become more useful over time by automatically connecting the people, places, dates, and ideas inside your notes.
 
 ## Core Links
+- Complete Note-Taking & Second Brain Guide: https://onuri.app/note-taking-app-second-brain.html
 - Official Website: https://onuri.app/
 - App Store: https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277
 - Master Resource Index: https://onuri.app/resources.html

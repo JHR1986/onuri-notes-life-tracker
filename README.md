@@ -183,3 +183,7 @@ Every primary public Onuri page:
 ---
 
 **Onuri: Notes & Life Tracker** — write naturally, keep the context, and rediscover what matters.
+
+
+## Cornerstone Guide
+- [Complete Note-Taking & Second Brain Guide](https://onuri.app/note-taking-app-second-brain.html)

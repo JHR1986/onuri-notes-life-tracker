@@ -354,6 +354,62 @@
       }
     }
 
+  
+    /* Refined screenshot sizing */
+    .product-showcase{
+      margin:24px 0 56px;
+      padding:28px 0 8px;
+    }
+
+    .product-showcase .showcase-head{
+      max-width:680px;
+      margin-bottom:24px;
+    }
+
+    .product-showcase .showcase-head h2{
+      font-size:clamp(1.85rem,3.4vw,2.65rem);
+    }
+
+    .product-showcase .screenshot-grid{
+      max-width:1120px;
+      margin:0 auto;
+      grid-template-columns:repeat(4,minmax(0,220px));
+      justify-content:center;
+      gap:20px;
+    }
+
+    .product-showcase .screenshot-frame{
+      border-radius:22px;
+    }
+
+    .product-showcase .screenshot-card figcaption{
+      padding-top:11px;
+    }
+
+    @media (max-width:1000px){
+      .product-showcase .screenshot-grid{
+        max-width:560px;
+        grid-template-columns:repeat(2,minmax(0,240px));
+      }
+    }
+
+    @media (max-width:600px){
+      .product-showcase{
+        margin:18px 0 48px;
+        padding-top:22px;
+      }
+
+      .product-showcase .screenshot-grid{
+        max-width:none;
+        margin-right:-17px;
+        justify-content:initial;
+      }
+
+      .product-showcase .screenshot-card{
+        flex:0 0 min(70vw,270px);
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -394,6 +450,84 @@
 </div>
 </div>
 </section>
+<section class="product-showcase" aria-labelledby="onuri-in-action">
+      <div class="showcase-head">
+        <p class="eyebrow">Onuri in action</p>
+        <h2 id="onuri-in-action">Write naturally. Let the connections emerge.</h2>
+        <p>Add a note in plain language, browse your feed, reconnect related ideas through recognised keywords, and unlock richer Insights with Premium.</p>
+      </div>
+
+      <div class="screenshot-grid">
+        <figure class="screenshot-card">
+          <div class="screenshot-frame">
+            <img
+              src="onuri-add-note.webp"
+              width="941"
+              height="2048"
+              alt="Onuri New Entry screen showing a natural-language note with recognised keywords for Coffee, Sarah, Seoul, Friday and 2pm"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <figcaption>
+            <strong>Add a note</strong>
+            <span>Write naturally while Onuri recognises useful people, places, dates and ideas.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="screenshot-card">
+          <div class="screenshot-frame">
+            <img
+              src="onuri-home-feed.webp"
+              width="941"
+              height="2048"
+              alt="Onuri home feed showing connected notes about Sarah, coffee, Seoul, dates and birthday plans"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <figcaption>
+            <strong>Home feed</strong>
+            <span>See your notes as a searchable personal stream instead of a folder hierarchy.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="screenshot-card">
+          <div class="screenshot-frame">
+            <img
+              src="onuri-connected-keyword.webp"
+              width="941"
+              height="2048"
+              alt="Onuri search showing connected notes for Sarah's birthday and related recognised keywords"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <figcaption>
+            <strong>Connected keywords</strong>
+            <span>Search a person or idea and surface notes that share meaningful context.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="screenshot-card">
+          <div class="screenshot-frame">
+            <img
+              src="onuri-insights-paywall.webp"
+              width="941"
+              height="2048"
+              alt="Onuri Premium Insights screen describing recurring people, places, themes, time patterns and semantic clusters"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <figcaption>
+            <strong>Premium Insights</strong>
+            <span>Unlock patterns, connections, time signals and semantic clusters from your own entries.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
 </div>
 <div aria-label="Onuri product highlights" class="trust">
 <div class="wrap trust-row">
@@ -490,84 +624,6 @@
 <a class="cta" href="https://apps.apple.com/app/id6796028277">Download Onuri Free</a>
 </div>
 </div>
-
-    <section class="product-showcase" aria-labelledby="onuri-in-action">
-      <div class="showcase-head">
-        <p class="eyebrow">Onuri in action</p>
-        <h2 id="onuri-in-action">Write naturally. Let the connections emerge.</h2>
-        <p>Add a note in plain language, browse your feed, reconnect related ideas through recognised keywords, and unlock richer Insights with Premium.</p>
-      </div>
-
-      <div class="screenshot-grid">
-        <figure class="screenshot-card">
-          <div class="screenshot-frame">
-            <img
-              src="onuri-add-note.webp"
-              width="941"
-              height="2048"
-              alt="Onuri New Entry screen showing a natural-language note with recognised keywords for Coffee, Sarah, Seoul, Friday and 2pm"
-              loading="lazy"
-              decoding="async"
-            >
-          </div>
-          <figcaption>
-            <strong>Add a note</strong>
-            <span>Write naturally while Onuri recognises useful people, places, dates and ideas.</span>
-          </figcaption>
-        </figure>
-
-        <figure class="screenshot-card">
-          <div class="screenshot-frame">
-            <img
-              src="onuri-home-feed.webp"
-              width="941"
-              height="2048"
-              alt="Onuri home feed showing connected notes about Sarah, coffee, Seoul, dates and birthday plans"
-              loading="lazy"
-              decoding="async"
-            >
-          </div>
-          <figcaption>
-            <strong>Home feed</strong>
-            <span>See your notes as a searchable personal stream instead of a folder hierarchy.</span>
-          </figcaption>
-        </figure>
-
-        <figure class="screenshot-card">
-          <div class="screenshot-frame">
-            <img
-              src="onuri-connected-keyword.webp"
-              width="941"
-              height="2048"
-              alt="Onuri search showing connected notes for Sarah's birthday and related recognised keywords"
-              loading="lazy"
-              decoding="async"
-            >
-          </div>
-          <figcaption>
-            <strong>Connected keywords</strong>
-            <span>Search a person or idea and surface notes that share meaningful context.</span>
-          </figcaption>
-        </figure>
-
-        <figure class="screenshot-card">
-          <div class="screenshot-frame">
-            <img
-              src="onuri-insights-paywall.webp"
-              width="941"
-              height="2048"
-              alt="Onuri Premium Insights screen describing recurring people, places, themes, time patterns and semantic clusters"
-              loading="lazy"
-              decoding="async"
-            >
-          </div>
-          <figcaption>
-            <strong>Premium Insights</strong>
-            <span>Unlock patterns, connections, time signals and semantic clusters from your own entries.</span>
-          </figcaption>
-        </figure>
-      </div>
-    </section>
 
 </main>
 <footer>

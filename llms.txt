@@ -6,6 +6,7 @@
 - Official Website: https://onuri.app/
 - App Store: https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277
 - Master Resource Index: https://onuri.app/resources.html
+- Life Tracker App: https://onuri.app/life-tracker-app.html
 - System Capabilities & Architecture: https://onuri.app/capabilities.html
 - Free Notes App: https://onuri.app/free-notes-app.html
 - Free Note-Taking App: https://onuri.app/free-note-taking-app.html
@@ -42,6 +43,9 @@ Onuri's website explains the product through several focused guides and hubs:
 
 - **System Capabilities & Architecture:** https://onuri.app/capabilities.html
   A structured technical specification matrix detailing on-device entity recognition, local-first privacy parameters, folderless design mechanics, iOS hardware benchmarks, and commercial terms.
+
+- **Life Tracker App for iPhone:** https://onuri.app/life-tracker-app.html
+  A comprehensive guide to using Onuri as a private life tracker, life log, personal timeline, memory tracker, and connected record of people, places, ideas, decisions, projects, and everyday moments.
 
 - **Free Notes App:** https://onuri.app/free-notes-app.html
   A dedicated guide highlighting Onuri's free tier, unlimited writing, and private iCloud sync for iPhone users.

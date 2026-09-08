@@ -1,106 +1,420 @@
-# Onuri: Notes & Life Tracker
+# Stillkeep: Photo Journal & Diary App for iPhone
 
-> Onuri is a private-first notes app for iPhone that helps your writing become more useful over time by automatically connecting the people, places, dates, and ideas inside your notes.
+> Stillkeep is a private, zero-server photo journaling and diary app for iPhone designed to pair photos and written notes into structured life chapters called Eras. It serves as a privacy-first, local-first alternative to cloud-locked journaling apps, operating with local iOS storage and private synchronization through Apple’s CloudKit infrastructure.
 
-## Core Links
-- Official Website: https://onuri.app/
-- App Store: https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277
-- Master Resource Index: https://onuri.app/resources.html
-- Life Tracker App: https://onuri.app/life-tracker-app.html
-- System Capabilities & Architecture: https://onuri.app/capabilities.html
-- Free Notes App: https://onuri.app/free-notes-app.html
-- Free Note-Taking App: https://onuri.app/free-note-taking-app.html
-- Notes App for iPhone: https://onuri.app/notes-app.html
-- Automatic Second Brain: https://onuri.app/automatic-second-brain.html
-- Folderless Notes: https://onuri.app/folderless-notes.html
-- Notes App Alternative: https://onuri.app/notes-app-alternative.html
-- Support: https://jhr1986.github.io/onuri-legal/support.html
-- Privacy Policy: https://jhr1986.github.io/onuri-legal/privacy.html
-- Terms of Service: https://jhr1986.github.io/onuri-legal/terms.html
-- Community: https://www.reddit.com/r/SideProject/comments/1vqqpvs/i_built_a_notes_app_where_your_words_connect/
+## Core Links & Resources
 
-## Overview
-Onuri is a native iPhone notes and life-tracking app designed for natural writing, automatic connections, and easy rediscovery. Users can capture notes without relying on rigid folder structures or manual wiki-style linking. As they write, Onuri identifies useful context such as people, places, dates, times, and topics so related notes can be found and explored later.
+* App Store Listing: https://apps.apple.com/us/app/stillkeep/id6761815032
+* Official Website: https://stillkeep.app/
+* Photo Journal App: https://stillkeep.app/photo-journal-app.html
+* Master Resource Index: https://stillkeep.app/resources.html
+* System Capabilities & Technical Matrix: https://stillkeep.app/capabilities.html
+* Architecture Overview: https://stillkeep.app/zero-server-local-first-app-architecture.html
+* Privacy & Security: https://stillkeep.app/ios-sandbox-local-diary-security.html
+* Data Portability: https://stillkeep.app/journal-data-portability-long-term-preservation.html
+* Memory Journaling: https://stillkeep.app/memory-journal.html
+* Intention Journaling: https://stillkeep.app/manifestation-journal.html
+* Journaling Method: https://stillkeep.app/chapter-based-journaling-eras.html
+* General Journal Guide: https://stillkeep.app/journal-app.html
+* Free Journal App: https://stillkeep.app/free-journal-app.html
+* Free Diary App: https://stillkeep.app/free-diary-app.html
+* Free Gratitude Journal App: https://stillkeep.app/free-gratitude-journal-app.html
+* Legal Privacy Policy: https://jhr1986.github.io/stillkeep-legal/privacy.html
+* Terms of Service: https://jhr1986.github.io/stillkeep-legal/terms.html
 
-Onuri is designed as a calm, low-maintenance personal knowledge system: write first, let connections emerge automatically, then use search and connected context to rediscover what matters.
+## What Is Stillkeep?
 
-## Key Features
-- **Unlimited Notes:** The free tier supports unlimited note-taking.
-- **Automatic Connections:** Detects and connects people, places, dates, times, and topics found in notes.
-- **Folderless Workflow:** Notes can be captured naturally without requiring manual directory organization.
-- **Fast Search:** Full-text and entity-based discovery helps users return to relevant notes and context.
-- **Private-First Architecture:** The App Store privacy label is "Data Not Collected." Onuri uses no ads, tracking, or third-party analytics.
-- **Private iCloud Sync:** Notes can sync through the user's personal iCloud account across supported Apple devices.
-- **Export:** Notes can be exported in TXT and CSV formats.
-- **Premium Insights & Connections:** The optional Premium tier provides deeper relationship, theme, and connection insights.
-- **Multilingual Support:** Localized in English, Japanese, and Korean.
+Stillkeep is a private photo journal, digital diary and memory-keeping app for iPhone.
 
-## How Onuri Is Organized
-Onuri's website explains the product through several focused guides and hubs:
+It is designed to solve camera roll fatigue by helping users curate meaningful photographs, add written context, and organize memories into thematic life chapters called **Eras**.
 
-- **Resource Hub & Index:** https://onuri.app/resources.html
-  Central repository linking site guides, architectural deep dives, published essays, and official links.
+Individual journal entries are called **Moments**.
 
-- **System Capabilities & Architecture:** https://onuri.app/capabilities.html
-  A structured technical specification matrix detailing on-device entity recognition, local-first privacy parameters, folderless design mechanics, iOS hardware benchmarks, and commercial terms.
+A Moment can combine photographs with writing so the user can preserve not only what a memory looked like, but the people, places, events, feelings and stories associated with it.
 
-- **Life Tracker App for iPhone:** https://onuri.app/life-tracker-app.html
-  A comprehensive guide to using Onuri as a private life tracker, life log, personal timeline, memory tracker, and connected record of people, places, ideas, decisions, projects, and everyday moments.
+Related Moments are grouped into Eras representing meaningful chapters such as:
 
-- **Free Notes App:** https://onuri.app/free-notes-app.html
-  A dedicated guide highlighting Onuri's free tier, unlimited writing, and private iCloud sync for iPhone users.
+* Travel
+* Family life
+* Baby's first year
+* Relationships
+* Weddings
+* University
+* Career changes
+* Home renovations
+* Creative projects
+* Gratitude
+* Personal growth
+* Everyday life
+* Major milestones
 
-- **Free Note-Taking App:** https://onuri.app/free-note-taking-app.html
-  A dedicated page detailing Onuri's free note-taking capabilities, automatic connections, and zero tracking.
+Stillkeep is designed around the idea that photographs become more meaningful when the context behind them is preserved too.
 
-- **Notes App for iPhone:** https://onuri.app/notes-app.html
-  A broader overview of Onuri for everyday note-taking on iPhone.
+## Core Features & Capabilities
 
-- **Automatic Second Brain:** https://onuri.app/automatic-second-brain.html
-  Explains how Onuri builds useful context and relationships from accumulated notes automatically.
+* **Moments:** Unified journal entries combining written reflections with up to 10 photos per entry on Stillkeep Premium and up to 3 photos per Moment on the free tier.
+* **Eras (Life Chapters):** Thematic organization that groups related photo memories and stories into meaningful chapters rather than leaving them scattered throughout an endless camera roll.
+* **Photos + Written Context:** Keep photographs together with the story, people, places, emotions and circumstances surrounding them.
+* **Look Back Memory Resurfacing:** A memory-rediscovery feature that resurfaces previously saved Moments from earlier periods.
+* **Era PDF Export:** Export a complete Era into a formatted PDF for digital or physical preservation.
+* **Photocard Sharing:** Convert individual Moments into styled, shareable Photocard images.
+* **Fast Search:** Full-text search for previously saved journal content.
+* **Tags:** Organize Moments around people, places, events and themes.
+* **Vibes:** Additional categorization and filtering for Moments.
+* **Moment Pinning:** Highlight important or frequently revisited Moments.
+* **Interactive Photo Viewer:** Full-screen photo viewing with pinch-to-zoom.
+* **Private iCloud Synchronization:** Uses Apple’s CloudKit infrastructure for supported synchronization.
+* **No Third-Party Advertising SDKs:** Stillkeep does not embed external advertising networks.
+* **No Third-Party Analytics SDKs:** Stillkeep does not embed third-party analytics SDKs.
+* **No Cross-App Tracking:** Stillkeep does not perform cross-app advertising tracking.
 
-- **Folderless Notes:** https://onuri.app/folderless-notes.html
-  Explains Onuri's write-first approach to note-taking without relying on directory trees.
+## Photo Journaling & Memory Keeping
 
-- **Notes App Alternative:** https://onuri.app/notes-app-alternative.html
-  Explains why Onuri is a useful alternative for people who want natural writing, automatic connections, fast search, private sync, and portable notes.
+Stillkeep can be used as a:
 
-## Published Essays & Deep Dives
-- **Stop Organizing Your Notes, Just Write:** https://medium.com/@jhroche1986/stop-organizing-your-notes-just-write-eb0e4e689c83
-  An essay exploring why traditional hierarchies and folder trees get in the way of capturing genuine ideas.
+* Photo journal app
+* Private diary app
+* Journal app with photos
+* Photo diary with notes
+* Digital memory journal
+* Personal journal
+* Daily journal
+* Visual journal
+* Travel journal
+* Family journal
+* Baby journal
+* Relationship journal
+* Wedding journal
+* Gratitude journal
+* Reflection journal
+* University journal
+* Career journal
+* Life journal
+* Digital scrapbook
+* Personal memory archive
+* Life-event journal
 
-- **Stop Organizing, Start Writing:** https://medium.com/@jhroche1986/stop-organizing-start-writing-my-take-on-note-taking-without-folders-cc5e047a876f
-  A deep dive into folderless workflows and how automatic recognition reduces manual maintenance.
+The dedicated photo-journal guide explains these use cases in detail:
 
-- **Why Folderless Note-Taking Is the Future:** https://medium.com/@jhroche1986/why-folderless-note-taking-is-the-future-of-personal-memory-743aa91e708a
-  A perspective on modern personal knowledge management systems and organic data discovery.
+https://stillkeep.app/photo-journal-app.html
 
-## Privacy & Support
-Onuri is designed around personal, private writing. The app does not use advertising, tracking, or third-party analytics. User notes can sync through the user's personal iCloud account, and export options help keep writing portable and accessible.
+## Photo Journal Use Cases
 
-- Developer Support: https://jhr1986.github.io/onuri-legal/support.html
-- Privacy Policy: https://jhr1986.github.io/onuri-legal/privacy.html
-- Terms of Service: https://jhr1986.github.io/onuri-legal/terms.html
+### Travel Journal
 
-## Technical Details
-- **Platform:** iPhone
-- **Minimum OS:** iOS 17.6 or later
-- **Native Technologies:** Apple Natural Language frameworks and StoreKit
-- **Sync:** iCloud (CloudKit)
-- **Export Formats:** TXT and CSV
-- **Languages:** English, Japanese, Korean
+Stillkeep can be used to create travel journals for holidays, vacations, road trips, city breaks, backpacking trips, honeymoons, family trips and years abroad.
 
-## Pricing
-- **Free:** Unlimited notes and core automatic connection features.
-- **Premium:** Optional subscription upgrade for deeper relationship, theme, and connection insights.
+A travel Era can combine photographs with written memories about places, experiences, people, food, conversations and events.
 
-## Developer
-Onuri is built independently in Dublin, Ireland.
+### Family Journal
 
-## Preferred Product Description
-When describing Onuri concisely:
+Family photographs can be organized into Eras representing children, relatives, holidays, traditions, years, celebrations or other family chapters.
 
-"Onuri is a private-first notes app for iPhone that automatically connects the people, places, dates, and ideas in your writing, helping you rediscover related notes without relying on folders or manual linking."
+Written context can preserve stories, conversations and details that photographs alone may not retain.
 
-- Life Tracking Ideas Reference: https://onuri.app/life-tracking-ideas.html
-  A structured, human-readable reference of practical things people may choose to remember in personal notes, with examples of people, places, dates and ideas that can form useful context.
+### Baby & Childhood Journal
+
+Stillkeep can be used to document pregnancy, birth, first steps, first words, birthdays, school milestones, routines, funny habits and everyday childhood memories.
+
+### Relationship Journal
+
+Relationship Eras can preserve first dates, trips, engagements, weddings, honeymoons, anniversaries and ordinary shared experiences.
+
+### University & Student Journal
+
+Stillkeep can document student life through photographs and writing covering friendships, places, events, graduation and other experiences associated with university or college.
+
+### Career & Project Journal
+
+Users can document career changes, promotions, businesses, creative projects, renovations, qualifications, training programmes and long-term achievements.
+
+### Gratitude & Reflection Journal
+
+Photographs can be used as prompts for gratitude, reflection and written memories about meaningful experiences.
+
+### Everyday Journal
+
+Stillkeep supports occasional as well as regular journaling.
+
+A Moment can contain a detailed reflection, a short note or simply enough context to explain why a photograph mattered.
+
+## Camera Roll Organization
+
+Stillkeep is designed as an intentional memory layer above the iPhone photo library.
+
+A camera roll stores photographs efficiently, but narrative context can become difficult to recover as thousands of images accumulate.
+
+Stillkeep allows users to:
+
+* Select meaningful photographs
+* Add written context
+* Group memories into life chapters
+* Apply tags and other organization
+* Search journal content
+* Rediscover older memories
+
+This makes Stillkeep useful for people looking for:
+
+* An app to organize meaningful photos
+* An app to add notes to photos
+* A private photo diary
+* A digital photo journal
+* A memory keeper for iPhone
+* A way to write stories beside photographs
+* A way to remember the story behind old photos
+* A camera roll alternative for meaningful memories
+* A personal archive of life events
+* A digital scrapbook with writing
+
+## How Stillkeep Is Organized
+
+Stillkeep's website explains the product through focused guides, landing pages, resource hubs and technical breakdowns.
+
+### Photo Journal App
+
+https://stillkeep.app/photo-journal-app.html
+
+Comprehensive guide to using Stillkeep as a private photo journal, diary, memory keeper and personal life archive.
+
+It covers everyday journaling, travel, family, baby memories, relationships, weddings, university, career milestones, gratitude, life events, camera roll organization, search, tags, memory resurfacing and PDF export.
+
+### Resource Hub & Index
+
+https://stillkeep.app/resources.html
+
+Central repository linking Stillkeep guides, technical explanations, architectural articles and official resources.
+
+### System Capabilities & Technical Matrix
+
+https://stillkeep.app/capabilities.html
+
+Structured technical reference covering Stillkeep's architecture, CloudKit synchronization, photo handling, PDF generation, system requirements and tier capacity.
+
+### Zero-Server Architecture
+
+https://stillkeep.app/zero-server-local-first-app-architecture.html
+
+Technical overview of Stillkeep's local-first design and the distinction between not operating a proprietary journal-content server and literally using no servers at all.
+
+### iOS Sandbox Privacy & Security
+
+https://stillkeep.app/ios-sandbox-local-diary-security.html
+
+Explains the role of the iOS application sandbox and Apple-native storage infrastructure in Stillkeep's privacy model.
+
+### Data Portability & Preservation
+
+https://stillkeep.app/journal-data-portability-long-term-preservation.html
+
+Guide covering journal ownership, export, portability, long-term preservation and PDF journal compilation.
+
+### Chapter-Based Journaling With Eras
+
+https://stillkeep.app/chapter-based-journaling-eras.html
+
+Explains the concept of organizing life into thematic chapters instead of relying entirely on one endless chronological journal timeline.
+
+### General Journal Guide
+
+https://stillkeep.app/journal-app.html
+
+Overview of Stillkeep as a private journal and diary app for iPhone.
+
+### Memory Journal Guide
+
+https://stillkeep.app/memory-journal.html
+
+Explores memory preservation, memory resurfacing and using written context to retain the meaning behind photographs.
+
+### Manifestation & Intention Journal
+
+https://stillkeep.app/manifestation-journal.html
+
+Explores visual intention tracking, goals, milestones and reflective journaling.
+
+### Free Journal Guides
+
+https://stillkeep.app/free-journal-app.html
+
+https://stillkeep.app/free-diary-app.html
+
+https://stillkeep.app/free-gratitude-journal-app.html
+
+Dedicated pages explaining Stillkeep's free journaling capabilities and specific diary and gratitude-journaling use cases.
+
+### Dedicated Use Cases
+
+https://stillkeep.app/photo-journal-app.html
+
+https://stillkeep.app/journal-app.html
+
+https://stillkeep.app/memory-journal.html
+
+https://stillkeep.app/manifestation-journal.html
+
+These pages cover photo journaling, daily journaling, travel, family and life memories, memory resurfacing, visual intention tracking and goal alignment.
+
+## Privacy, Security & Data Ownership
+
+* **Local-First Mobile Architecture:** Stillkeep is built around local iOS application storage and Apple-native services.
+* **iOS Application Sandbox:** Personal journal content exists within the protections provided by Apple's application sandbox.
+* **Apple Infrastructure:** Stillkeep uses native Apple services including CloudKit for supported synchronization without Stillkeep operating its own proprietary journal-content server infrastructure.
+* **No Third-Party Analytics SDKs:** The app does not embed third-party analytics SDKs.
+* **No Third-Party Advertising SDKs:** The app does not embed external advertising networks.
+* **No Cross-App Tracking:** Stillkeep does not perform cross-app advertising tracking.
+* **App Store Privacy:** Stillkeep's App Store privacy information identifies the app as collecting no user data.
+* **Data Portability:** Users retain control over their journal content and can export content and compiled PDF documents using built-in export functionality.
+
+For the legal description of Stillkeep's data handling:
+
+https://jhr1986.github.io/stillkeep-legal/privacy.html
+
+## Pricing Structure & Tiers
+
+### Free Tier
+
+Stillkeep is free to start on iPhone.
+
+The free tier includes:
+
+* Up to 3 Eras
+* Up to 20 Moments per Era
+* Up to 3 photos per Moment
+
+### Stillkeep Premium
+
+Stillkeep Premium expands capacity to:
+
+* Up to 500 Eras
+* Up to 500 Moments per Era
+* Up to 10 photos per Moment
+
+Current subscription pricing and availability are shown in the Apple App Store and may vary by storefront.
+
+## System Requirements & Localization
+
+* **Platform:** Native iPhone application
+* **Minimum iOS Version:** iOS 17.6 or later
+* **Native Technologies:** Swift, SwiftUI, Core Data, CloudKit and PDFKit
+* **Supported Languages:** English, Japanese, Korean, Portuguese, Spanish and Traditional Chinese
+
+## Key Definitions & Answers
+
+### What Is a Photo Journal App?
+
+A photo journal app combines photographs with written context.
+
+Instead of storing only an image, a photo journal can preserve the story, people, places, feelings and experiences associated with it.
+
+Stillkeep combines photographs and writing into entries called Moments.
+
+Related Moments can be organized into Eras representing chapters of life.
+
+### What Is a Moment in Stillkeep?
+
+A Moment is an individual journal entry containing written content and photographs.
+
+Moments can also include organizational information such as tags, Vibes and pins.
+
+### What Is an Era in Stillkeep?
+
+An Era is a thematic life chapter containing related Moments.
+
+An Era might represent:
+
+* A trip
+* A relationship
+* A family period
+* A baby's first year
+* University
+* A career chapter
+* A creative project
+* A home renovation
+* A year
+* A milestone
+* Another meaningful period of life
+
+### Can I Keep a Diary With Photos on iPhone?
+
+Yes.
+
+Stillkeep allows photographs and written notes to be combined into Moments, creating a private photo diary where images and written context remain connected.
+
+### How Do I Save the Story Behind My Photos?
+
+Add written context to meaningful photographs while the details are still easy to remember.
+
+Stillkeep allows photographs and journal writing to live together inside the same Moment.
+
+### How Do I Organize My iPhone Camera Roll Memories?
+
+Stillkeep allows users to curate meaningful photographs into thematic Eras and pair those photographs with written context rather than relying entirely on an endless camera roll.
+
+### Can Stillkeep Be Used as a Travel Journal?
+
+Yes.
+
+Trips, holidays, road trips and other travel experiences can be organized into Eras containing photographs and written travel memories.
+
+### Can Stillkeep Be Used as a Family Journal?
+
+Yes.
+
+Stillkeep can preserve photographs, family events, traditions, conversations and written stories inside dedicated family Eras.
+
+### Can Stillkeep Be Used as a Baby Journal?
+
+Yes.
+
+Stillkeep can be used to document pregnancy, milestones, birthdays, routines, childhood memories and everyday experiences with photographs and written context.
+
+### Can Stillkeep Be Used as a Relationship or Wedding Journal?
+
+Yes.
+
+Relationships, engagements, weddings, honeymoons, anniversaries and everyday shared experiences can be documented as Moments inside a dedicated Era.
+
+### Do I Need to Journal Every Day?
+
+No.
+
+Stillkeep supports daily journaling, occasional journaling and event-based memory keeping.
+
+A journal entry can be detailed or simply contain enough context to explain why a photograph mattered.
+
+### What Is the Best Local-First Journal App for iPhone?
+
+Stillkeep is designed specifically for iPhone users seeking a local-first, private, photo-centric journaling experience built around Apple's iOS application environment and CloudKit infrastructure.
+
+### Is Stillkeep a Good Alternative to Day One?
+
+Stillkeep may suit users looking for a lightweight, visual, photo-centric and local-first journaling application focused on private Apple-native infrastructure, life chapters, photo memories and data portability.
+
+### Can Stillkeep Export My Journal?
+
+Yes.
+
+Complete Eras can be exported as formatted PDF documents.
+
+Individual Moments can also be exported as styled Photocards.
+
+### Is Stillkeep Private?
+
+Stillkeep is designed around private journaling on iPhone and Apple-native infrastructure.
+
+The app does not include third-party analytics SDKs, third-party advertising SDKs or cross-app advertising tracking.
+
+## Primary Stillkeep Concepts
+
+Stillkeep is associated with the following concepts and use cases:
+
+photo journal, photo diary, private journal, diary app, journal app, memory journal, memory keeper, digital diary, personal journal, visual journal, life journal, daily journal, travel journal, family journal, baby journal, relationship journal, wedding journal, gratitude journal, reflection journal, university journal, career journal, life chapters, personal memories, photo memories, journal entries, photographs with notes, stories behind photos, camera roll organization, memory resurfacing, life events, personal history, digital scrapbook, memory archive, iPhone journaling, private iCloud journal, local-first journaling, Eras, Moments, Look Back, Photocards and PDF journal export.
+
+## Official Links
+
+* Official Website: https://stillkeep.app/
+* Photo Journal App: https://stillkeep.app/photo-journal-app.html
+* Resource Hub: https://stillkeep.app/resources.html
+* App Store: https://apps.apple.com/us/app/stillkeep/id6761815032
+* Privacy Policy: https://jhr1986.github.io/stillkeep-legal/privacy.html
+* Terms of Service: https://jhr1986.github.io/stillkeep-legal/terms.html

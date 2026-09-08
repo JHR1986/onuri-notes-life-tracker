@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S9H3WHMV0T"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-S9H3WHMV0T');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5b2bd9">
+  <meta name="color-scheme" content="light">
+
+  <title>Private Photo Journal App for iPhone | Stillkeep</title>
+  <meta name="description" content="Stillkeep is a private photo journal and diary app for iPhone. Keep photos, notes, memories, travel, family, baby, relationship and life stories together in meaningful chapters.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="apple-itunes-app" content="app-id=6761815032, app-argument=https://apps.apple.com/app/id6761815032">
+  <link rel="canonical" href="https://stillkeep.app/photo-journal-app.html">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="android-icon-48x48.png">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Stillkeep: Journal &amp; Diary">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://stillkeep.app/photo-journal-app.html">
+  <meta property="og:title" content="Private Photo Journal App for iPhone | Stillkeep">
+  <meta property="og:description" content="A private photo journal and diary app for iPhone that keeps photos, writing, memories and life chapters together.">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Private Photo Journal App for iPhone | Stillkeep">
+  <meta name="twitter:description" content="Keep the story with the photo. A private photo journal and diary app for iPhone.">
+
+  <link rel="preconnect" href="https://apps.apple.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebPage",
+        "@id":"https://stillkeep.app/photo-journal-app.html#webpage",
+        "url":"https://stillkeep.app/photo-journal-app.html",
+        "name":"Private Photo Journal App for iPhone | Stillkeep",
+        "description":"A private photo journal and diary app for iPhone that keeps photos, notes, memories and life stories together.",
+        "isPartOf":{"@id":"https://stillkeep.app/#website"},
+        "about":{"@id":"https://stillkeep.app/#application"}
+      },
+      {
+        "@type":"Article",
+        "@id":"https://stillkeep.app/photo-journal-app.html#article",
+        "headline":"Journal App & Private Photo Diary for iPhone",
+        "mainEntityOfPage":{"@id":"https://stillkeep.app/photo-journal-app.html#webpage"},
+        "author":{"@type":"Person","name":"John-Henry Roche"},
+        "publisher":{"@type":"Organization","name":"Stillkeep"},
+        "about":[
+          {"@type":"Thing","name":"Photo journaling"},
+          {"@type":"Thing","name":"Digital diary"},
+          {"@type":"Thing","name":"Memory keeping"},
+          {"@type":"Thing","name":"iPhone journaling"}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --paper:#fbf9ff;
+      --paper-deep:#f4efff;
+      --card:#ffffff;
+      --ink:#241d32;
+      --muted:#655f70;
+      --brand-cyan:#10cfe0;
+      --brand-violet:#6550f5;
+      --brand-purple:#5b2bd9;
+      --brand-pink:#e82bbd;
+      --brand-orange:#ff6a45;
+      --brand-gold:#ffb24d;
+      --rule:#e8e1f0;
+      --soft-violet:#f1edff;
+      --soft-pink:#fff0fa;
+      --soft-cyan:#ecfcff;
+      --soft-orange:#fff4ee;
+      --shadow:0 18px 48px rgba(73,49,108,.12);
+      --shadow-soft:0 8px 26px rgba(73,49,108,.08);
+      --radius:22px;
+      --radius-sm:14px;
+    }
+
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+    body{
+      margin:0;
+      background:
+        radial-gradient(circle at 8% 0%,rgba(16,207,224,.10),transparent 30rem),
+        radial-gradient(circle at 92% 5%,rgba(232,43,189,.09),transparent 28rem),
+        linear-gradient(180deg,#fff 0,#fbf9ff 20rem,var(--paper) 100%);
+      color:var(--ink);
+      font:16.5px/1.68 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+      overflow-x:hidden;
+      padding-bottom:env(safe-area-inset-bottom);
+    }
+
+    h1,h2,.brand{
+      font-family:"Young Serif",Georgia,serif;
+      font-weight:400;
+      letter-spacing:-.018em;
+    }
+
+    h1,h2,h3,p{overflow-wrap:break-word}
+    a{color:var(--brand-purple)}
+    a:focus-visible{outline:3px solid var(--brand-purple);outline-offset:3px;border-radius:8px}
+
+    .wrap{width:min(100% - 44px,1040px);margin-inline:auto}
+
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:22px 0;
+      gap:18px;
+    }
+
+    .brand{
+      position:relative;
+      font-size:1.5rem;
+      text-decoration:none;
+      color:var(--ink);
+      white-space:nowrap;
+    }
+
+    .brand span{
+      background:linear-gradient(90deg,var(--brand-violet),var(--brand-pink),var(--brand-orange));
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+    }
+
+    .navlinks-group{
+      display:flex;
+      gap:9px;
+      align-items:center;
+      justify-content:flex-end;
+      flex-wrap:wrap;
+    }
+
+    .navlink{
+      min-height:42px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      font-size:.9rem;
+      font-weight:650;
+      text-decoration:none;
+      border:1px solid rgba(91,43,217,.28);
+      border-radius:999px;
+      padding:8px 15px;
+      color:var(--brand-purple);
+      background:rgba(255,255,255,.78);
+      backdrop-filter:blur(10px);
+      transition:transform .2s ease,background .2s ease,border-color .2s ease,box-shadow .2s ease;
+      white-space:nowrap;
+    }
+
+    .navlink:hover{background:var(--soft-violet);border-color:var(--brand-violet);box-shadow:var(--shadow-soft);transform:translateY(-1px)}
+    .navlink.primary{color:#fff;border-color:transparent;background:linear-gradient(110deg,var(--brand-purple),var(--brand-pink));box-shadow:0 8px 22px rgba(91,43,217,.22)}
+    .navlink.primary:hover{background:linear-gradient(110deg,#4e23bf,#c922a5);border-color:transparent}
+
+    .hero{
+      position:relative;
+      display:grid;
+      grid-template-columns:minmax(0,1.08fr) minmax(300px,.92fr);
+      gap:clamp(34px,5vw,58px);
+      align-items:center;
+      padding:58px 0 72px;
+    }
+
+    .hero::before{
+      content:"";
+      position:absolute;
+      inset:6% -10% auto auto;
+      width:420px;height:420px;border-radius:50%;
+      background:
+        radial-gradient(circle at 30% 32%,rgba(16,207,224,.18),transparent 34%),
+        radial-gradient(circle at 68% 30%,rgba(101,80,245,.16),transparent 32%),
+        radial-gradient(circle at 68% 72%,rgba(232,43,189,.16),transparent 34%),
+        radial-gradient(circle at 30% 72%,rgba(255,106,69,.14),transparent 35%);
+      filter:blur(2px);pointer-events:none;
+    }
+
+    .hero>*{position:relative;z-index:1}
+    .eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:.76rem;color:#7441b2;margin:0 0 14px;font-weight:750}
+
+    h1{font-size:clamp(2.6rem,5.6vw,4rem);line-height:1.04;margin:0 0 20px;text-wrap:balance;max-width:13ch}
+    .lede{font-size:1.09rem;color:var(--muted);max-width:54ch;margin:0 0 28px;line-height:1.75}
+    .lede strong{color:var(--ink)}
+
+    .cta{
+      min-height:52px;
+      display:inline-flex;align-items:center;justify-content:center;
+      background:linear-gradient(110deg,var(--brand-purple),var(--brand-pink));
+      color:#fff;text-decoration:none;border-radius:15px;padding:14px 25px;
+      font-weight:750;box-shadow:0 9px 24px rgba(91,43,217,.24);
+      transition:transform .2s ease,box-shadow .2s ease,filter .2s ease;
+    }
+    .cta:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(91,43,217,.29);filter:saturate(1.06)}
+    .micro{margin-top:15px;font-size:.86rem;color:var(--muted)}
+
+    .stack{position:relative;height:410px;min-width:0;perspective:900px}
+    .photocard{
+      position:absolute;width:min(230px,59%);background:rgba(255,255,255,.92);
+      border:1px solid rgba(232,225,240,.95);border-radius:18px;padding:10px 10px 15px;
+      box-shadow:var(--shadow);backdrop-filter:blur(8px)
+    }
+    .photo{height:210px;border-radius:12px;position:relative;overflow:hidden}
+    .photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.12),transparent 38%,rgba(0,0,0,.06))}
+    .caption{font-family:"Caveat",cursive;font-size:1.3rem;line-height:1.18;margin:11px 5px 0}
+    .caption small{display:block;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:.73rem;line-height:1.45;color:var(--muted);margin-top:4px}
+    .pc1{left:0;top:56px;transform:rotate(-7deg);z-index:1}
+    .pc1 .photo{background:linear-gradient(155deg,var(--brand-cyan),#657bf5 55%,var(--brand-violet))}
+    .pc2{left:28%;top:0;transform:rotate(2deg);z-index:3}
+    .pc2 .photo{background:linear-gradient(145deg,var(--brand-violet),var(--brand-pink) 56%,var(--brand-orange))}
+    .pc3{right:0;top:84px;transform:rotate(7deg);z-index:2}
+    .pc3 .photo{background:linear-gradient(160deg,var(--brand-pink),var(--brand-orange) 57%,var(--brand-gold))}
+
+    .topic-strip{
+      border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+      padding:22px 0;background:linear-gradient(90deg,rgba(16,207,224,.055),rgba(101,80,245,.045) 35%,rgba(232,43,189,.045) 68%,rgba(255,106,69,.055)),rgba(255,255,255,.84);
+      backdrop-filter:blur(12px)
+    }
+    .topic-strip .wrap{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .topic-strip p{margin:0 12px 0 0;color:var(--muted);font-weight:650;font-size:.92rem}
+    .pill{font-family:"Young Serif",Georgia,serif;font-size:.9rem;background:rgba(255,255,255,.92);border:1px solid var(--rule);border-left:5px solid var(--brand-violet);border-radius:8px;padding:9px 13px;box-shadow:0 5px 14px rgba(73,49,108,.05)}
+    .pill:nth-child(3){border-left-color:var(--brand-cyan)} .pill:nth-child(4){border-left-color:var(--brand-pink)} .pill:nth-child(5){border-left-color:var(--brand-orange)}
+
+    article{padding:66px 0 18px}
+    .article-shell{max-width:860px;margin:0 auto}
+    .article-intro{
+      background:rgba(255,255,255,.82);border:1px solid var(--rule);border-radius:28px;
+      padding:clamp(28px,5vw,46px);box-shadow:var(--shadow-soft);
+      margin-bottom:34px
+    }
+
+    article section{
+      position:relative;
+      margin:0 0 24px;
+      padding:30px 34px 32px;
+      background:rgba(255,255,255,.88);
+      border:1px solid var(--rule);
+      border-radius:22px;
+      box-shadow:0 7px 22px rgba(73,49,108,.055);
+    }
+
+    article section:nth-of-type(4n+1){background:linear-gradient(145deg,rgba(241,237,255,.9),rgba(255,255,255,.96))}
+    article section:nth-of-type(4n+2){background:linear-gradient(145deg,rgba(236,252,255,.86),rgba(255,255,255,.96))}
+    article section:nth-of-type(4n+3){background:linear-gradient(145deg,rgba(255,240,250,.84),rgba(255,255,255,.96))}
+    article section:nth-of-type(4n){background:linear-gradient(145deg,rgba(255,244,238,.88),rgba(255,255,255,.96))}
+
+    h2{font-size:clamp(1.65rem,3vw,2.2rem);line-height:1.2;margin:0 0 14px;text-wrap:balance}
+    h3{font-size:1.08rem;margin:24px 0 5px}
+    p{margin:13px 0}
+    .article-intro p:first-of-type{font-size:1.06rem;color:#51495b}
+    .article-intro .hook{font-family:"Young Serif",Georgia,serif;font-size:1.35rem;line-height:1.45;color:#4b27af;margin-top:22px}
+
+    .band{
+      position:relative;overflow:hidden;background:#342056;color:#fff;text-align:center;
+      border-radius:28px;padding:clamp(46px,6vw,64px) clamp(24px,6vw,58px);
+      margin:60px auto 68px;box-shadow:var(--shadow);max-width:860px
+    }
+    .band::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 0 0,rgba(16,207,224,.30),transparent 40%),radial-gradient(circle at 100% 100%,rgba(255,106,69,.28),transparent 44%),radial-gradient(circle at 75% 10%,rgba(232,43,189,.24),transparent 36%)}
+    .band>*{position:relative;z-index:1}
+    .band h2{color:#fff;margin:0 auto 14px;max-width:18ch;font-size:clamp(1.9rem,4vw,2.6rem)}
+    .band p{color:#f1ecfa;max-width:58ch;margin:0 auto 24px}
+    .band .cta{background:#fff;color:#4b27af}
+
+    footer{border-top:1px solid var(--rule);padding:30px 0 max(58px,calc(28px + env(safe-area-inset-bottom)));font-size:.9rem;color:var(--muted)}
+    footer .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:10px 20px}
+    footer a{color:var(--muted);text-decoration:none}
+    footer a:hover{color:var(--brand-purple);text-decoration:underline}
+
+    @media(max-width:900px){
+      .hero{grid-template-columns:1fr;gap:32px;padding:42px 0 54px}
+      h1{max-width:14ch}
+      .stack{height:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;max-width:700px;margin:0 auto}
+      .photocard{position:relative;inset:auto;width:100%;padding:8px 8px 12px}
+      .photo{height:auto;aspect-ratio:4/3}
+      .pc1{transform:rotate(-2deg)} .pc2{transform:translateY(-8px) rotate(1deg)} .pc3{transform:rotate(2deg)}
+    }
+
+    @media(max-width:700px){
+      .wrap{width:min(100% - 34px,1040px)}
+      header{padding:15px 0 14px;gap:12px}
+      .brand{font-size:1.42rem}
+      .navlinks-group .navlink:not(.primary){display:none}
+      .navlink.primary{min-height:40px;padding:10px 14px;font-size:.86rem}
+      .hero{padding-top:28px}
+      h1{font-size:clamp(2.35rem,11vw,3.2rem)}
+      .cta{width:100%}
+      article{padding-top:46px}
+      article section{padding:26px 22px}
+      .article-intro{padding:30px 22px}
+      .topic-strip .wrap{align-items:stretch}
+      .topic-strip p{flex-basis:100%;margin:0 0 5px}
+      .pill{flex:1 1 calc(50% - 10px)}
+      .band{border-radius:22px;margin:48px 0 58px}
+      footer .wrap{justify-content:center;text-align:center}
+      footer .wrap span{flex-basis:100%}
+    }
+
+    @media(max-width:480px){
+      .wrap{width:min(100% - 28px,1040px)}
+      .stack{grid-template-columns:1fr;max-width:290px;gap:14px}
+      .pc1,.pc2,.pc3{transform:none}
+      .photo{aspect-ratio:16/10}
+      .pill{flex-basis:100%}
+    }
+
+    @media(prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <header>
+      <a class="brand" href="index.html">Still<span>keep</span></a>
+      <nav class="navlinks-group" aria-label="Primary navigation">
+        <a class="navlink" href="journal-app.html">Journal App</a>
+        <a class="navlink" href="memory-journal.html">Memory Journal</a>
+        <a class="navlink" href="resources.html">Resources</a>
+        <a class="navlink primary" href="https://apps.apple.com/app/id6761815032">Get App Free</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-label="Introduction">
+      <div>
+        <p class="eyebrow">Private Photo Journal &amp; Diary for iPhone</p>
+        <h1>Keep the Story with the Photo.</h1>
+        <p class="lede">
+          <strong>Stillkeep</strong> is a private journal app, diary app, photo journal and memory keeper for iPhone that keeps photos, writing and life memories together.
+        </p>
+        <a class="cta" href="https://apps.apple.com/app/id6761815032">Download Free on App&nbsp;Store</a>
+        <p class="micro">Free to start · Private iCloud sync · Zero ads in the app · iOS 17.6+</p>
+      </div>
+
+      <div class="stack" aria-hidden="true">
+        <div class="photocard pc1">
+          <div class="photo"></div>
+          <p class="caption">Travel memories<small>Photos · places · stories</small></p>
+        </div>
+        <div class="photocard pc2">
+          <div class="photo"></div>
+          <p class="caption">Family moments<small>People · milestones · life</small></p>
+        </div>
+        <div class="photocard pc3">
+          <div class="photo"></div>
+          <p class="caption">Daily reflections<small>Thoughts · context · meaning</small></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="topic-strip">
+    <div class="wrap">
+      <p>One journal, many chapters:</p>
+      <span class="pill">Travel &amp; adventures</span>
+      <span class="pill">Family &amp; baby</span>
+      <span class="pill">Relationships &amp; milestones</span>
+      <span class="pill">Daily life &amp; reflection</span>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <article>
+      <div class="article-shell">
+
+        <div class="article-intro">
+          <h2>Journal App &amp; Private Photo Diary for iPhone</h2>
+          <p>
+            Use Stillkeep as a personal journal, digital diary, daily journal, visual journal, photo diary, memory journal, travel journal, family journal, baby journal, relationship diary, gratitude journal, life journal, digital scrapbook or private place to record the stories behind your photographs.
+          </p>
+          <p class="hook">A camera roll remembers what something looked like. A journal remembers what it meant.</p>
+          <p>Stillkeep connects the two.</p>
+          <p>
+            Create Moments from photos and words. Organise Moments into Eras representing chapters of your life. Add context to important photographs, tag memories, search previous journal entries, rediscover forgotten Moments with Look Back and export memories you want to keep.
+          </p>
+          <p>Whether you want to write every day or only when something matters, Stillkeep gives your memories somewhere more meaningful than an endless camera roll.</p>
+        </div>
+
+        <section>
+          <h2>A Journal App for Photos, Writing and Memories</h2>
+          <p>A digital journal can record thoughts. A photo journal can preserve pictures. Stillkeep combines photographs and writing so a memory keeps both its image and its story.</p>
+          <p>Create a Moment for an ordinary morning, unforgettable night, favourite photograph, personal milestone, family celebration, difficult experience, funny conversation, new beginning or small detail you know you might otherwise forget.</p>
+          <p>Write a detailed diary entry, short journal note, personal reflection, memory caption or a few words explaining who was there, where you were, what happened, how you felt and why the photograph mattered.</p>
+          <p>This makes Stillkeep useful as a journal app with photos, diary app with pictures, photo diary with notes, journal for photos and writing, memory app with pictures, digital journal for memories, personal photo journal, visual diary app, photo memory keeper and app for writing stories beside photographs.</p>
+        </section>
+
+        <section>
+          <h2>A Private Diary for Everyday Life</h2>
+          <p>Not every journal entry needs to document something extraordinary.</p>
+          <p>Daily life is made from ordinary moments that become meaningful later: morning coffee, walks, dinners, pets, changing seasons, conversations, friends, family, work, hobbies, places and routines.</p>
+          <p>Use Stillkeep as a daily diary for everyday memories, a personal journal for thoughts and experiences, or an occasional diary for moments you want to preserve.</p>
+          <p>You can journal every day, every week, while travelling, after major events or only when something feels worth remembering.</p>
+          <p>A journal does not need a perfect routine to become valuable. It needs memories worth returning to.</p>
+        </section>
+
+        <section>
+          <h2>A Journal App Without the Pressure of Daily Journaling</h2>
+          <p>Some people love daily journaling. Others start a diary and stop because writing every day becomes another task.</p>
+          <p>Stillkeep works for both.</p>
+          <p>Write a long journal entry when you have something to say. Save a photo and one sentence when you do not. Record several Moments during a holiday and nothing the following week.</p>
+          <p>For beginners wondering how to start journaling, busy people looking for a quick journal app, photographers wanting context beside pictures, or experienced journal keepers moving from notebooks to a digital diary, Stillkeep keeps memory keeping flexible.</p>
+          <p>There is no minimum amount a memory needs to deserve keeping.</p>
+        </section>
+
+        <section>
+          <h2>Organise Your Life Into Journal Chapters</h2>
+          <p>Life is easier to remember as chapters.</p>
+          <p>School. University. A first job. A relationship. A new home. Becoming a parent. A year abroad. A friendship. A project. A difficult year. A wonderful summer.</p>
+          <p>Stillkeep calls these chapters Eras.</p>
+          <p>An Era groups related Moments so journal entries and photographs from the same period, experience or theme stay connected.</p>
+          <p>Create Eras around people, places, years, trips, relationships, families, hobbies, projects, goals, milestones or major changes.</p>
+          <p>Instead of one endless diary timeline, your journal becomes a collection of meaningful chapters.</p>
+        </section>
+
+        <section>
+          <h2>Travel Journal and Photo Travel Diary</h2>
+          <p>Use Stillkeep as a travel journal for holidays, vacations, road trips, city breaks, backpacking, weekends away, family trips, honeymoons, adventures or a year abroad.</p>
+          <p>Travel photographs show where you went. Writing preserves everything the photograph cannot: the restaurant you discovered, the stranger who helped you, the joke from the train, the terrible weather, the beautiful view, the food you tried and how arriving somewhere completely new felt.</p>
+          <p>Create an Era for each journey and add Moments throughout the trip.</p>
+          <p>Stillkeep can become a travel diary with photos, digital travel journal, holiday diary, vacation journal, trip journal, road-trip journal, adventure diary, travel memory app or private place to keep travel photos and stories together.</p>
+          <p>Years later, you can remember more than the destination. You can remember the experience.</p>
+        </section>
+
+        <section>
+          <h2>Family Journal and Family Memory Keeper</h2>
+          <p>Family photographs accumulate quickly.</p>
+          <p>Birthdays, holidays, Christmas mornings, school days, grandparents, Sunday lunches, celebrations, new homes, family trips and completely ordinary afternoons can disappear beneath thousands of newer photos.</p>
+          <p>A family journal preserves the story attached to those pictures.</p>
+          <p>Create Eras around family years, children, holidays, traditions, relatives or stages of family life. Record funny stories, meaningful conversations, milestones and little details nobody thinks they will forget.</p>
+          <p>Use Stillkeep as a private family diary, family photo journal, family memory app, digital family scrapbook, family history journal or personal archive for photographs and stories you want to keep.</p>
+        </section>
+
+        <section>
+          <h2>Baby Journal and Childhood Memory Diary</h2>
+          <p>The first years of a child's life contain countless changes.</p>
+          <p>Pregnancy. Birth. First smile. First tooth. First steps. First words. First birthday. First holiday. First day at nursery. First day at school.</p>
+          <p>A baby journal can record those milestones, but the moments between milestones may eventually matter just as much.</p>
+          <p>Save the sleepy photograph from an ordinary Tuesday. Write down a phrase your child keeps saying. Record a favourite toy, bedtime routine, funny habit or small family moment.</p>
+          <p>Stillkeep can become a baby diary with photos, pregnancy memory journal, first-year journal, parenting diary, childhood memory journal or digital baby scrapbook.</p>
+          <p>The photograph preserves how the moment looked. Your words preserve everything else.</p>
+        </section>
+
+        <section>
+          <h2>Relationship, Couples, Wedding and Anniversary Journal</h2>
+          <p>Relationships have chapters too.</p>
+          <p>First dates. Trips together. Favourite restaurants. Concerts. Moving in. Engagements. Weddings. Honeymoons. Anniversaries. Quiet evenings and ridiculous stories only two people understand.</p>
+          <p>Create an Era for a relationship and preserve Moments as the story develops.</p>
+          <p>Stillkeep can work as a relationship journal, couples diary, anniversary journal, engagement journal, wedding journal, honeymoon diary or private memory book for shared experiences.</p>
+          <p>Instead of keeping relationship memories scattered across messages and camera rolls, photographs and their stories can live together.</p>
+        </section>
+
+        <section>
+          <h2>University, School and Student Journal</h2>
+          <p>Student life changes quickly.</p>
+          <p>New friends, new places, nights out, lectures, societies, exams, graduation, moving away from home and experiences that feel ordinary while they are happening can become some of life's strongest memories.</p>
+          <p>Create a university Era and record the photographs, people, places and stories that define those years.</p>
+          <p>Use Stillkeep as a university journal, college diary, student memory journal, graduation journal, school-leaver diary or photo journal for documenting a chapter of growing up.</p>
+          <p>Years later, names and details fade. Writing them down gives photographs their context back.</p>
+        </section>
+
+        <section>
+          <h2>Career, Project and Achievement Journal</h2>
+          <p>A journal can document what you build as well as what you feel.</p>
+          <p>Record your first job, career change, promotion, business, creative project, renovation, qualification, training programme, competition, artistic work or long-term goal.</p>
+          <p>Photographs can show progress while journal entries preserve decisions, setbacks, breakthroughs and milestones.</p>
+          <p>Stillkeep can become a career journal, project diary, achievement journal, progress journal, creative journal or visual record of something that took months or years to accomplish.</p>
+          <p>Looking backward can reveal progress that was difficult to notice while living through it.</p>
+        </section>
+
+        <section>
+          <h2>Moving House and New-Chapter Journal</h2>
+          <p>Some periods of life are defined by transition.</p>
+          <p>Moving house. Moving city. Leaving home. Starting university. Changing careers. Becoming a parent. Beginning or ending a relationship. Recovering from a difficult year.</p>
+          <p>Create an Era around the transition and document the places, people, thoughts and Moments associated with it.</p>
+          <p>A journal of change becomes evidence of how much can happen between one version of life and another.</p>
+        </section>
+
+        <section>
+          <h2>Gratitude Journal and Reflection Diary</h2>
+          <p>Gratitude does not have to begin with a generic writing prompt. Sometimes it begins with something real.</p>
+          <p>A photograph of someone you love. A meal. A sunrise. A finished project. A quiet afternoon. A place you finally visited. A difficult day you got through.</p>
+          <p>Use photographs as starting points for gratitude journaling and personal reflection.</p>
+          <p>Write what you appreciated, what surprised you, what you learned, what changed, what made you happy or what you hope you never forget.</p>
+          <p>Stillkeep can therefore work as a gratitude journal with photos, reflection journal, visual gratitude diary, mindfulness journal or personal record of meaningful moments.</p>
+          <p>Over time, your journal becomes a map of what mattered to you.</p>
+        </section>
+
+        <section>
+          <h2>Journal for Memories and Life Events</h2>
+          <p>People often search for a journaling app when what they really want is a way to remember their life.</p>
+          <p>Stillkeep can document birthdays, anniversaries, weddings, graduations, holidays, friendships, relationships, births, new homes, career milestones, creative achievements, concerts, festivals, sporting events, family traditions and everyday experiences.</p>
+          <p>Use it to record life events, preserve personal memories, document milestones, save meaningful photos, write stories about pictures or build a personal history over time.</p>
+          <p>The category matters less than the purpose. Remembering.</p>
+        </section>
+
+        <section>
+          <h2>Add Notes and Stories to Photos</h2>
+          <p>A photograph without context can eventually become a mystery.</p>
+          <p>Where was this? Who was there? What were we doing? Why did I take this? Why did I keep it?</p>
+          <p>Writing beside photographs answers those questions while the answers are still easy to remember.</p>
+          <p>Stillkeep gives photos narrative context by keeping images and journal entries together.</p>
+          <p>That makes it useful for people looking for an app to add notes to photos, write memories beside pictures, save captions with personal photographs, document the story behind a photo or create a photo journal containing more than images.</p>
+        </section>
+
+        <section>
+          <h2>An Alternative to an Endless Camera Roll</h2>
+          <p>Modern phones make taking photographs effortless. Finding meaningful photographs years later is harder.</p>
+          <p>Camera rolls mix important memories with screenshots, receipts, duplicates, work images and thousands of everyday pictures.</p>
+          <p>Stillkeep does not need to replace your photo library. It can become the intentional layer above it.</p>
+          <p>Choose the photographs that deserve remembering. Add the story. Place them in the chapter where they belong.</p>
+          <p>Instead of keeping every photograph, keep the meaning behind the ones that matter.</p>
+        </section>
+
+        <section>
+          <h2>An Alternative to a Paper Diary</h2>
+          <p>Paper diaries are personal, tactile and wonderfully simple.</p>
+          <p>They are also difficult to search, cannot naturally contain your iPhone photographs and may spread one life across years of separate notebooks.</p>
+          <p>A digital journal makes memories searchable and visual while keeping the central purpose of traditional journaling: recording experiences you want to remember.</p>
+          <p>For someone moving from notebook journaling to digital journaling, Stillkeep offers a photo-first alternative to a traditional diary, paper journal, scrapbook or handwritten memory book.</p>
+          <p>You still write your story. The difference is that the photographs can live beside it.</p>
+        </section>
+
+        <section>
+          <h2>Search Old Journal Entries and Memories</h2>
+          <p>A journal becomes more valuable when you can find what you previously saved.</p>
+          <p>Stillkeep lets you search your journal and use tags to organise Moments around people, places, events and themes.</p>
+          <p>Search for an old memory. Find entries connected to someone important. Revisit a trip. Explore Moments around a recurring theme.</p>
+          <p>Instead of creating a digital archive that becomes harder to navigate every year, organization helps your journal remain useful as it grows.</p>
+        </section>
+
+        <section>
+          <h2>Tags for People, Places, Events and Themes</h2>
+          <p>Memories overlap.</p>
+          <p>A photograph might belong simultaneously to a friendship, city, holiday and period of your life.</p>
+          <p>Tags give those connections another layer of organization.</p>
+          <p>Tag journal entries around people, places, events, interests or themes while Eras preserve the broader chapter.</p>
+          <p>That creates multiple paths back to the same memory.</p>
+        </section>
+
+        <section>
+          <h2>Rediscover Forgotten Memories With Look Back</h2>
+          <p>Saving a memory is only half the experience. The other half is rediscovering it.</p>
+          <p>Stillkeep's Look Back feature resurfaces previous Moments, allowing photographs and journal entries from the past to return unexpectedly.</p>
+          <p>A forgotten afternoon, old friendship, previous home, favourite trip or ordinary family photograph can suddenly matter again.</p>
+          <p>For people looking for an app that resurfaces memories, helps rediscover old photos or makes previous journal entries worth revisiting, a journal becomes more useful when it brings the past back to you.</p>
+        </section>
+
+        <section>
+          <h2>A Personal Memory Archive</h2>
+          <p>Over years, individual journal entries become something larger.</p>
+          <p>A record of places you lived. People you loved. Things you built. Journeys you took. Versions of yourself you almost forgot.</p>
+          <p>Stillkeep can grow from a simple photo diary into a personal memory archive, digital life story, visual autobiography, private life log or collection of personal history.</p>
+          <p>You do not have to decide today which Moments will matter decades from now. You only need to preserve enough context for your future self to understand them.</p>
+        </section>
+
+        <section>
+          <h2>A Private Journal App for iPhone</h2>
+          <p>A diary can contain intensely personal information.</p>
+          <p>Stillkeep is designed for private journaling on iPhone using Apple's ecosystem and private iCloud sync. Stillkeep's published privacy architecture states that it contains no third-party analytics SDKs, third-party advertising SDKs or cross-app tracking.</p>
+          <p>For someone searching for a private journal app for iPhone, private diary app, private photo journal, personal iCloud journal, journal without advertising or diary that does not feel like social media, privacy is not a secondary feature.</p>
+          <p>It is part of what makes personal journaling personal.</p>
+        </section>
+
+        <section>
+          <h2>Journal Across Apple Devices</h2>
+          <p>Memories should not depend on one physical phone surviving forever.</p>
+          <p>Stillkeep uses iCloud so your journal can remain connected within your Apple ecosystem.</p>
+          <p>For people looking for an iPhone journal with iCloud, photo diary with cloud sync or personal journal that fits naturally alongside Apple devices, the journal remains part of an ecosystem they already use.</p>
+        </section>
+
+        <section>
+          <h2>Export a Journal as a PDF</h2>
+          <p>Digital memories can become portable keepsakes.</p>
+          <p>Stillkeep allows complete Eras to be exported as formatted PDFs and individual Moments as Photocards.</p>
+          <p>A travel journal can become a record of a journey. A baby Era can become a childhood keepsake. A relationship chapter can preserve years of shared memories. A university Era can capture a period of life long after graduation.</p>
+          <p>PDF export gives your journal a life beyond the everyday app interface.</p>
+        </section>
+
+        <section>
+          <h2>What Is a Photo Journal App?</h2>
+          <p>A photo journal app combines photographs with written context.</p>
+          <p>Unlike a conventional photo gallery, a photo journal records not only what an image contains but what happened around it, why it mattered and what you want to remember.</p>
+          <p>Stillkeep calls these combinations Moments.</p>
+        </section>
+
+        <section>
+          <h2>What Is the Difference Between a Diary and a Journal?</h2>
+          <p>People use the words differently, and there is no rule requiring you to choose one.</p>
+          <p>A diary often records events and experiences over time. A journal may include reflection, thoughts, memories and personal writing.</p>
+          <p>Stillkeep can function as either.</p>
+          <p>Write what happened. Write what it meant. Or simply save the photograph and enough words to remember.</p>
+        </section>
+
+        <section>
+          <h2>How Do I Keep a Diary With Photos?</h2>
+          <p>Choose photographs that represent moments you want to preserve and add written context while the details are still fresh.</p>
+          <p>You might record the place, people, event, feeling or story behind each image.</p>
+          <p>In Stillkeep, a photo and its writing become a Moment, while related Moments can be grouped into an Era.</p>
+        </section>
+
+        <section>
+          <h2>How Can I Save the Story Behind My Photos?</h2>
+          <p>Write the context beside the photograph instead of relying on your future memory.</p>
+          <p>Names, places, conversations, emotions and tiny details can disappear even when the photograph survives.</p>
+          <p>A photo journal preserves both.</p>
+        </section>
+
+        <section>
+          <h2>How Can I Organise My Life Memories?</h2>
+          <p>Organize memories around meaningful chapters rather than treating every photograph as an isolated file.</p>
+          <p>Trips, relationships, university years, family periods, projects and major transitions can become Eras. Individual experiences become Moments. Tags create additional connections around people, places and themes.</p>
+        </section>
+
+        <section>
+          <h2>What App Can I Use to Record My Life?</h2>
+          <p>A life-recording app can take many forms: journal, diary, photo journal, memory keeper, scrapbook or life log.</p>
+          <p>If your priority is keeping photographs and their stories together, Stillkeep is designed around exactly that relationship.</p>
+        </section>
+
+        <section>
+          <h2>How Do I Start Journaling If I Hate Writing?</h2>
+          <p>Start smaller.</p>
+          <p>Choose one photograph. Write one sentence explaining why you kept it.</p>
+          <p>You do not need pages of introspection or a perfect daily journaling habit.</p>
+          <p>One photograph plus one meaningful sentence is already a record your future self would not otherwise have.</p>
+        </section>
+
+        <section>
+          <h2>Do I Need to Journal Every Day?</h2>
+          <p>No.</p>
+          <p>Daily journaling works for some people, but memories do not occur according to a writing schedule.</p>
+          <p>Journal daily, weekly, occasionally, while travelling or whenever something deserves preserving.</p>
+          <p>Consistency can be useful. Meaning matters more.</p>
+        </section>
+
+        <section>
+          <h2>How Do I Remember More of My Life?</h2>
+          <p>Photographs preserve visual information, but adding written context preserves details images cannot capture.</p>
+          <p>Record names, places, stories, feelings and circumstances while they are still available to you.</p>
+          <p>Organising those memories and revisiting them later can turn disconnected photographs into a richer personal record.</p>
+        </section>
+
+        <section>
+          <h2>How Can I Stop Important Photos Getting Lost in My Camera Roll?</h2>
+          <p>Do not try to organize every photograph equally.</p>
+          <p>Choose the images carrying meaningful memories and preserve those separately with their context.</p>
+          <p>A photo journal creates a curated memory layer above the camera roll: fewer photographs, more meaning.</p>
+        </section>
+
+        <section>
+          <h2>What Can I Write in a Personal Journal?</h2>
+          <p>Write about daily life, relationships, family, travel, gratitude, goals, milestones, memories, difficult experiences, achievements, observations, conversations, places or ordinary moments.</p>
+          <p>Write what happened. Write what changed. Write what you noticed. Write what you felt. Write what you want to remember.</p>
+        </section>
+
+        <section>
+          <h2>Who Is Stillkeep For?</h2>
+          <p>Stillkeep is for diary writers and people who have never kept a diary.</p>
+          <p>It is for travellers, parents, couples, students, families, photographers, memory keepers, reflective writers and busy people who want to preserve meaningful experiences without turning journaling into another obligation.</p>
+          <p>It is for anyone who has looked at an old photograph and wished they could remember more.</p>
+        </section>
+
+        <section>
+          <h2>One App, Many Kinds of Journal</h2>
+          <p>Your journal does not need to fit one category forever.</p>
+          <p>It can be a daily journal on Monday, travel diary during a holiday, gratitude journal after a good day, family journal at Christmas, relationship journal on an anniversary, baby journal after a milestone and memory archive years later.</p>
+          <p>The same Moment can be personal, photographic, reflective and historical.</p>
+          <p>The same life can contain hundreds of chapters.</p>
+          <p>Stillkeep gives those chapters somewhere to live.</p>
+        </section>
+
+        <section>
+          <h2>Keep the Story With the Photo</h2>
+          <p>Photos preserve faces, places and moments.</p>
+          <p>Words preserve context, emotion and meaning.</p>
+          <p>Stillkeep brings them together.</p>
+          <p>Use Stillkeep as your private journal app, personal diary, photo journal, memory journal, travel diary, family memory keeper, baby journal, relationship journal, gratitude diary, visual journal, digital scrapbook or life archive.</p>
+          <p>Record daily life. Document important events. Save meaningful photos. Write the stories behind them. Organise memories into chapters. Find them again. Rediscover moments you forgot. Preserve the parts of life you want your future self to remember.</p>
+          <p><strong>Stillkeep — keep the story with the photo.</strong></p>
+        </section>
+
+      </div>
+    </article>
+
+    <div class="band">
+      <h2>Turn your photo library into an intentional memory journal.</h2>
+      <p>Download Stillkeep free on iPhone and start keeping the story with the photo.</p>
+      <a class="cta" href="https://apps.apple.com/app/id6761815032">Download Stillkeep Free</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 Stillkeep</span>
+      <a href="index.html">Home</a>
+      <a href="journal-app.html">Journal App</a>
+      <a href="memory-journal.html">Memory Journal</a>
+      <a href="manifestation-journal.html">Manifestation Journal</a>
+      <a href="resources.html">Resources</a>
+      <a href="free-journal-app.html">Free Journal App</a>
+      <a href="free-diary-app.html">Free Diary App</a>
+      <a href="free-gratitude-journal-app.html">Free Gratitude Journal App</a>
+      <a href="https://apps.apple.com/app/id6761815032">App Store</a>
+      <a href="https://jhr1986.github.io/stillkeep-legal/privacy.html">Privacy</a>
+      <a href="https://jhr1986.github.io/stillkeep-legal/terms.html">Terms</a>
+    </div>
+  </footer>
+</body>
+</html>

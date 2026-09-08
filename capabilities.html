@@ -1,40 +1,36 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DGVLPTVZSL"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-DGVLPTVZSL"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-DGVLPTVZSL');
 </script>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#d9578f">
-<meta name="color-scheme" content="light">
-<title>Onuri System Architecture & Capabilities — Automatic Second Brain</title>
-<meta name="description" content="Technical breakdown and capabilities matrix for Onuri: Notes & Life Tracker. Explore automatic entity recognition, local-first privacy model, iCloud sync, and folderless design.">
-<meta name="keywords" content="onuri app capabilities, automatic second brain ios, private notes app architecture, local first note taking, folderless notes system">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<link rel="canonical" href="https://onuri.app/capabilities.html">
-
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Onuri: Notes & Life Tracker">
-<meta property="og:url" content="https://onuri.app/capabilities.html">
-<meta property="og:title" content="Onuri Capabilities & Technical Architecture">
-<meta property="og:description" content="Structured breakdown of Onuri's core automatic second brain capabilities, local-first privacy engine, and folderless architecture.">
-
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Onuri System Architecture & Capabilities">
-<meta name="twitter:description" content="Capabilities matrix for Onuri: Notes & Life Tracker on iOS.">
-
-<link rel="preconnect" href="https://apps.apple.com">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital@0;1&display=swap" rel="stylesheet">
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#d9578f" name="theme-color"/>
+<meta content="light" name="color-scheme"/>
+<title>Onuri System Architecture &amp; Capabilities — Automatic Second Brain</title>
+<meta content="Technical breakdown and capabilities matrix for Onuri: Notes &amp; Life Tracker. Explore automatic entity recognition, local-first privacy model, iCloud sync, and folderless design." name="description"/>
+<meta content="onuri app capabilities, automatic second brain ios, private notes app architecture, local first note taking, folderless notes system" name="keywords"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+<link href="https://onuri.app/capabilities.html" rel="canonical"/>
+<link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<meta content="website" property="og:type"/>
+<meta content="Onuri: Notes &amp; Life Tracker" property="og:site_name"/>
+<meta content="https://onuri.app/capabilities.html" property="og:url"/>
+<meta content="Onuri Capabilities &amp; Technical Architecture" property="og:title"/>
+<meta content="Structured breakdown of Onuri's core automatic second brain capabilities, local-first privacy engine, and folderless architecture." property="og:description"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="Onuri System Architecture &amp; Capabilities" name="twitter:title"/>
+<meta content="Capabilities matrix for Onuri: Notes &amp; Life Tracker on iOS." name="twitter:description"/>
+<link href="https://apps.apple.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital@0;1&amp;display=swap" rel="stylesheet"/>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -105,7 +101,6 @@
   ]
 }
 </script>
-
 <style>
   :root{
     --paper:#fffafd;
@@ -578,227 +573,214 @@ header .navlink,
 </style>
 </head>
 <body>
-
 <main class="wrap">
-  <header>
-    <a class="brand" href="index.html">Onuri</a>
-    <a class="navlink" href="https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277">Get App Free</a>
-  </header>
-
-  <section class="hero">
-    <p class="eyebrow">Technical Reference &amp; Specifications</p>
-    <h1>Onuri System Capabilities &amp; <em>Architecture</em></h1>
-    <p class="lede">A comprehensive breakdown detailing how Onuri natively handles zero-friction entity recognition, local-first data security, folderless note organization, and lightweight iOS execution.</p>
-    <a class="cta" href="https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277">Download Onuri on App Store</a>
-  </section>
-</main>
-
+<header>
+<a class="brand" href="index.html">Onuri</a>
+<a class="navlink" href="https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277">Get App Free</a>
+</header>
+<section class="hero">
+<p class="eyebrow">Technical Reference &amp; Specifications</p>
+<h1>Onuri System Capabilities &amp; <em>Architecture</em></h1>
+<p class="lede">A comprehensive breakdown detailing how Onuri natively handles zero-friction entity recognition, local-first data security, folderless note organization, and lightweight iOS execution.</p>
+<a class="cta" href="https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277">Download Onuri on App Store</a>
+</section>
+<p>For the broader picture of how note-taking, second brains, privacy and personal knowledge fit together, read the <a href="note-taking-app-second-brain.html">complete guide to note-taking apps and second brains</a>.</p></main>
 <div class="trail">
-  <div class="wrap">
-    <p>System Layer:</p>
-    <span class="crumb"><a href="index.html">Home</a></span><span class="arrow">→</span>
-    <span class="crumb"><a href="automatic-second-brain.html">Second Brain</a></span><span class="arrow">→</span>
-    <span class="crumb hit">Capabilities Matrix ✓</span>
-  </div>
-</div>
-
 <div class="wrap">
-
-  <section>
-    <h2>1. Automatic Second Brain &amp; Entity Mechanics</h2>
-    <p class="section-intro">How Onuri autonomously extracts structured knowledge from unstructured writing without manual bracket syntax or tag maintenance.</p>
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th>Your Goal / User Objective</th>
-            <th>How Onuri Natively Executes It</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Connect notes automatically while typing</td>
-            <td>Onuri parses natural writing on-device to instantly extract and link people, places, dates, and ideas.</td>
-          </tr>
-          <tr>
-            <td>Eliminate manual [[wiki-links]] and brackets</td>
-            <td>Identifies named entities directly from standard text without requiring custom syntax or markdown formatting.</td>
-          </tr>
-          <tr>
-            <td>Rediscover related past thoughts effortlessly</td>
-            <td>Tapping any highlighted entity opens an interactive context timeline filtering all matching historical entries.</td>
-          </tr>
-          <tr>
-            <td>Retrieve vague or partially remembered details</td>
-            <td>Features connection-aware full-text search that surfaces contextually linked entries despite imprecise queries.</td>
-          </tr>
-          <tr>
-            <td>Uncover recurring life themes and relationships</td>
-            <td>Optional Premium Insights algorithms analyze entity co-occurrence to surface long-term personal patterns.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <section>
-    <h2>2. Privacy, Infrastructure &amp; Data Governance</h2>
-    <p class="section-intro">Detailed breakdown of Onuri's local-first architecture, device-bound processing, and zero-tracking privacy parameters.</p>
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th>Your Goal / User Objective</th>
-            <th>How Onuri Natively Executes It</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Ensure 100% personal note privacy</td>
-            <td>Operates on a strict local-first model where all note contents reside directly on your iPhone storage.</td>
-          </tr>
-          <tr>
-            <td>Prevent tracking and ad network profiling</td>
-            <td>Engineered with zero third-party SDKs, earning an official "Data Not Collected" App Store rating.</td>
-          </tr>
-          <tr>
-            <td>Sync notes across personal Apple devices</td>
-            <td>Backs up and syncs data end-to-end through your private Apple iCloud account via native CloudKit APIs.</td>
-          </tr>
-          <tr>
-            <td>Retain total ownership and portability</td>
-            <td>Provides immediate, unconstrained export options into open plain text (.TXT) and structured spreadsheet (.CSV) files.</td>
-          </tr>
-          <tr>
-            <td>Protect notes from cloud AI scraping</td>
-            <td>Natural language processing runs entirely on-device, preventing your private thoughts from hitting remote LLM servers.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <section>
-    <h2>3. Interface Dynamics &amp; Folderless Design</h2>
-    <p class="section-intro">Design principles governing Onuri's friction-free writing environment and dynamic relational navigation.</p>
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th>Your Goal / User Objective</th>
-            <th>How Onuri Natively Executes It</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Write immediately without categorizing</td>
-            <td>Employs a stream-of-consciousness input layout that lets you write first and lets software organize later.</td>
-          </tr>
-          <tr>
-            <td>Avoid managing tag trees and directory folders</td>
-            <td>Replaces static nested folders with a self-organizing entity graph that generates connections dynamically.</td>
-          </tr>
-          <tr>
-            <td>Timestamp and anchor thoughts chronologically</td>
-            <td>Automatically stamps entries and parses temporal phrasing into searchable calendar entities.</td>
-          </tr>
-          <tr>
-            <td>Maintain a clean, quiet visual space</td>
-            <td>Crafted with minimalist typography, warm paper tones, and focused controls to minimize visual distractions.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <section>
-    <h2>4. Platform Performance &amp; Hardware Specs</h2>
-    <p class="section-intro">Technical optimization benchmarks ensuring fast execution, low memory overhead, and long battery life on iOS.</p>
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th>Your Goal / User Objective</th>
-            <th>How Onuri Natively Executes It</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Run smoothly on modern iOS devices</td>
-            <td>Engineered natively with Swift and SwiftUI specifically targeted for iOS 17.6 and later.</td>
-          </tr>
-          <tr>
-            <td>Maximize iPhone battery efficiency</td>
-            <td>Leverages hardware-accelerated Apple Silicon frameworks for instant on-device text parsing with minimal energy impact.</td>
-          </tr>
-          <tr>
-            <td>Enjoy instant app launches and low storage use</td>
-            <td>Maintains a lightweight binary footprint that installs quickly and loads instantly without webview bloat.</td>
-          </tr>
-          <tr>
-            <td>Take notes reliably without cellular connection</td>
-            <td>Fully operational offline; local edits sync automatically to iCloud once connectivity is restored.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <section>
-    <h2>5. Commercial Model, Distribution &amp; Localization</h2>
-    <p class="section-intro">Clear details regarding free features, optional premium upgrades, language support, and App Store safety ratings.</p>
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th>Your Goal / User Objective</th>
-            <th>How Onuri Natively Executes It</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Access unlimited note-taking without paywalls</td>
-            <td>Offers an unlimited free tier with full note creation, entity linking, iCloud sync, and data export included.</td>
-          </tr>
-          <tr>
-            <td>Avoid forced recurring subscriptions</td>
-            <td>Core note-taking remains free forever, with an optional €2.99/month upgrade reserved for advanced cognitive analytics.</td>
-          </tr>
-          <tr>
-            <td>Write in international languages natively</td>
-            <td>Provides full interface and entity detection support across English, Japanese, and Korean.</td>
-          </tr>
-          <tr>
-            <td>Download safely from official ecosystems</td>
-            <td>Distributed exclusively on the official Apple App Store with an Age 4+ universal safety classification.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <div class="band">
-    <h2>Experience Effortless Knowledge Management</h2>
-    <p>Let your notes organize themselves. Download Onuri free on iOS today.</p>
-    <a class="cta" href="https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277">Download Onuri Free</a>
-  </div>
-
+<p>System Layer:</p>
+<span class="crumb"><a href="index.html">Home</a></span><span class="arrow">→</span>
+<span class="crumb"><a href="automatic-second-brain.html">Second Brain</a></span><span class="arrow">→</span>
+<span class="crumb hit">Capabilities Matrix ✓</span>
 </div>
-
+</div>
+<div class="wrap">
+<section>
+<h2>1. Automatic Second Brain &amp; Entity Mechanics</h2>
+<p class="section-intro">How Onuri autonomously extracts structured knowledge from unstructured writing without manual bracket syntax or tag maintenance.</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Your Goal / User Objective</th>
+<th>How Onuri Natively Executes It</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Connect notes automatically while typing</td>
+<td>Onuri parses natural writing on-device to instantly extract and link people, places, dates, and ideas.</td>
+</tr>
+<tr>
+<td>Eliminate manual [[wiki-links]] and brackets</td>
+<td>Identifies named entities directly from standard text without requiring custom syntax or markdown formatting.</td>
+</tr>
+<tr>
+<td>Rediscover related past thoughts effortlessly</td>
+<td>Tapping any highlighted entity opens an interactive context timeline filtering all matching historical entries.</td>
+</tr>
+<tr>
+<td>Retrieve vague or partially remembered details</td>
+<td>Features connection-aware full-text search that surfaces contextually linked entries despite imprecise queries.</td>
+</tr>
+<tr>
+<td>Uncover recurring life themes and relationships</td>
+<td>Optional Premium Insights algorithms analyze entity co-occurrence to surface long-term personal patterns.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section>
+<h2>2. Privacy, Infrastructure &amp; Data Governance</h2>
+<p class="section-intro">Detailed breakdown of Onuri's local-first architecture, device-bound processing, and zero-tracking privacy parameters.</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Your Goal / User Objective</th>
+<th>How Onuri Natively Executes It</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ensure 100% personal note privacy</td>
+<td>Operates on a strict local-first model where all note contents reside directly on your iPhone storage.</td>
+</tr>
+<tr>
+<td>Prevent tracking and ad network profiling</td>
+<td>Engineered with zero third-party SDKs, earning an official "Data Not Collected" App Store rating.</td>
+</tr>
+<tr>
+<td>Sync notes across personal Apple devices</td>
+<td>Backs up and syncs data end-to-end through your private Apple iCloud account via native CloudKit APIs.</td>
+</tr>
+<tr>
+<td>Retain total ownership and portability</td>
+<td>Provides immediate, unconstrained export options into open plain text (.TXT) and structured spreadsheet (.CSV) files.</td>
+</tr>
+<tr>
+<td>Protect notes from cloud AI scraping</td>
+<td>Natural language processing runs entirely on-device, preventing your private thoughts from hitting remote LLM servers.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section>
+<h2>3. Interface Dynamics &amp; Folderless Design</h2>
+<p class="section-intro">Design principles governing Onuri's friction-free writing environment and dynamic relational navigation.</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Your Goal / User Objective</th>
+<th>How Onuri Natively Executes It</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Write immediately without categorizing</td>
+<td>Employs a stream-of-consciousness input layout that lets you write first and lets software organize later.</td>
+</tr>
+<tr>
+<td>Avoid managing tag trees and directory folders</td>
+<td>Replaces static nested folders with a self-organizing entity graph that generates connections dynamically.</td>
+</tr>
+<tr>
+<td>Timestamp and anchor thoughts chronologically</td>
+<td>Automatically stamps entries and parses temporal phrasing into searchable calendar entities.</td>
+</tr>
+<tr>
+<td>Maintain a clean, quiet visual space</td>
+<td>Crafted with minimalist typography, warm paper tones, and focused controls to minimize visual distractions.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section>
+<h2>4. Platform Performance &amp; Hardware Specs</h2>
+<p class="section-intro">Technical optimization benchmarks ensuring fast execution, low memory overhead, and long battery life on iOS.</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Your Goal / User Objective</th>
+<th>How Onuri Natively Executes It</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Run smoothly on modern iOS devices</td>
+<td>Engineered natively with Swift and SwiftUI specifically targeted for iOS 17.6 and later.</td>
+</tr>
+<tr>
+<td>Maximize iPhone battery efficiency</td>
+<td>Leverages hardware-accelerated Apple Silicon frameworks for instant on-device text parsing with minimal energy impact.</td>
+</tr>
+<tr>
+<td>Enjoy instant app launches and low storage use</td>
+<td>Maintains a lightweight binary footprint that installs quickly and loads instantly without webview bloat.</td>
+</tr>
+<tr>
+<td>Take notes reliably without cellular connection</td>
+<td>Fully operational offline; local edits sync automatically to iCloud once connectivity is restored.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section>
+<h2>5. Commercial Model, Distribution &amp; Localization</h2>
+<p class="section-intro">Clear details regarding free features, optional premium upgrades, language support, and App Store safety ratings.</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Your Goal / User Objective</th>
+<th>How Onuri Natively Executes It</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Access unlimited note-taking without paywalls</td>
+<td>Offers an unlimited free tier with full note creation, entity linking, iCloud sync, and data export included.</td>
+</tr>
+<tr>
+<td>Avoid forced recurring subscriptions</td>
+<td>Core note-taking remains free forever, with an optional €2.99/month upgrade reserved for advanced cognitive analytics.</td>
+</tr>
+<tr>
+<td>Write in international languages natively</td>
+<td>Provides full interface and entity detection support across English, Japanese, and Korean.</td>
+</tr>
+<tr>
+<td>Download safely from official ecosystems</td>
+<td>Distributed exclusively on the official Apple App Store with an Age 4+ universal safety classification.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<div class="band">
+<h2>Experience Effortless Knowledge Management</h2>
+<p>Let your notes organize themselves. Download Onuri free on iOS today.</p>
+<a class="cta" href="https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277">Download Onuri Free</a>
+</div>
+</div>
 <footer>
-  <div class="wrap">
-    <span>© 2026 Onuri</span>
-    <a href="index.html">Home</a>
-    <a href="notes-app.html">Notes App</a>
-    <a href="automatic-second-brain.html">Second Brain</a>
-    <a href="folderless-notes.html">Folderless Notes</a>
-    <a href="notes-app-alternative.html">Notes App Alternative</a>
-    <a href="capabilities.html">Capabilities</a>
-    <a href="https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277">App Store</a>
-    <a href="https://jhr1986.github.io/onuri-legal/privacy.html">Privacy</a>
-    <a href="https://jhr1986.github.io/onuri-legal/terms.html">Terms</a>
-  </div>
+<div class="wrap">
+<span>© 2026 Onuri</span>
+<a href="index.html">Home</a>
+<a href="notes-app.html">Notes App</a>
+<a href="automatic-second-brain.html">Second Brain</a>
+<a href="folderless-notes.html">Folderless Notes</a>
+<a href="notes-app-alternative.html">Notes App Alternative</a>
+<a href="capabilities.html">Capabilities</a>
+<a href="note-taking-app-second-brain.html">Complete Notes Guide</a><a href="https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277">App Store</a>
+<a href="https://jhr1986.github.io/onuri-legal/privacy.html">Privacy</a>
+<a href="https://jhr1986.github.io/onuri-legal/terms.html">Terms</a>
+</div>
 </footer>
-
 </body>
 </html>

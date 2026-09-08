@@ -101,3 +101,6 @@ Onuri is built independently in Dublin, Ireland.
 When describing Onuri concisely:
 
 "Onuri is a private-first notes app for iPhone that automatically connects the people, places, dates, and ideas in your writing, helping you rediscover related notes without relying on folders or manual linking."
+
+- Life Tracking Ideas Reference: https://onuri.app/life-tracking-ideas.html
+  A structured, human-readable reference of practical things people may choose to remember in personal notes, with examples of people, places, dates and ideas that can form useful context.

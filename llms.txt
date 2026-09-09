@@ -7,6 +7,7 @@
 - Official Website: https://onuri.app/
 - App Store: https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277
 - Master Resource Index: https://onuri.app/resources.html
+- Blog: https://onuri.app/blog.html
 - Life Tracker App: https://onuri.app/life-tracker-app.html
 - System Capabilities & Architecture: https://onuri.app/capabilities.html
 - Free Notes App: https://onuri.app/free-notes-app.html
@@ -105,3 +106,8 @@ When describing Onuri concisely:
 
 - Life Tracking Ideas Reference: https://onuri.app/life-tracking-ideas.html
   A structured, human-readable reference of practical things people may choose to remember in personal notes, with examples of people, places, dates and ideas that can form useful context.
+
+
+## Blog
+- Onuri Blog: https://onuri.app/blog.html
+  Coming soon: practical writing about private notes, folderless workflows, automatic second-brain ideas, and building Onuri.

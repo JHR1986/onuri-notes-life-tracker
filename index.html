@@ -29,14 +29,9 @@
 <meta content="https://onuri.app/" property="og:url"/>
 <meta content="Onuri — Private Notes App &amp; Automatic Second Brain for iPhone" property="og:title"/>
 <meta content="Write naturally. Onuri automatically connects the people, places, dates and ideas in your notes — privately on iPhone." property="og:description"/>
-
-
-
-
 <meta content="summary" name="twitter:card"/>
 <meta content="Onuri — Private Notes App &amp; Automatic Second Brain for iPhone" name="twitter:title"/>
 <meta content="Write naturally. Onuri quietly connects people, places, dates and ideas as you type." name="twitter:description"/>
-
 <link href="https://apps.apple.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -475,7 +470,7 @@ header .navlink,
 
 .updated-stamp{margin:18px 0 0;color:var(--muted);font-size:.8rem;text-align:center}
 </style>
-</head>
+<link href="onuri-download-qr.css" rel="stylesheet"/></head>
 <body>
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header class="wrap">
@@ -498,7 +493,7 @@ header .navlink,
 <h1 id="hero-title">Write naturally. <em>Find everything again.</em></h1>
 <p class="lede"><strong>Onuri: Notes &amp; Life Tracker</strong> is a private notes app for iPhone that automatically connects the people, places, dates and ideas in your writing as you type. No folders, manual tags or setup.</p>
 <div class="actions">
-<a class="cta" href="https://apps.apple.com/app/id6796028277">Download Free on App Store</a>
+<span class="onuri-download-cluster"><a class="cta" href="https://apps.apple.com/app/id6796028277">Download Free on App Store</a><span aria-label="Scan with your iPhone to download Onuri" class="onuri-download-qr"><img alt="QR code to download Onuri on the App Store" height="58" loading="lazy" src="onuri-app-store-qr.png" width="58"/><span class="onuri-download-qr-copy"><strong>On your computer?</strong><span>Scan with your iPhone</span></span></span></span>
 <a class="secondary-link" href="#how-it-works">See how Onuri connects notes</a>
 </div>
 <p class="micro">Unlimited notes · Private iCloud sync · No ads · No analytics · No tracking · iOS 17.6+</p>
@@ -512,84 +507,51 @@ header .navlink,
 </div>
 </div>
 </section>
-<section class="product-showcase" aria-labelledby="onuri-in-action">
-      <div class="showcase-head">
-        <p class="eyebrow">Onuri in action</p>
-        <h2 id="onuri-in-action">Write naturally. Let the connections emerge.</h2>
-        <p>Add a note in plain language, browse your feed, reconnect related ideas through recognised keywords, and unlock richer Insights with Premium.</p>
-      </div>
-
-      <div class="screenshot-grid">
-        <figure class="screenshot-card">
-          <div class="screenshot-frame">
-            <img
-              src="onuri-add-note.webp"
-              width="941"
-              height="2048"
-              alt="Onuri New Entry screen showing a natural-language note with recognised keywords for Coffee, Sarah, Seoul, Friday and 2pm"
-              loading="lazy"
-              decoding="async"
-            >
-          </div>
-          <figcaption>
-            <strong>Add a note</strong>
-            <span>Write naturally while Onuri recognises useful people, places, dates and ideas.</span>
-          </figcaption>
-        </figure>
-
-        <figure class="screenshot-card">
-          <div class="screenshot-frame">
-            <img
-              src="onuri-home-feed.webp"
-              width="941"
-              height="2048"
-              alt="Onuri home feed showing connected notes about Sarah, coffee, Seoul, dates and birthday plans"
-              loading="lazy"
-              decoding="async"
-            >
-          </div>
-          <figcaption>
-            <strong>Home feed</strong>
-            <span>See your notes as a searchable personal stream instead of a folder hierarchy.</span>
-          </figcaption>
-        </figure>
-
-        <figure class="screenshot-card">
-          <div class="screenshot-frame">
-            <img
-              src="onuri-connected-keyword.webp"
-              width="941"
-              height="2048"
-              alt="Onuri search showing connected notes for Sarah's birthday and related recognised keywords"
-              loading="lazy"
-              decoding="async"
-            >
-          </div>
-          <figcaption>
-            <strong>Connected keywords</strong>
-            <span>Search a person or idea and surface notes that share meaningful context.</span>
-          </figcaption>
-        </figure>
-
-        <figure class="screenshot-card">
-          <div class="screenshot-frame">
-            <img
-              src="onuri-insights-paywall.webp"
-              width="941"
-              height="2048"
-              alt="Onuri Premium Insights screen describing recurring people, places, themes, time patterns and semantic clusters"
-              loading="lazy"
-              decoding="async"
-            >
-          </div>
-          <figcaption>
-            <strong>Premium Insights</strong>
-            <span>Unlock patterns, connections, time signals and semantic clusters from your own entries.</span>
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-
+<section aria-labelledby="onuri-in-action" class="product-showcase">
+<div class="showcase-head">
+<p class="eyebrow">Onuri in action</p>
+<h2 id="onuri-in-action">Write naturally. Let the connections emerge.</h2>
+<p>Add a note in plain language, browse your feed, reconnect related ideas through recognised keywords, and unlock richer Insights with Premium.</p>
+</div>
+<div class="screenshot-grid">
+<figure class="screenshot-card">
+<div class="screenshot-frame">
+<img alt="Onuri New Entry screen showing a natural-language note with recognised keywords for Coffee, Sarah, Seoul, Friday and 2pm" decoding="async" height="2048" loading="lazy" src="onuri-add-note.webp" width="941"/>
+</div>
+<figcaption>
+<strong>Add a note</strong>
+<span>Write naturally while Onuri recognises useful people, places, dates and ideas.</span>
+</figcaption>
+</figure>
+<figure class="screenshot-card">
+<div class="screenshot-frame">
+<img alt="Onuri home feed showing connected notes about Sarah, coffee, Seoul, dates and birthday plans" decoding="async" height="2048" loading="lazy" src="onuri-home-feed.webp" width="941"/>
+</div>
+<figcaption>
+<strong>Home feed</strong>
+<span>See your notes as a searchable personal stream instead of a folder hierarchy.</span>
+</figcaption>
+</figure>
+<figure class="screenshot-card">
+<div class="screenshot-frame">
+<img alt="Onuri search showing connected notes for Sarah's birthday and related recognised keywords" decoding="async" height="2048" loading="lazy" src="onuri-connected-keyword.webp" width="941"/>
+</div>
+<figcaption>
+<strong>Connected keywords</strong>
+<span>Search a person or idea and surface notes that share meaningful context.</span>
+</figcaption>
+</figure>
+<figure class="screenshot-card">
+<div class="screenshot-frame">
+<img alt="Onuri Premium Insights screen describing recurring people, places, themes, time patterns and semantic clusters" decoding="async" height="2048" loading="lazy" src="onuri-insights-paywall.webp" width="941"/>
+</div>
+<figcaption>
+<strong>Premium Insights</strong>
+<span>Unlock patterns, connections, time signals and semantic clusters from your own entries.</span>
+</figcaption>
+</figure>
+</div>
+</section>
 </div>
 <div aria-label="Onuri product highlights" class="trust">
 <div class="wrap trust-row">
@@ -683,10 +645,9 @@ header .navlink,
 <p class="eyebrow" style="color:#f7bdd0">Write freely</p>
 <h2>Instead of asking you to track your life, Onuri helps you notice it.</h2>
 <p>A private notes app that quietly connects your writing so the people, places, ideas and moments in it are easier to rediscover.</p>
-<a class="cta" href="https://apps.apple.com/app/id6796028277">Download Onuri Free</a>
+<span class="onuri-download-cluster"><a class="cta" href="https://apps.apple.com/app/id6796028277">Download Onuri Free</a><span aria-label="Scan with your iPhone to download Onuri" class="onuri-download-qr"><img alt="QR code to download Onuri on the App Store" height="58" loading="lazy" src="onuri-app-store-qr.png" width="58"/><span class="onuri-download-qr-copy"><strong>On your computer?</strong><span>Scan with your iPhone</span></span></span></span>
 </div>
 </div>
-
 <section class="content wrap"><div class="section-head"><p class="eyebrow">Complete guide</p><h2>From note-taking app to second brain</h2><p>Explore the <a href="note-taking-app-second-brain.html"><strong>complete guide to note-taking apps, second brains and personal knowledge</strong></a> — including free notes, organization, search, privacy, iCloud and automatic connections.</p></div></section></main>
 <p class="updated-stamp wrap">Updated as of September 2026</p>
 <footer>

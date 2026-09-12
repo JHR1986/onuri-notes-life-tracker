@@ -124,10 +124,6 @@ The Onuri website includes focused guides detailing how connected, folderless no
 
 More on the thinking behind Onuri, folderless note-taking, cognitive friction, and automatic entity recognition:
 
-* **[Why Folderless Note-Taking Is the Future of Personal Memory](https://medium.com/@jhroche1986/why-folderless-note-taking-is-the-future-of-personal-memory-743aa91e708a):** An analytical breakdown of filing overhead, demonstrating why tagless, folderless note capture outperforms legacy file trees.
-* **[Stop Organizing Your Notes, Just Write](https://medium.com/@jhroche1986/stop-organizing-your-notes-just-write-eb0e4e689c83):** Why manual categorization leads to abandoned productivity systems, and how instant capture maintains momentum.
-* **[Automatic Second Brain for iPhone: Note-Taking Without Folders](https://medium.com/@jhroche1986/stop-organizing-start-writing-my-take-on-note-taking-without-folders-cc5e047a876f):** An operational guide on using automatic entity linking to build an effortless second brain app on iOS.
-* **[Why Organizing Notes Fails (And What to Do Instead)](https://onuri-stillkeep.blogspot.com/2026/08/why-organizing-notes-fails.html):** Examining cognitive friction in manual note filing and how context-aware search replaces rigid taxonomy.
 
 ---
 
@@ -136,10 +132,6 @@ More on the thinking behind Onuri, folderless note-taking, cognitive friction, a
 Onuri is part of an ecosystem of local-first, privacy-conscious iOS applications. Explore resources for **Stillkeep: Journal & Diary**:
 
 * **[Stillkeep Official Resource Center](https://stillkeep.app/resources.html):** Platform portal detailing visual memory curation, native iOS privacy standards, and era-based journaling.
-* **[Building Stillkeep: Moving From Folders to Visual "Eras"](https://medium.com/@jhroche1986/building-stillkeep-journal-diary-app-moving-from-folders-to-visual-eras-in-a-modern-journal-3b264a7977bf):** An engineering deep dive into replacing static folder taxonomies with dynamic visual Eras.
-* **[Why I Built Stillkeep: Visual Era Memory Journaling](https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b):** Design principles behind creating a private, distraction-free photo journal app for memory preservation.
-* **[Beyond the Camera Roll: Private Photo Journaling](https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764):** How pairing photos with structured text entries protects context and transforms camera rolls into personal archives.
-* **[Camera Roll vs. Memory Journal: Structural Differences](https://onuri-stillkeep.blogspot.com/2026/08/camera-roll-vs-memory-journal.html):** A comparative breakdown contrasting raw photo streams with curated visual diary entries.
 
 ---
 
@@ -187,3 +179,23 @@ Every primary public Onuri page:
 
 ## Cornerstone Guide
 - [Complete Note-Taking & Second Brain Guide](https://onuri.app/note-taking-app-second-brain.html)
+
+## Current external reading
+
+### Onuri / note-taking
+* **[Why Folderless Note-Taking Is the Future of Personal Memory](https://medium.com/@jhroche1986/why-folderless-note-taking-is-the-future-of-personal-memory-743aa91e708a)** — Why folderless note-taking can reduce filing overhead and make personal knowledge easier to rediscover.
+* **[Stop Organizing Your Notes, Just Write](https://medium.com/@jhroche1986/stop-organizing-your-notes-just-write-eb0e4e689c83)** — Why manual folders and rigid note hierarchies can create friction between having an idea and capturing it.
+* **[Onuri: A Private Notes App & Note Taking App for iPhone](https://onuri-stillkeep.blogspot.com/2026/09/onuri-notes-app-note-taking-app-iphone.html)**
+* **[A Better Way to Take Notes on iPhone: Free Notes, a Second Brain & Life Tracking](https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app-iphone-second-brain-life-tracker.html)**
+* **[The Modern Free Note-Taking App: Escaping Folder Maintenance and Tracking Bloat](https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app.html)**
+* **[Why Your Digital Workflow Demands a Fast, Private, and Free Notes App](https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app-and-free-note-taking-app.html)**
+* **[Why organizing your notes makes them harder to find](https://onuri-stillkeep.blogspot.com/2026/08/why-organizing-notes-fails.html)**
+
+### Related Stillkeep / memory journaling
+* **[Why I Built Stillkeep: Moving From Folders to Visual Eras in a Modern Journal App](https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b)** — A related Stillkeep essay about replacing rigid organisation with visual chapters of life.
+* **[Beyond the Camera Roll: Why I Built a Private Photo Journal App for Meaningful Memories](https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764)** — A related Stillkeep essay about preserving the context and meaning behind photographs.
+* **[Stillkeep: A Private Journal App & Diary App for iPhone](https://onuri-stillkeep.blogspot.com/2026/09/stillkeep-journal-app-diary-app-iphone.html)**
+* **[The Best Way to Keep a Journal on iPhone: Photo Journals, Private Diaries & Life Memories](https://onuri-stillkeep.blogspot.com/2026/09/journal-diary-app-iphone-photo-journaling.html)**
+* **[The Digital Journal App Dilemma: Solving Media Bloat, Privacy, and Storage Limits](https://onuri-stillkeep.blogspot.com/2026/09/the-digital-journal-app-dilemma-solving.html)**
+* **[Why Your Daily Practice Deserves a Fast, Private, and Free Journal App](https://onuri-stillkeep.blogspot.com/2026/09/free-journal-app-and-free-diary-app.html)**
+* **[Your Camera Roll Stores Photos. It Doesn't Preserve Memories.](https://onuri-stillkeep.blogspot.com/2026/08/camera-roll-vs-memory-journal.html)**

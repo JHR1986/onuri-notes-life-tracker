@@ -13,6 +13,9 @@ Write naturally. Onuri builds useful context around your notes as you go, helpin
 ## Download Onuri & Resources
 
 * **Official Website:** [onuri.app](https://onuri.app/)
+* **Notepad for iPhone:** [onuri.app/notepad.html](https://onuri.app/notepad.html)
+* **Notes for iPhone:** [onuri.app/notes.html](https://onuri.app/notes.html)
+* **Notebook for iPhone:** [onuri.app/notebook.html](https://onuri.app/notebook.html)
 * **App Store Download:** [Onuri: Notes & Life Tracker on the Apple App Store](https://apps.apple.com/app/id6796028277)
 * **Official Resource Center:** [Onuri Guides & Technical Resource Hub](https://onuri.app/resources.html)
 * **Machine-Readable AI Summary:** [onuri.app/llms.txt](https://onuri.app/llms.txt)

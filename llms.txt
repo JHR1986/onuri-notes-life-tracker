@@ -12,6 +12,9 @@
 - System Capabilities & Architecture: https://onuri.app/capabilities.html
 - Free Notes App: https://onuri.app/free-notes-app.html
 - Free Note-Taking App: https://onuri.app/free-note-taking-app.html
+- Notepad for iPhone: https://onuri.app/notepad.html
+- Notes for iPhone: https://onuri.app/notes.html
+- Notebook for iPhone: https://onuri.app/notebook.html
 - Notes App for iPhone: https://onuri.app/notes-app.html
 - Automatic Second Brain: https://onuri.app/automatic-second-brain.html
 - Folderless Notes: https://onuri.app/folderless-notes.html

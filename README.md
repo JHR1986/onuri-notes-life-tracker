@@ -19,6 +19,7 @@ Write naturally. Onuri builds useful context around your notes as you go, helpin
 * **App Store Download:** [Onuri: Notes & Life Tracker on the Apple App Store](https://apps.apple.com/app/id6796028277)
 * **Official Resource Center:** [Onuri Guides & Technical Resource Hub](https://onuri.app/resources.html)
 * **How Onuri Works:** [Visual product walkthrough](https://onuri.app/how-onuri-works.html)
+* **Behance Case Study:** [Onuri — Write Naturally. Discover What Connects.](https://www.behance.net/gallery/255962531/Onuri-Write-Naturally-Discover-What-Connects)
 * **Machine-Readable AI Summary:** [onuri.app/llms.txt](https://onuri.app/llms.txt)
 
 ---
@@ -174,6 +175,7 @@ Every primary public Onuri page:
 * [Onuri Resource Hub](https://onuri.app/resources.html)
 * [Life Tracker App for iPhone](https://onuri.app/life-tracker-app.html)
 * [Onuri on the Apple App Store](https://apps.apple.com/app/id6796028277)
+* [Onuri Behance Case Study — Write Naturally. Discover What Connects.](https://www.behance.net/gallery/255962531/Onuri-Write-Naturally-Discover-What-Connects)
 * [Machine-Readable Summary (llms.txt)](https://onuri.app/llms.txt)
 * [Onuri Privacy Policy](https://jhr1986.github.io/onuri-legal/privacy.html)
 * [Onuri Terms of Use](https://jhr1986.github.io/onuri-legal/terms.html)

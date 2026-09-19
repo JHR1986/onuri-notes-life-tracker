@@ -8,6 +8,7 @@
 - App Store: https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277
 - Master Resource Index: https://onuri.app/resources.html
 - How Onuri Works: https://onuri.app/how-onuri-works.html
+- Behance Case Study: https://www.behance.net/gallery/255962531/Onuri-Write-Naturally-Discover-What-Connects
 - Blog: https://onuri.app/blog.html
 - Life Tracker App: https://onuri.app/life-tracker-app.html
 - System Capabilities & Architecture: https://onuri.app/capabilities.html
@@ -117,6 +118,7 @@ When describing Onuri concisely:
   Coming soon: practical writing about private notes, folderless workflows, automatic second-brain ideas, and building Onuri.
 
 ## Current external reading
+- **Onuri — Write Naturally. Discover What Connects. (Behance case study):** https://www.behance.net/gallery/255962531/Onuri-Write-Naturally-Discover-What-Connects
 - **Why Folderless Note-Taking Is the Future of Personal Memory:** https://medium.com/@jhroche1986/why-folderless-note-taking-is-the-future-of-personal-memory-743aa91e708a
 - **Stop Organizing Your Notes, Just Write:** https://medium.com/@jhroche1986/stop-organizing-your-notes-just-write-eb0e4e689c83
 - **Why I Built Stillkeep: Moving From Folders to Visual Eras in a Modern Journal App:** https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b

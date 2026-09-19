@@ -2,95 +2,101 @@
 <ns0:urlset xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
   <ns0:url>
     <ns0:loc>https://onuri.app/</ns0:loc>
-    <ns0:lastmod>2026-09-12</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>1.0</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/life-tracker-app.html</ns0:loc>
-    <ns0:lastmod>2026-09-08</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/resources.html</ns0:loc>
-    <ns0:lastmod>2026-09-12</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/capabilities.html</ns0:loc>
-    <ns0:lastmod>2026-09-08</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/free-notes-app.html</ns0:loc>
-    <ns0:lastmod>2026-09-08</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/free-note-taking-app.html</ns0:loc>
-    <ns0:lastmod>2026-09-08</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/automatic-second-brain.html</ns0:loc>
-    <ns0:lastmod>2026-09-08</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/folderless-notes.html</ns0:loc>
-    <ns0:lastmod>2026-09-08</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/notes-app.html</ns0:loc>
-    <ns0:lastmod>2026-09-08</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/notes-app-alternative.html</ns0:loc>
-    <ns0:lastmod>2026-09-08</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/life-tracking-ideas.html</ns0:loc>
-    <ns0:lastmod>2026-09-08</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/note-taking-app-second-brain.html</ns0:loc>
-    <ns0:lastmod>2026-09-08</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.9</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/blog.html</ns0:loc>
-    <ns0:lastmod>2026-09-12</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.7</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/notepad.html</ns0:loc>
-    <ns0:lastmod>2026-09-15</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.9</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/notes.html</ns0:loc>
-    <ns0:lastmod>2026-09-15</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.9</ns0:priority>
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://onuri.app/notebook.html</ns0:loc>
-    <ns0:lastmod>2026-09-15</ns0:lastmod>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.9</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://onuri.app/how-onuri-works.html</ns0:loc>
+    <ns0:lastmod>2026-09-19</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.9</ns0:priority>
   </ns0:url>

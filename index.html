@@ -2,14 +2,6 @@
 
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-DGVLPTVZSL"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-DGVLPTVZSL');
-  </script>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="#fff8fa" name="theme-color"/>
@@ -469,6 +461,7 @@ header .navlink,
 
 
 .updated-stamp{margin:18px 0 0;color:var(--muted);font-size:.8rem;text-align:center}
+.how-page-cta{text-align:center;margin:-38px auto 40px;padding:0 20px}.how-page-cta p{margin:10px auto 0;color:var(--muted);font-size:.9rem;max-width:560px}.how-page-button{min-height:48px}
 </style>
 <link href="onuri-download-qr.css" rel="stylesheet"/></head>
 <body>
@@ -494,9 +487,9 @@ header .navlink,
 <p class="lede"><strong>Onuri: Notes &amp; Life Tracker</strong> is a private notes app for iPhone that automatically connects the people, places, dates and ideas in your writing as you type. No folders, manual tags or setup.</p>
 <div class="actions">
 <span class="onuri-download-cluster"><a class="cta" href="https://apps.apple.com/app/id6796028277">Download Free on App Store</a><span aria-label="Scan with your iPhone to download Onuri" class="onuri-download-qr"><img alt="QR code to download Onuri on the App Store" decoding="async" height="58" loading="lazy" src="onuri-app-store-qr.png" width="58"/><span class="onuri-download-qr-copy"><strong>On your computer?</strong><span>Scan with your iPhone</span></span></span></span>
-<a class="secondary-link" href="#how-it-works">See how Onuri connects notes</a>
+<a class="secondary-link" href="how-onuri-works.html">See how Onuri works</a>
 </div>
-<p class="micro">Unlimited notes · Private iCloud sync · No ads · No analytics · No tracking · iOS 17.6+</p>
+<p class="micro">Unlimited notes · Private iCloud sync · No ads · No analytics SDKs or tracking in the app · iOS 17.6+</p>
 </div>
 <div aria-label="Example of automatic connections in an Onuri note" class="demo">
 <div class="note-card">
@@ -507,6 +500,7 @@ header .navlink,
 </div>
 </div>
 </section>
+<div class="how-page-cta" aria-label="Learn how Onuri works"><a class="cta how-page-button" href="how-onuri-works.html">See exactly how Onuri works →</a><p>A visual walkthrough from writing your first note to connections, search and Insights.</p></div>
 <section aria-labelledby="onuri-in-action" class="product-showcase">
 <div class="showcase-head">
 <p class="eyebrow">Onuri in action</p>
@@ -570,7 +564,7 @@ header .navlink,
 <div class="feature-grid">
 <article class="feature"><div aria-hidden="true" class="feature-icon">↗</div><h3>Automatic connections</h3><p>Onuri recognises people, places, dates, times and ideas throughout your writing, creating connections without manual organisation.</p></article>
 <article class="feature"><div aria-hidden="true" class="feature-icon">⌕</div><h3>Fast text search</h3><p>Find anything you have written using fast text search or follow related connections between people, places and topics in your notes.</p></article>
-<article class="feature"><div aria-hidden="true" class="feature-icon">☁</div><h3>Private by design</h3><p>No ads, no analytics and no tracking. Notes sync across Apple devices through your personal iCloud account.</p></article>
+<article class="feature"><div aria-hidden="true" class="feature-icon">☁</div><h3>Private by design</h3><p>The Onuri app has no ads, analytics SDKs or tracking. Notes sync across Apple devices through your personal iCloud account.</p></article>
 <article class="feature"><div aria-hidden="true" class="feature-icon">∞</div><h3>Unlimited writing</h3><p>Create unlimited notes and journal entries with automatic draft saving, so Onuri stays out of the way while you write.</p></article>
 <article class="feature"><div aria-hidden="true" class="feature-icon">⇩</div><h3>Portable notes</h3><p>Export your writing as TXT or CSV, giving you a straightforward way to keep a copy of your notes outside the app.</p></article>
 <article class="feature"><div aria-hidden="true" class="feature-icon">✦</div><h3>Premium insights</h3><p>Onuri Premium unlocks Insights and Connections that surface recurring themes, writing momentum, returning topics and meaningful relationships.</p></article>
@@ -635,7 +629,7 @@ header .navlink,
 <details><summary>What is Onuri: Notes &amp; Life Tracker?</summary><p>Onuri is a private notes app for iPhone that automatically connects the people, places, dates and ideas in your writing as you type. There are no folders or manual tags to maintain.</p></details>
 <details><summary>What is a second brain app?</summary><p>A second brain is a digital system for storing and retrieving ideas, notes and memories. Onuri approaches this by creating useful connections automatically as you write.</p></details>
 <details><summary>Is Onuri free to use?</summary><p>Yes. Onuri's free features include unlimited notes and journal entries, automatic connections, fast text search, automatic draft saving, iCloud sync and TXT or CSV export. Onuri Premium adds Insights and Connections.</p></details>
-<details><summary>Does Onuri collect my data?</summary><p>No. Onuri's App Store privacy information states that data is not collected. Onuri has no ads, analytics or tracking, and uses your personal iCloud account for sync across Apple devices.</p></details>
+<details><summary>Does the Onuri app collect my data?</summary><p>Onuri's App Store privacy information states that data is not collected. The app has no ads, analytics SDKs or tracking, and uses your personal iCloud account for sync across Apple devices. The public website uses optional Google Analytics only after consent.</p></details>
 <details><summary>Is Onuri an AI second brain?</summary><p>Onuri uses private on-device intelligence to recognise and connect information in your writing. Its core experience does not depend on uploading your notes to a cloud AI service.</p></details>
 <details><summary>How is Onuri different from folder-based note taking?</summary><p>Instead of asking you to decide where every note belongs, Onuri recognises people, places, dates, times and ideas throughout your writing so you can search and follow connections later.</p></details>
 <details><summary>What devices does Onuri support?</summary><p>Onuri requires iOS 17.6 or later and uses iCloud to sync across your Apple devices.</p></details>
@@ -673,5 +667,6 @@ header .navlink,
 </nav>
 </div>
 </footer>
+<script defer src="onuri-analytics-consent.js"></script>
 </body>
 </html>

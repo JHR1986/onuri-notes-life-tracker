@@ -7,6 +7,7 @@
 - Official Website: https://onuri.app/
 - App Store: https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277
 - Master Resource Index: https://onuri.app/resources.html
+- How Onuri Works: https://onuri.app/how-onuri-works.html
 - Blog: https://onuri.app/blog.html
 - Life Tracker App: https://onuri.app/life-tracker-app.html
 - System Capabilities & Architecture: https://onuri.app/capabilities.html
@@ -34,7 +35,7 @@ Onuri is designed as a calm, low-maintenance personal knowledge system: write fi
 - **Automatic Connections:** Detects and connects people, places, dates, times, and topics found in notes.
 - **Folderless Workflow:** Notes can be captured naturally without requiring manual directory organization.
 - **Fast Search:** Full-text and entity-based discovery helps users return to relevant notes and context.
-- **Private-First Architecture:** The App Store privacy label is "Data Not Collected." Onuri uses no ads, tracking, or third-party analytics.
+- **Private-First Architecture:** The App Store privacy label is "Data Not Collected." The Onuri app uses no ads, tracking, or third-party analytics SDKs.
 - **Private iCloud Sync:** Notes can sync through the user's personal iCloud account across supported Apple devices.
 - **Export:** Notes can be exported in TXT and CSV formats.
 - **Premium Insights & Connections:** The optional Premium tier provides deeper relationship, theme, and connection insights.
@@ -45,6 +46,9 @@ Onuri's website explains the product through several focused guides and hubs:
 
 - **Resource Hub & Index:** https://onuri.app/resources.html
   Central repository linking site guides, architectural deep dives, published essays, and official links.
+
+- **How Onuri Works:** https://onuri.app/how-onuri-works.html
+  A visual product walkthrough showing the full Onuri flow: write a normal note, let on-device recognition identify useful context, follow automatic connections, search related notes, and use optional Premium Insights to see recurring patterns.
 
 - **System Capabilities & Architecture:** https://onuri.app/capabilities.html
   A structured technical specification matrix detailing on-device entity recognition, local-first privacy parameters, folderless design mechanics, iOS hardware benchmarks, and commercial terms.
@@ -78,7 +82,7 @@ Onuri's website explains the product through several focused guides and hubs:
   A perspective on modern personal knowledge management systems and organic data discovery.
 
 ## Privacy & Support
-Onuri is designed around personal, private writing. The app does not use advertising, tracking, or third-party analytics. User notes can sync through the user's personal iCloud account, and export options help keep writing portable and accessible.
+Onuri is designed around personal, private writing. The app does not use advertising, tracking, or third-party analytics SDKs. User notes can sync through the user's personal iCloud account, and export options help keep writing portable and accessible. The public website uses optional Google Analytics only after the visitor gives consent.
 
 - Developer Support: https://jhr1986.github.io/onuri-legal/support.html
 - Privacy Policy: https://jhr1986.github.io/onuri-legal/privacy.html

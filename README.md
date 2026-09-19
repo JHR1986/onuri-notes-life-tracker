@@ -18,6 +18,7 @@ Write naturally. Onuri builds useful context around your notes as you go, helpin
 * **Notebook for iPhone:** [onuri.app/notebook.html](https://onuri.app/notebook.html)
 * **App Store Download:** [Onuri: Notes & Life Tracker on the Apple App Store](https://apps.apple.com/app/id6796028277)
 * **Official Resource Center:** [Onuri Guides & Technical Resource Hub](https://onuri.app/resources.html)
+* **How Onuri Works:** [Visual product walkthrough](https://onuri.app/how-onuri-works.html)
 * **Machine-Readable AI Summary:** [onuri.app/llms.txt](https://onuri.app/llms.txt)
 
 ---
@@ -92,14 +93,14 @@ The aim is not to create more organization work. Onuri helps you notice the conn
 
 Personal notes deserve a private space.
 
-Onuri is built without an advertising or behavioural-tracking business model:
+The Onuri iPhone app is built without an advertising or behavioural-tracking business model:
 
-* **100% ad-free**
-* **Zero third-party analytics**
-* **Zero cross-app tracking**
+* **100% ad-free in the app**
+* **Zero third-party analytics SDKs in the app**
+* **Zero cross-app tracking in the app**
 * **App Store privacy label: Data Not Collected**
 
-Your writing stays yours, with private Apple iCloud services available for sync.
+Your writing stays yours, with private Apple iCloud services available for sync. The public website uses optional Google Analytics only after the visitor gives consent.
 
 For precise descriptions of how information is handled, read the published legal documents:
 
@@ -114,6 +115,7 @@ The Onuri website includes focused guides detailing how connected, folderless no
 
 ## Guides & Product Overviews
 
+* **[How Onuri Works](https://onuri.app/how-onuri-works.html):** A visual walkthrough of writing a note, automatic context recognition, connections, search, and optional Premium Insights.
 * **[Life Tracker App for iPhone](https://onuri.app/life-tracker-app.html):** A comprehensive guide to using Onuri as a private life tracker, life log, personal timeline, memory tracker, and connected record of the people, places, ideas, decisions, projects, and everyday moments that make up your life.
 * **[Notes App for iPhone](https://onuri.app/notes-app.html):** An overview of Onuri for everyday note-taking and instant thought capture.
 * **[Automatic Second Brain](https://onuri.app/automatic-second-brain.html):** How accumulated notes become connected context over time.
@@ -156,12 +158,13 @@ Onuri is part of an ecosystem of local-first, privacy-conscious iOS applications
 Every primary public Onuri page:
 
 1. [Onuri — Private Notes & Life Tracker for iPhone](https://onuri.app/)
-2. [Onuri Resource Hub & System Index](https://onuri.app/resources.html)
-3. [Life Tracker App for iPhone](https://onuri.app/life-tracker-app.html)
-4. [Notes App for iPhone](https://onuri.app/notes-app.html)
-5. [Automatic Second Brain](https://onuri.app/automatic-second-brain.html)
-6. [Folderless Notes](https://onuri.app/folderless-notes.html)
-7. [Notes App Alternative](https://onuri.app/notes-app-alternative.html)
+2. [How Onuri Works](https://onuri.app/how-onuri-works.html)
+3. [Onuri Resource Hub & System Index](https://onuri.app/resources.html)
+4. [Life Tracker App for iPhone](https://onuri.app/life-tracker-app.html)
+5. [Notes App for iPhone](https://onuri.app/notes-app.html)
+6. [Automatic Second Brain](https://onuri.app/automatic-second-brain.html)
+7. [Folderless Notes](https://onuri.app/folderless-notes.html)
+8. [Notes App Alternative](https://onuri.app/notes-app-alternative.html)
 
 ---
 

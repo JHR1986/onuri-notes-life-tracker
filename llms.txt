@@ -75,6 +75,15 @@ Onuri's website explains the product through several focused guides and hubs:
 - **Notes App Alternative:** https://onuri.app/notes-app-alternative.html
   Explains why Onuri is a useful alternative for people who want natural writing, automatic connections, fast search, private sync, and portable notes.
 
+- **Personal CRM for iPhone:** https://onuri.app/personal-crm-app.html
+  Explains Onuri's note-first approach to remembering people, conversations, friends, clients, collaborators, and relationship context without maintaining structured contact records.
+
+- **Private Notes App for iPhone:** https://onuri.app/private-notes-app.html
+  Details Onuri's privacy model: on-device processing, private iCloud sync, no advertising trackers or third-party app analytics SDKs, and TXT/CSV export for data portability.
+
+- **Personal Knowledge Management App:** https://onuri.app/personal-knowledge-management-app.html
+  Explains how Onuri can function as an automatic personal knowledge management system by connecting people, places, dates, and topics across notes for search and rediscovery.
+
 ## Published Essays & Deep Dives
   An essay exploring why traditional hierarchies and folder trees get in the way of capturing genuine ideas.
 

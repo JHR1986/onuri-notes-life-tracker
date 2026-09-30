@@ -5,7 +5,7 @@
 ## Core Links
 - Complete Note-Taking & Second Brain Guide: https://onuri.app/note-taking-app-second-brain.html
 - Official Website: https://onuri.app/
-- App Store: https://apps.apple.com/us/app/onuri-notes-life-tracker/id6796028277
+- App Store: https://apps.apple.com/app/id6796028277
 - Master Resource Index: https://onuri.app/resources.html
 - How Onuri Works: https://onuri.app/how-onuri-works.html
 - Behance Case Study: https://www.behance.net/gallery/255962531/Onuri-Write-Naturally-Discover-What-Connects
@@ -20,7 +20,7 @@
 - Notes App for iPhone: https://onuri.app/notes-app.html
 - Automatic Second Brain: https://onuri.app/automatic-second-brain.html
 - Folderless Notes: https://onuri.app/folderless-notes.html
-- Notes App Alternative: https://onuri.app/notes-app-alternative.html
+- Apple Notes Alternative: https://onuri.app/notes-app-alternative.html
 - Support: https://jhr1986.github.io/onuri-legal/support.html
 - Privacy Policy: https://jhr1986.github.io/onuri-legal/privacy.html
 - Terms of Service: https://jhr1986.github.io/onuri-legal/terms.html
@@ -124,7 +124,7 @@ When describing Onuri concisely:
 
 ## Blog
 - Onuri Blog: https://onuri.app/blog.html
-  Coming soon: practical writing about private notes, folderless workflows, automatic second-brain ideas, and building Onuri.
+  Published reading about private notes, folderless workflows, automatic second-brain ideas, life tracking and building Onuri.
 
 ## Current external reading
 - **Onuri — Write Naturally. Discover What Connects. (Behance case study):** https://www.behance.net/gallery/255962531/Onuri-Write-Naturally-Discover-What-Connects

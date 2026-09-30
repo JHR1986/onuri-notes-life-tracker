@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#fff8fa" name="theme-color"/><meta content="light" name="color-scheme"/>
+<title>Note-Taking Methods: 10 Systems Explained + Quiz | Onuri</title>
+<meta content="Cornell, Zettelkasten, PARA, Bullet Journal, mind maps and more: 10 note-taking methods shown on the same example note, with a quiz to find yours." name="description"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/><meta content="iJRp57dxQIIMdW0w99VvaUCPEFcfl3Cj-1YCLpVx8jw" name="google-site-verification"/>
+<link href="https://onuri.app/note-taking-methods.html" rel="canonical"/><link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/><link href="android-icon-48x48.png" rel="icon" sizes="48x48" type="image/png"/>
+<meta content="article" property="og:type"/><meta content="Onuri" property="og:site_name"/><meta content="https://onuri.app/note-taking-methods.html" property="og:url"/><meta content="Every Note-Taking Method, Explained (with a Quiz)" property="og:title"/><meta content="Cornell, Zettelkasten, PARA, Bullet Journal, mind maps and more: 10 note-taking methods shown on the same example note, with a quiz to find yours." property="og:description"/><meta content="https://onuri.app/onuri-social-preview.jpg" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="Onuri notes app for iPhone — private notes that connect themselves" property="og:image:alt"/><meta content="en_US" property="og:locale"/><meta content="2026-09-30" property="article:published_time"/>
+<meta content="summary_large_image" name="twitter:card"/><meta content="Every Note-Taking Method, Explained (with a Quiz)" name="twitter:title"/><meta content="Cornell, Zettelkasten, PARA, Bullet Journal, mind maps and more: 10 note-taking methods shown on the same example note, with a quiz to find yours." name="twitter:description"/><meta content="https://onuri.app/onuri-social-preview.jpg" name="twitter:image"/><meta content="Onuri notes app for iPhone — private notes that connect themselves" name="twitter:image:alt"/>
+<link href="https://apps.apple.com" rel="preconnect"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet"/>
+<style>
+    :root{
+      --bg:#fff9fb;
+      --surface:#ffffff;
+      --surface-soft:#fff3f7;
+      --ink:#2b2529;
+      --muted:#6d6469;
+      --pink:#ef85a5;
+      --pink-deep:#b33c68;
+      --pink-dark:#8f2f52;
+      --pink-soft:#fde3eb;
+      --rose:#f7b7c9;
+      --lavender:#f3eefe;
+      --line:#eee4e8;
+      --shadow:0 18px 48px rgba(116,54,76,.12);
+      --shadow-soft:0 10px 30px rgba(116,54,76,.08);
+      --radius:20px;
+      --max:1060px;
+    }
+
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+    body{
+      margin:0;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 8% -4%,rgba(239,133,165,.14),transparent 28rem),
+        radial-gradient(circle at 92% 8%,rgba(243,238,254,.9),transparent 26rem),
+        var(--bg);
+      font:16px/1.68 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      overflow-x:hidden;
+    }
+
+    img{max-width:100%;height:auto}
+    a{color:var(--pink-dark)}
+    a:focus-visible{outline:3px solid var(--pink-deep);outline-offset:3px;border-radius:8px}
+    .skip-link{position:absolute;left:-9999px;top:8px;z-index:100;background:#fff;color:var(--ink);padding:10px 14px;border-radius:10px}
+    .skip-link:focus{left:12px}
+    .wrap{width:min(calc(100% - 40px),var(--max));margin-inline:auto}
+
+    h1,h2,h3,.brand-name{font-family:"Newsreader",Georgia,serif;letter-spacing:-.02em}
+    h1,h2,h3{font-weight:500;text-wrap:balance}
+    p{margin:12px 0}
+
+    header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:24px;
+      padding:20px 0;
+    }
+
+    .brand{display:inline-flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;flex-shrink:0}
+    .brand img{width:38px;height:38px;border-radius:10px}
+    .brand-name{font-size:1.42rem;font-weight:600}
+
+    .nav{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}
+    .nav a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:8px 13px;border-radius:999px;text-decoration:none;color:var(--muted);font-size:.91rem;font-weight:600}
+    .nav a:hover{background:rgba(255,255,255,.75);color:var(--pink-dark)}
+    .nav .nav-cta{color:#fff;background:var(--pink-deep);padding-inline:16px;box-shadow:0 7px 20px rgba(179,60,104,.2)}
+    .nav .nav-cta:hover{background:var(--pink-dark);color:#fff}
+
+    .hero{display:grid;grid-template-columns:minmax(0,1.06fr) minmax(340px,.94fr);align-items:center;gap:clamp(36px,6vw,70px);padding:58px 0 76px}
+    .eyebrow{margin:0 0 14px;color:var(--pink-dark);font-size:.78rem;line-height:1.3;font-weight:800;text-transform:uppercase;letter-spacing:.13em}
+    h1{font-size:clamp(2.8rem,6vw,4.65rem);line-height:1.01;margin:0 0 20px;max-width:12ch}
+    h1 em{font-style:normal;color:var(--pink-deep)}
+    .lede{max-width:54ch;margin:0 0 28px;color:var(--muted);font-size:1.1rem}
+    .lede strong{color:var(--ink)}
+    .actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+    .cta{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:13px 22px;border-radius:14px;background:var(--pink-deep);color:#fff;text-decoration:none;font-weight:750;box-shadow:0 10px 26px rgba(179,60,104,.22);transition:transform .18s ease,background .18s ease,box-shadow .18s ease}
+    .cta:hover{background:var(--pink-dark);transform:translateY(-1px);box-shadow:0 13px 30px rgba(179,60,104,.27)}
+    .secondary-link{font-weight:650;text-underline-offset:4px}
+    .micro{margin-top:14px;color:var(--muted);font-size:.86rem}
+
+    .demo{position:relative;padding:24px 0 28px}
+    .demo::before{content:"";position:absolute;width:260px;height:260px;border-radius:50%;background:rgba(239,133,165,.12);right:-32px;top:-10px;filter:blur(2px)}
+    .note-card{position:relative;z-index:2;background:rgba(255,255,255,.94);border:1px solid rgba(238,228,232,.95);border-radius:22px;padding:24px;box-shadow:var(--shadow)}
+    .note-card::after{content:"";position:absolute;inset:14px -14px -14px 14px;z-index:-1;border-radius:22px;background:rgba(255,243,247,.9);border:1px solid var(--line)}
+    .note-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px;color:var(--muted);font-size:.78rem}
+    .note-dot{width:9px;height:9px;border-radius:50%;background:var(--pink);box-shadow:16px 0 0 var(--rose),32px 0 0 #d8c7f8}
+    .note-title{font-family:"Newsreader",Georgia,serif;font-size:1.25rem;font-weight:500;margin:0 0 10px}
+    .note-body{margin:0;line-height:1.92}
+    .chip{display:inline;padding:2px 7px;border-radius:7px;white-space:nowrap}
+    .person{background:#fde3eb;color:#8b3151}.place{background:#f2eefe;color:#5e4a8d}.topic{background:#fff0d9;color:#7c5c24}.date{background:#eaf5f1;color:#3f6a5d}
+    .connections{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin-top:17px;padding-top:14px;border-top:1px solid var(--line);font-size:.77rem;color:var(--muted)}
+    .tag{padding:4px 9px;border-radius:999px;border:1px solid var(--line);background:var(--surface-soft);color:var(--ink)}
+
+    .trust{border-block:1px solid var(--line);background:rgba(255,255,255,.7)}
+    .trust-row{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;padding:0}
+    .trust-item{padding:20px 18px;text-align:center;border-right:1px solid var(--line)}
+    .trust-item:last-child{border-right:0}
+    .trust-item strong{display:block;font-size:.92rem}.trust-item span{display:block;color:var(--muted);font-size:.82rem;margin-top:2px}
+
+    section.content{padding:72px 0 8px}
+    .section-head{max-width:700px;margin-bottom:26px}
+    h2{font-size:clamp(2rem,4vw,2.75rem);line-height:1.08;margin:0 0 12px}
+    .section-head p{color:var(--muted);font-size:1.04rem}
+
+    .feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .feature{background:rgba(255,255,255,.82);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow-soft)}
+    .feature-icon{width:36px;height:36px;display:grid;place-items:center;border-radius:10px;background:var(--pink-soft);color:var(--pink-dark);font-weight:800;margin-bottom:14px}
+    .feature h3{font-size:1.2rem;margin:0 0 7px}.feature p{margin:0;color:var(--muted);font-size:.94rem}
+
+    .how{display:grid;grid-template-columns:.9fr 1.1fr;gap:34px;align-items:start}
+    .path{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow-soft)}
+    .path-label{margin:0 0 12px;color:var(--muted);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em}
+    .path-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.crumb{padding:7px 11px;border-radius:10px;background:var(--surface-soft);border:1px solid var(--line);font-size:.86rem}.crumb.hit{background:var(--pink-soft);border-color:#f5b5c8;color:var(--pink-dark);font-weight:700}.arrow{color:#a38f97}
+
+    .privacy{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .privacy-card{border-radius:var(--radius);padding:26px;background:#332a30;color:#fff;box-shadow:var(--shadow)}
+    .privacy-card h3{font-size:1.45rem;margin:0 0 8px;color:#fff}.privacy-card p{color:#e9e2e6;margin:0}.privacy-list{margin:18px 0 0;padding:0;list-style:none;display:flex;gap:8px;flex-wrap:wrap}.privacy-list li{margin:0;padding:7px 10px;border-radius:999px;background:rgba(255,255,255,.09);font-size:.84rem}
+    .premium-card{border-radius:var(--radius);padding:26px;background:linear-gradient(145deg,#fff,#fff3f7);border:1px solid var(--line);box-shadow:var(--shadow-soft)}
+    .premium-card h3{font-size:1.45rem;margin:0 0 8px}.premium-card p{color:var(--muted)}
+
+    .seo-links{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:18px}
+    @media(min-width:768px){ .seo-links{grid-template-columns:repeat(3,1fr);} }
+    .seo-link{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;color:var(--ink);transition:transform .18s ease,border-color .18s ease}
+    .seo-link:hover{transform:translateY(-2px);border-color:#f2aec3}.seo-link strong{display:block;font-family:"Newsreader",Georgia,serif;font-size:1.16rem}.seo-link span{display:block;color:var(--muted);font-size:.88rem;margin-top:5px}
+
+    .articles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .article{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px}.article a{font-family:"Newsreader",Georgia,serif;font-size:1.2rem;font-weight:600;text-decoration:none}.article p{font-size:.9rem;color:var(--muted);margin-bottom:0}
+
+    .faq{max-width:820px}.faq details{border-top:1px solid var(--line);padding:0}.faq details:last-child{border-bottom:1px solid var(--line)}.faq summary{cursor:pointer;list-style:none;padding:18px 28px 18px 0;font-family:"Newsreader",Georgia,serif;font-size:1.18rem;font-weight:600;position:relative}.faq summary::-webkit-details-marker{display:none}.faq summary::after{content:"+";position:absolute;right:2px;top:17px;color:var(--pink-deep);font-family:system-ui}.faq details[open] summary::after{content:"−"}.faq details p{margin:0;padding:0 34px 18px 0;color:var(--muted)}
+
+    .band{position:relative;overflow:hidden;margin:76px 0 64px;padding:50px 34px;border-radius:24px;background:#342a30;color:#fff;text-align:center;box-shadow:var(--shadow)}
+    .band::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 10% 0%,rgba(239,133,165,.35),transparent 38%),radial-gradient(circle at 95% 100%,rgba(214,197,248,.26),transparent 40%)}.band>*{position:relative}.band h2{color:#fff}.band p{max-width:600px;margin:0 auto 22px;color:#eee7eb}.band .cta{background:#fff;color:var(--pink-dark);box-shadow:none}.band .cta:hover{background:#fff3f7}
+
+    footer{border-top:1px solid var(--line);padding:30px 0 54px;color:var(--muted);font-size:.88rem}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-links{display:flex;gap:14px 18px;flex-wrap:wrap}.footer-links a{color:var(--muted);text-decoration:none}.footer-links a:hover{color:var(--pink-dark);text-decoration:underline;text-underline-offset:3px}
+
+    @media (max-width:860px){
+      .hero{grid-template-columns:1fr;padding:42px 0 56px}.hero-copy{max-width:680px}.demo{max-width:620px;margin-inline:auto;width:100%}.feature-grid{grid-template-columns:repeat(2,1fr)}.feature:last-child{grid-column:1/-1}.how,.privacy{grid-template-columns:1fr}.trust-row{grid-template-columns:repeat(2,1fr)}.trust-item:nth-child(2){border-right:0}.trust-item:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+
+    @media (max-width:660px){
+      .wrap{width:min(calc(100% - 28px),var(--max))}header{align-items:flex-start}.nav{gap:4px}.nav a:not(.nav-cta){display:none}.brand-name{font-size:1.34rem}.hero{padding-top:30px;gap:20px}h1{font-size:clamp(2.65rem,13vw,3.55rem)}.lede{font-size:1.03rem}.actions{align-items:stretch}.cta{width:100%}.secondary-link{width:100%;text-align:center;padding:8px}.note-card{padding:20px}.note-card::after{inset:10px -8px -10px 8px}.feature-grid,.articles,.seo-links{grid-template-columns:1fr}.feature:last-child{grid-column:auto}.trust-item{padding:16px 10px}.trust-item strong{font-size:.86rem}.trust-item span{font-size:.76rem}section.content{padding-top:58px}.privacy-card,.premium-card{padding:22px}.band{margin-top:60px;padding:40px 20px}.footer-row{justify-content:center;text-align:center}.footer-links{justify-content:center}}
+
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+  
+    /* Product screenshots */
+    .product-showcase{
+      margin:54px 0 58px;
+      padding:42px 0 8px;
+    }
+
+    .showcase-head{
+      max-width:720px;
+      margin:0 auto 28px;
+      text-align:center;
+    }
+
+    .showcase-head .eyebrow{
+      margin-bottom:8px;
+    }
+
+    .showcase-head h2{
+      margin:0 0 12px;
+      font-size:clamp(2rem,4vw,3rem);
+    }
+
+    .showcase-head p{
+      margin:0;
+      color:var(--muted);
+    }
+
+    .screenshot-grid{
+      display:grid;
+      grid-template-columns:repeat(4,minmax(0,1fr));
+      gap:18px;
+      align-items:start;
+    }
+
+    .screenshot-card{
+      margin:0;
+      min-width:0;
+    }
+
+    .screenshot-frame{
+      overflow:hidden;
+      border:1px solid var(--rule);
+      border-radius:26px;
+      background:#fff;
+      box-shadow:var(--shadow-soft);
+    }
+
+    .screenshot-frame img{
+      display:block;
+      width:100%;
+      height:auto;
+      aspect-ratio:941 / 2048;
+      object-fit:cover;
+    }
+
+    .screenshot-card figcaption{
+      padding:13px 4px 0;
+      text-align:center;
+    }
+
+    .screenshot-card figcaption strong{
+      display:block;
+      margin-bottom:3px;
+      color:var(--ink);
+      font-size:.98rem;
+    }
+
+    .screenshot-card figcaption span{
+      display:block;
+      color:var(--muted);
+      font-size:.84rem;
+      line-height:1.45;
+    }
+
+    @media (max-width:900px){
+      .screenshot-grid{
+        grid-template-columns:repeat(2,minmax(0,1fr));
+        gap:22px 18px;
+      }
+    }
+
+    @media (max-width:600px){
+      .product-showcase{
+        margin:44px 0 52px;
+        padding-top:32px;
+      }
+
+      .showcase-head{
+        text-align:left;
+        margin-bottom:22px;
+      }
+
+      .screenshot-grid{
+        display:flex;
+        gap:16px;
+        overflow-x:auto;
+        scroll-snap-type:x mandatory;
+        padding:2px 18px 14px 2px;
+        margin-right:-17px;
+        scrollbar-width:none;
+        -webkit-overflow-scrolling:touch;
+      }
+
+      .screenshot-grid::-webkit-scrollbar{display:none}
+
+      .screenshot-card{
+        flex:0 0 min(78vw,300px);
+        scroll-snap-align:start;
+      }
+
+      .screenshot-card figcaption{
+        text-align:left;
+        padding-left:2px;
+        padding-right:2px;
+      }
+    }
+
+  
+    /* Refined screenshot sizing */
+    .product-showcase{
+      margin:24px 0 56px;
+      padding:28px 0 8px;
+    }
+
+    .product-showcase .showcase-head{
+      max-width:680px;
+      margin-bottom:24px;
+    }
+
+    .product-showcase .showcase-head h2{
+      font-size:clamp(1.85rem,3.4vw,2.65rem);
+    }
+
+    .product-showcase .screenshot-grid{
+      max-width:1120px;
+      margin:0 auto;
+      grid-template-columns:repeat(4,minmax(0,220px));
+      justify-content:center;
+      gap:20px;
+    }
+
+    .product-showcase .screenshot-frame{
+      border-radius:22px;
+    }
+
+    .product-showcase .screenshot-card figcaption{
+      padding-top:11px;
+    }
+
+    @media (max-width:1000px){
+      .product-showcase .screenshot-grid{
+        max-width:560px;
+        grid-template-columns:repeat(2,minmax(0,240px));
+      }
+    }
+
+    @media (max-width:600px){
+      .product-showcase{
+        margin:18px 0 48px;
+        padding-top:22px;
+      }
+
+      .product-showcase .screenshot-grid{
+        max-width:none;
+        margin-right:-17px;
+        justify-content:initial;
+      }
+
+      .product-showcase .screenshot-card{
+        flex:0 0 min(70vw,270px);
+      }
+    }
+
+  
+/* Final Onuri brand/header consistency */
+header .brand,
+.brand{
+  font-size:clamp(1.72rem,2.2vw,2.05rem) !important;
+  line-height:1 !important;
+  letter-spacing:-0.025em;
+  font-weight:700;
+}
+
+header{
+  min-height:76px;
+  display:flex;
+  align-items:center;
+}
+
+header .navlinks-group,
+.navlinks-group{
+  align-items:center;
+}
+
+header .navlink,
+.navlink{
+  min-height:42px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:.66rem .95rem;
+  border-radius:999px;
+  line-height:1.1;
+}
+
+@media (max-width:760px){
+  header{
+    min-height:66px;
+  }
+
+  header .brand,
+  .brand{
+    font-size:1.62rem !important;
+  }
+
+  header .navlink,
+  .navlink{
+    min-height:38px;
+    padding:.58rem .8rem;
+  }
+}
+
+
+/* Final Onuri wordmark */
+.brand{
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-weight:800 !important;
+  letter-spacing:-0.045em !important;
+  font-size:clamp(1.78rem,2.25vw,2.08rem) !important;
+  line-height:1 !important;
+  color:var(--ink,#1f2430);
+  text-decoration:none;
+  white-space:nowrap;
+}
+
+</style><style>
+.article-hero{padding:58px 0 40px;max-width:850px}.article-hero h1{max-width:15ch}.article-hero .lede{max-width:68ch}.article-meta{color:var(--muted);font-size:.9rem;margin-top:18px}.article-shell{display:grid;grid-template-columns:240px minmax(0,720px);gap:54px;align-items:start;padding:28px 0 80px}.toc{position:sticky;top:20px;background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:18px;padding:18px}.toc strong{display:block;font-family:"Newsreader",Georgia,serif;font-size:1.1rem;margin-bottom:8px}.toc a{display:block;color:var(--muted);text-decoration:none;font-size:.83rem;padding:4px 0}.toc a:hover{color:var(--pink-dark)}.prose h2{font-size:2rem;margin:58px 0 14px;scroll-margin-top:30px}.prose h2:first-child{margin-top:0}.prose h3{font-size:1.35rem;margin:30px 0 8px}.prose p,.prose li{font-size:1.02rem}.prose p{color:#4e464b}.prose strong{color:var(--ink)}.prose ul{padding-left:22px}.answer{background:var(--surface-soft);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:20px 0}.answer p{margin:0}.pull{font-family:"Newsreader",Georgia,serif;font-size:1.55rem!important;line-height:1.35;color:var(--pink-dark)!important;border-left:4px solid var(--pink);padding:8px 0 8px 20px;margin:32px 0!important}.screen-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:26px 0}.screen-grid figure{margin:0;background:#fff;border:1px solid var(--line);border-radius:18px;padding:12px;box-shadow:var(--shadow-soft)}.screen-grid img{display:block;border-radius:12px;width:100%}.screen-grid figcaption{font-size:.82rem;color:var(--muted);padding:9px 4px 2px}.mini-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:20px 0}.mini{background:#fff;border:1px solid var(--line);border-radius:15px;padding:16px}.mini strong{display:block;margin-bottom:4px}.mini span{color:var(--muted);font-size:.9rem}.article-cta{margin-top:58px;padding:34px;border-radius:22px;background:#342a30;color:#fff}.article-cta h2{color:#fff;margin:0 0 10px}.article-cta p{color:#eee7eb}.article-cta .cta{background:#fff;color:var(--pink-dark)}@media(max-width:860px){.article-shell{grid-template-columns:1fr}.toc{position:relative;top:auto}.screen-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.article-hero{padding-top:35px}.article-shell{gap:28px}.screen-grid,.mini-grid{grid-template-columns:1fr}.prose h2{font-size:1.75rem;margin-top:48px}}
+
+.method-index{padding-left:22px}.method-index li{margin:6px 0}.method-index a{text-decoration:none}.method-index a strong{color:var(--pink-dark)}
+.quiz{margin:44px 0 10px;padding:30px clamp(18px,4vw,34px);border-radius:24px;background:linear-gradient(160deg,#fff 0%,var(--surface-soft) 100%);border:1px solid var(--line);box-shadow:var(--shadow-soft);scroll-margin-top:20px}
+.quiz h2{margin:0 0 6px!important}.quiz-intro{color:var(--muted)!important;margin:0 0 18px}
+.quiz fieldset{border:0;padding:0;margin:0 0 20px;min-width:0}
+.quiz legend{font-weight:700;margin-bottom:10px;display:flex;gap:10px;align-items:center;color:var(--ink)}
+.qn{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--pink-deep);color:#fff;font-size:.8rem;flex-shrink:0}
+.quiz label{display:flex;align-items:center;gap:10px;padding:11px 14px;margin:7px 0;background:#fff;border:1px solid var(--line);border-radius:13px;cursor:pointer;font-size:.97rem;transition:border-color .15s ease,background .15s ease}
+.quiz label:hover{border-color:var(--rose)}
+.quiz label:has(input:checked){border-color:var(--pink-deep);background:var(--pink-soft)}
+.quiz input[type=radio]{accent-color:var(--pink-deep);width:18px;height:18px;flex-shrink:0;margin:0}
+.quiz-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.quiz button.cta{border:0;font:inherit;font-weight:750;cursor:pointer}
+.quiz-hint{color:var(--pink-dark);font-size:.9rem;font-weight:600}
+.quiz-result{margin-top:6px;padding:24px;border-radius:18px;background:#342a30;color:#fff}
+.quiz-result:focus{outline:none}
+.quiz-result .eyebrow{color:var(--rose)}
+.quiz-result h3{color:#fff;font-size:2rem!important;margin:0 0 8px!important}
+.quiz-result p{color:#eee7eb!important}
+.quiz-result .runner{font-size:.92rem!important}
+.quiz-result .runner a{color:#fff}
+.quiz-result .cta{background:#fff;color:var(--pink-dark)}
+.secondary-btn{min-height:46px;padding:10px 16px;border-radius:13px;border:1px solid rgba(255,255,255,.4);background:transparent;color:#fff;font:inherit;font-weight:650;cursor:pointer}
+.secondary-btn:hover{background:rgba(255,255,255,.1)}
+.specimen{margin:22px 0;padding:18px 18px 16px;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow-soft)}
+.specimen figcaption{font-size:.74rem;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:var(--pink-dark);margin-bottom:12px}
+.specimen.raw p{font-family:"Newsreader",Georgia,serif;font-size:1.3rem!important;line-height:1.5;color:var(--ink)!important;margin:0}
+.specimen-note{font-size:.88rem!important;color:var(--muted)!important;margin:12px 0 0!important}
+.cornell{display:grid;grid-template-columns:34% 1fr;border:1px solid #d9cdd3;border-radius:10px;overflow:hidden;font-size:.93rem}
+.cornell span{display:block;padding:3px 0}
+.c-cues{padding:12px;border-right:2px solid var(--rose);color:var(--pink-dark);font-weight:650;background:var(--surface-soft)}
+.c-notes{padding:12px}
+.c-sum{grid-column:1/-1;padding:12px;border-top:2px solid var(--rose);background:#fffafc}
+.outline,.outline ul{list-style:none;padding-left:0;margin:0}
+.outline ul{padding-left:22px;border-left:1px dashed var(--rose);margin-left:6px}
+.outline li{padding:3px 0 3px 10px;font-size:.97rem!important}
+.outline>li{font-weight:700}.outline>li li{font-weight:400}
+.mindmap{width:100%;height:auto;display:block}
+.mm-lines path{fill:none;stroke:var(--rose);stroke-width:2.5}
+.mm-center rect{fill:var(--pink-deep)}.mm-center text{fill:#fff;font-weight:700}
+.mm-node rect{fill:var(--pink-soft);stroke:var(--pink)}.mm-node text{fill:var(--pink-dark);font-weight:650}
+.mindmap text{font:15px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;text-anchor:middle;dominant-baseline:middle}
+.mm-leaf text{fill:var(--muted);font-size:14px}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0}
+.prose table{width:100%;border-collapse:collapse;font-size:.93rem;min-width:460px}
+.prose th,.prose td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+.prose thead th{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);background:var(--surface-soft)}
+.compare{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.compare tbody th a{text-decoration:none;font-weight:700}
+.compare tr:last-child th,.compare tr:last-child td{background:var(--pink-soft)}
+.table-note{font-size:.85rem!important;color:var(--muted)!important}
+.zettels{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.zettel{position:relative;padding:14px 14px 12px;background:#fffdf6;border:1px solid #eadfc8;border-radius:6px;box-shadow:0 3px 0 #efe6d2;font-size:.92rem}
+.zettel strong{display:block;font-family:"Newsreader",Georgia,serif;font-size:1.08rem;line-height:1.3;margin:4px 0 6px}
+.zettel p{margin:0 0 8px!important;font-size:.9rem!important}
+.zid{font-family:ui-monospace,Menlo,monospace;font-size:.78rem;color:#9a7b3c;background:#f6edd8;padding:2px 7px;border-radius:5px}
+.zlink{font-size:.82rem;color:var(--pink-dark);font-weight:600}
+.para{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.para-col{padding:12px;border:1px solid var(--line);border-radius:12px;background:#fdfbfc;font-size:.88rem;display:flex;flex-direction:column;gap:4px}
+.para-col b{font-size:.74rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.para-col span{font-weight:700}
+.para-col em{font-style:normal;color:var(--muted);font-size:.84rem}
+.para-col.hot{border-color:var(--pink);background:var(--pink-soft)}
+.bujo,.daily{font-size:.97rem;background-image:radial-gradient(circle,#e8dde2 1px,transparent 1.3px);background-size:18px 18px;padding:12px 14px;border-radius:10px}
+.bujo div,.daily div{padding:3px 0}
+.bujo-date,.daily-date{font-family:"Newsreader",Georgia,serif;font-size:1.2rem;font-weight:600;margin-bottom:4px}
+.sym{display:inline-block;width:22px;font-weight:800;color:var(--pink-deep)}
+.bujo em{color:var(--muted)}
+.daily{background-image:none;background:#fdfbfc;border:1px solid var(--line)}
+.daily time{font-family:ui-monospace,Menlo,monospace;font-size:.8rem;color:var(--muted);margin-right:8px}
+.commonplace{padding:6px 4px}
+.cp-head{font-family:"Newsreader",Georgia,serif;font-size:1.15rem;font-weight:600;border-bottom:1px solid var(--rose);padding-bottom:3px;margin:6px 0 10px}
+.commonplace blockquote{margin:0;font-family:"Newsreader",Georgia,serif;font-size:1.3rem;font-style:italic;color:var(--pink-dark)}
+.commonplace cite{display:block;font-style:normal;color:var(--muted);font-size:.88rem;margin:4px 0 16px}
+.commonplace p{margin:0!important}
+.specimen.live{border-color:var(--pink);box-shadow:var(--shadow)}
+.entity-note{font-family:"Newsreader",Georgia,serif;font-size:1.32rem!important;line-height:1.75!important;color:var(--ink)!important;margin:0 0 14px!important}
+.ent{font:inherit;border:0;padding:0 3px;margin:0;border-radius:6px;cursor:pointer;color:inherit;line-height:1.3;transition:transform .12s ease,box-shadow .12s ease}
+button.ent:hover{transform:translateY(-1px);box-shadow:0 3px 10px rgba(116,54,76,.15)}
+button.ent[aria-pressed=true]{box-shadow:0 0 0 2px var(--pink-deep)}
+.ent.person{background:#fde3eb}.ent.place{background:#e3f1fb}.ent.date{background:#fff1d6}.ent.idea{background:#ece6fd}
+.legend{display:flex;gap:8px;flex-wrap:wrap;font-size:.78rem;margin-top:12px}
+.legend .ent{cursor:default;padding:2px 8px}
+.ent-panel{min-height:64px;padding:12px 14px;border-radius:12px;background:var(--surface-soft);font-size:.92rem}
+.ent-hint{color:var(--muted)}
+.ent-panel strong{display:block;margin-bottom:6px}
+.ent-panel ul{margin:0;padding-left:18px}.ent-panel li{font-size:.9rem!important;margin:3px 0}
+.ent-panel small{display:block;margin-top:6px;color:var(--muted)}
+.fit{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0 6px}
+.fit>div{padding:14px 16px;border-radius:14px;background:#fff;border:1px solid var(--line)}
+.fit strong{display:block;font-size:.76rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
+.fit>div:first-child strong{color:#2f7a55}.fit>div:last-child strong{color:var(--pink-dark)}
+.fit span{font-size:.93rem;color:#4e464b}
+.screen-grid.two{grid-template-columns:repeat(2,minmax(0,220px));justify-content:start}
+.rules{list-style:none;padding-left:0!important}
+.rules li{padding:10px 14px;margin:8px 0;background:#fff;border:1px solid var(--line);border-radius:12px}
+.related{margin-top:50px}.related .mini{text-decoration:none;color:var(--ink);display:block}.related .mini:hover{border-color:var(--pink)}
+@media(max-width:700px){.zettels,.fit{grid-template-columns:1fr}.para{grid-template-columns:1fr 1fr}.cornell{grid-template-columns:1fr}.c-cues{border-right:0;border-bottom:2px solid var(--rose)}.screen-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.entity-note{font-size:1.18rem!important}}
+.prose{min-width:0}@media(max-width:860px){.article-shell{grid-template-columns:minmax(0,1fr)}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://onuri.app/note-taking-methods.html#article","headline":"Every Note-Taking Method, Explained","alternativeHeadline":"10 note-taking methods compared on the same example note","description":"Cornell, Zettelkasten, PARA, Bullet Journal, mind maps and more: 10 note-taking methods shown on the same example note, with a quiz to find yours.","image":"https://onuri.app/onuri-social-preview.jpg","datePublished":"2026-09-30","dateModified":"2026-09-30","inLanguage":"en","author":{"@type":"Person","name":"John Henry Roche","worksFor":{"@id":"https://onuri.app/#organization"}},"publisher":{"@type":"Organization","@id":"https://onuri.app/#organization","name":"Onuri","url":"https://onuri.app/","logo":"https://onuri.app/android-icon-48x48.png"},"mainEntityOfPage":"https://onuri.app/note-taking-methods.html","about":[{"@type":"Thing","name":"Note-taking"},{"@type":"Thing","name":"Cornell Notes"},{"@type":"Thing","name":"Zettelkasten"},{"@type":"Thing","name":"PARA method"},{"@type":"Thing","name":"Bullet Journal"},{"@type":"Thing","name":"Mind map"},{"@type":"Thing","name":"Commonplace book"}]},{"@type":"ItemList","@id":"https://onuri.app/note-taking-methods.html#methods","name":"Note-taking methods","numberOfItems":10,"itemListElement":[{"@type":"ListItem","position":1,"name":"Cornell method","url":"https://onuri.app/note-taking-methods.html#cornell"},{"@type":"ListItem","position":2,"name":"Outline method","url":"https://onuri.app/note-taking-methods.html#outline"},{"@type":"ListItem","position":3,"name":"Mind mapping","url":"https://onuri.app/note-taking-methods.html#mind-map"},{"@type":"ListItem","position":4,"name":"Charting method","url":"https://onuri.app/note-taking-methods.html#charting"},{"@type":"ListItem","position":5,"name":"Zettelkasten","url":"https://onuri.app/note-taking-methods.html#zettelkasten"},{"@type":"ListItem","position":6,"name":"PARA method","url":"https://onuri.app/note-taking-methods.html#para"},{"@type":"ListItem","position":7,"name":"Bullet Journal","url":"https://onuri.app/note-taking-methods.html#bullet-journal"},{"@type":"ListItem","position":8,"name":"Commonplace book","url":"https://onuri.app/note-taking-methods.html#commonplace"},{"@type":"ListItem","position":9,"name":"Daily notes","url":"https://onuri.app/note-taking-methods.html#daily-notes"},{"@type":"ListItem","position":10,"name":"Write-first (connected) notes","url":"https://onuri.app/note-taking-methods.html#write-first"}]},{"@type":"FAQPage","@id":"https://onuri.app/note-taking-methods.html#faq","mainEntity":[{"@type":"Question","name":"What is the best note-taking method?","acceptedAnswer":{"@type":"Answer","text":"There is no single best method. Cornell is the most effective for studying, Zettelkasten for research and writing, PARA for organising work projects, and write-first or daily notes for everyday life. The best method is the one you will still be using in six months."}},{"@type":"Question","name":"What is the easiest note-taking method?","acceptedAnswer":{"@type":"Answer","text":"Daily notes and write-first notes are the easiest, because they require no setup and no filing. The outline method is the easiest structured method, since most people already write in bullet points."}},{"@type":"Question","name":"Which note-taking method is best for students?","acceptedAnswer":{"@type":"Answer","text":"The Cornell method is the most recommended for students because it builds review into the page: cue questions become a self-test before exams. Mind maps are useful for planning essays, and the outline method suits well-structured lectures."}},{"@type":"Question","name":"Is Zettelkasten worth it?","acceptedAnswer":{"@type":"Answer","text":"For people who write and think for a living — academics, researchers, authors — a Zettelkasten can be extremely valuable, because ideas compound over years. For most other people, the upkeep is higher than the payoff, and a lighter method works better."}},{"@type":"Question","name":"What is the difference between PARA and Zettelkasten?","acceptedAnswer":{"@type":"Answer","text":"PARA organises notes by how actionable they are — projects, areas, resources and archives — and is mainly for getting work done. Zettelkasten organises ideas by linking them to each other, and is mainly for developing thinking and writing. Some people use both."}},{"@type":"Question","name":"Can you take notes without folders?","acceptedAnswer":{"@type":"Answer","text":"Yes. Daily notes use only dates, and write-first notes rely on search and automatic connections between people, places, dates and ideas instead of folders. Many people find they retrieve notes more reliably this way, because they remember what a note was about rather than where they filed it."}}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Onuri","item":"https://onuri.app/"},{"@type":"ListItem","position":2,"name":"Resources","item":"https://onuri.app/resources.html"},{"@type":"ListItem","position":3,"name":"Note-Taking Methods","item":"https://onuri.app/note-taking-methods.html"}]}]}</script><link href="onuri-download-qr.css" rel="stylesheet"/></head><body>
+<a class="skip-link" href="#main-content">Skip to content</a><header class="wrap"><a aria-label="Onuri home" class="brand" href="/">Onuri</a><nav aria-label="Primary navigation" class="nav"><a href="automatic-second-brain.html">Second Brain</a><a href="folderless-notes.html">Folderless Notes</a><a href="notes-app.html">Notes App</a><a href="resources.html">Resources</a><a aria-label="Get Onuri free on the App Store" class="nav-cta" href="https://apps.apple.com/app/id6796028277">Get App Free</a></nav></header>
+<main id="main-content"><div class="wrap">
+
+<section class="article-hero">
+<p class="eyebrow">Note-taking methods · Study · Work · Everyday life</p>
+<h1>Every note-taking method, <em>explained.</em></h1>
+<p class="lede">Cornell, Zettelkasten, PARA, the Bullet Journal, mind maps and more — ten popular note-taking methods, each shown on <strong>the same real-life note</strong> so you can see exactly how they differ. Then take the 60-second quiz to find the method that fits the way you think.</p>
+<div class="actions"><a class="cta" href="#quiz">Find your method</a><a class="secondary-link" href="#overview">See all 10 methods</a></div>
+<p class="article-meta">Updated September 2026 · By John Henry Roche, maker of Onuri · About 14 minutes</p>
+</section>
+
+<div class="article-shell"><aside class="toc" aria-label="Contents"><strong>In this guide</strong>
+<a href="#overview">The 10 methods at a glance</a>
+<a href="#quiz">Quiz: find your method</a>
+<a href="#the-note">The example note</a>
+<a href="#cornell">1. Cornell method</a>
+<a href="#outline">2. Outline method</a>
+<a href="#mind-map">3. Mind mapping</a>
+<a href="#charting">4. Charting method</a>
+<a href="#zettelkasten">5. Zettelkasten</a>
+<a href="#para">6. PARA method</a>
+<a href="#bullet-journal">7. Bullet Journal</a>
+<a href="#commonplace">8. Commonplace book</a>
+<a href="#daily-notes">9. Daily notes</a>
+<a href="#write-first">10. Write-first notes</a>
+<a href="#compare">Comparison table</a>
+<a href="#choose">How to choose</a>
+<a href="#abandon">Why systems get abandoned</a>
+<a href="#faq">FAQ</a>
+</aside>
+
+<article class="prose">
+
+<h2 id="overview">What are the main note-taking methods?</h2>
+<div class="answer"><p><strong>The most widely used note-taking methods are the Cornell method, the outline method, mind mapping, the charting method, Zettelkasten, PARA, the Bullet Journal, the commonplace book, daily notes and write-first (connected) notes.</strong> They differ in one key way: how much organising you do while you write, and how much you do later.</p></div>
+<ol class="method-index">
+<li><a href="#cornell"><strong>Cornell method</strong></a> — split the page into notes, cues and a summary. Built for studying.</li>
+<li><a href="#outline"><strong>Outline method</strong></a> — nested bullet points from general to specific.</li>
+<li><a href="#mind-map"><strong>Mind mapping</strong></a> — a central idea with branches radiating outwards.</li>
+<li><a href="#charting"><strong>Charting method</strong></a> — a table with columns for the things you want to compare.</li>
+<li><a href="#zettelkasten"><strong>Zettelkasten</strong></a> — small, single-idea notes linked into a web of thinking.</li>
+<li><a href="#para"><strong>PARA method</strong></a> — sort everything into Projects, Areas, Resources and Archives.</li>
+<li><a href="#bullet-journal"><strong>Bullet Journal</strong></a> — rapid logging with symbols for tasks, events and notes.</li>
+<li><a href="#commonplace"><strong>Commonplace book</strong></a> — one book of quotes, ideas and lessons, grouped by theme.</li>
+<li><a href="#daily-notes"><strong>Daily notes</strong></a> — one running note per day; everything goes in.</li>
+<li><a href="#write-first"><strong>Write-first notes</strong></a> — write naturally and let connections appear afterwards.</li>
+</ol>
+
+<section class="quiz" id="quiz" aria-labelledby="quiz-title">
+<p class="eyebrow">60-second quiz</p>
+<h2 id="quiz-title">Which note-taking method suits you?</h2>
+<p class="quiz-intro">Five questions. No sign-up, and nothing you choose leaves your browser.</p>
+<form id="method-quiz" novalidate>
+<fieldset><legend><span class="qn">1</span> What are your notes mostly for?</legend>
+<label><input type="radio" name="q1" value="cornell:2,outline:1,mindmap:1"/> Studying — lectures, reading, exams</label>
+<label><input type="radio" name="q1" value="para:2,outline:1,charting:1"/> Work — projects, meetings, documents</label>
+<label><input type="radio" name="q1" value="zettel:2,commonplace:2"/> Ideas — reading, research, writing</label>
+<label><input type="radio" name="q1" value="writefirst:2,daily:1,bujo:1"/> Life — people, plans, things I want to remember</label>
+</fieldset>
+<fieldset><legend><span class="qn">2</span> Where do you take most of your notes?</legend>
+<label><input type="radio" name="q2" value="bujo:2,cornell:1,mindmap:1,commonplace:1"/> On paper</label>
+<label><input type="radio" name="q2" value="outline:1,zettel:1,para:1,charting:1"/> On a laptop</label>
+<label><input type="radio" name="q2" value="writefirst:2,daily:1"/> On my phone, on the go</label>
+</fieldset>
+<fieldset><legend><span class="qn">3</span> How do you feel about organising?</legend>
+<label><input type="radio" name="q3" value="zettel:2,para:2,bujo:1"/> I enjoy building a system</label>
+<label><input type="radio" name="q3" value="outline:1,cornell:1,charting:1,bujo:1"/> A little structure is fine</label>
+<label><input type="radio" name="q3" value="writefirst:2,daily:2"/> I'd rather never file anything</label>
+</fieldset>
+<fieldset><legend><span class="qn">4</span> How does your mind work?</legend>
+<label><input type="radio" name="q4" value="outline:2,para:1"/> In lists and hierarchies</label>
+<label><input type="radio" name="q4" value="mindmap:2,zettel:1"/> Visually — shapes, links, big picture</label>
+<label><input type="radio" name="q4" value="charting:2,cornell:1"/> In comparisons and facts side by side</label>
+<label><input type="radio" name="q4" value="writefirst:2,daily:1,commonplace:1"/> In stories — what happened, with whom, where</label>
+</fieldset>
+<fieldset><legend><span class="qn">5</span> What usually goes wrong with your notes?</legend>
+<label><input type="radio" name="q5" value="writefirst:2,para:1"/> I can't find old notes when I need them</label>
+<label><input type="radio" name="q5" value="daily:2,writefirst:1"/> I start a system, then abandon it</label>
+<label><input type="radio" name="q5" value="zettel:2,commonplace:1,cornell:1"/> I write a lot but never use it</label>
+<label><input type="radio" name="q5" value="cornell:2,outline:1,charting:1"/> They're messy and hard to review</label>
+</fieldset>
+<div class="quiz-actions"><button class="cta" type="submit">Show my method</button><span class="quiz-hint" id="quiz-hint" role="status" aria-live="polite"></span></div>
+</form>
+<div class="quiz-result" id="quiz-result" hidden tabindex="-1">
+<p class="eyebrow">Your best match</p>
+<h3 id="result-name"></h3>
+<p id="result-why"></p>
+<p class="runner" id="result-runner"></p>
+<div class="actions"><a class="cta" id="result-link" href="#">Read how it works</a><button class="secondary-btn" id="share-btn" type="button">Share the quiz</button><button class="secondary-btn" id="retake-btn" type="button">Retake</button></div>
+</div>
+</section>
+
+<h2 id="the-note">The example note</h2>
+<p>Comparing methods in the abstract is hard, so every method below records the same small moment — the kind of thing most of us jot down several times a week:</p>
+<figure class="specimen raw"><figcaption>The raw note</figcaption><p>Coffee with Maya on Tuesday. She's moving the launch to June and wants to pilot it in Galway first. Recommended a book on habit design. Follow up about the budget on Friday.</p></figure>
+<p>It contains a person, a place, three dates, a decision, an idea and a task. Watch what each method does with them.</p>
+
+<h2 id="cornell">1. The Cornell method</h2>
+<div class="answer"><p><strong>The Cornell method divides a page into three parts: a wide column for notes, a narrow column for cue questions, and a summary at the bottom.</strong> It was developed by Walter Pauk, an education professor at Cornell University, in the 1950s and popularised in his book <em>How to Study in College</em>.</p></div>
+<figure class="specimen"><figcaption>Our note, Cornell-style</figcaption>
+<div class="cornell"><div class="c-cues"><span>When is launch?</span><span>Where's the pilot?</span><span>Next step?</span></div><div class="c-notes"><span>– Launch moves to June (Maya)</span><span>– Pilot in Galway first</span><span>– Book rec: habit design</span><span>– Budget follow-up: Friday</span></div><div class="c-sum"><b>Summary:</b> Launch slips to June after a Galway pilot. Confirm budget Friday.</div></div></figure>
+<h3>How to do it</h3>
+<ol><li><strong>Record</strong> notes in the right-hand column during the lecture or meeting.</li><li><strong>Reduce</strong> them afterwards into short questions or keywords in the left cue column.</li><li><strong>Recite</strong> — cover the notes and answer the cues from memory.</li><li><strong>Summarise</strong> the whole page in two or three sentences at the bottom.</li><li><strong>Review</strong> regularly, using the cues as a self-test.</li></ol>
+<div class="fit"><div><strong>Great for</strong><span>Lectures, textbooks and exam revision. The cue column turns notes into flashcards.</span></div><div><strong>Less good for</strong><span>Quick capture on the move, or notes you'll need to find again in years rather than weeks.</span></div></div>
+
+<h2 id="outline">2. The outline method</h2>
+<div class="answer"><p><strong>The outline method organises notes as nested bullet points, with main topics on the left and supporting details indented beneath them.</strong> It is the most common way people take notes, often without realising it is a method at all.</p></div>
+<figure class="specimen"><figcaption>Our note, outlined</figcaption>
+<ul class="outline"><li>Coffee with Maya — Tuesday<ul><li>Launch<ul><li>Moving to June</li><li>Pilot in Galway first</li></ul></li><li>Reading<ul><li>Book on habit design</li></ul></li><li>Next steps<ul><li>Budget follow-up — Friday</li></ul></li></ul></li></ul></figure>
+<h3>How to do it</h3>
+<p>Write each main topic flush left. Indent details beneath the topic they belong to, and indent again for sub-details. Keep each line short — phrases, not sentences.</p>
+<div class="fit"><div><strong>Great for</strong><span>Well-structured talks, meeting minutes and planning documents. Easy to scan and easy to type.</span></div><div><strong>Less good for</strong><span>Fast, messy conversations where the structure only becomes clear afterwards.</span></div></div>
+
+<h2 id="mind-map">3. Mind mapping</h2>
+<div class="answer"><p><strong>A mind map places one central topic in the middle of the page and draws branches out to related ideas, which branch again into details.</strong> The technique was popularised by Tony Buzan in the 1970s and suits people who think visually.</p></div>
+<figure class="specimen"><figcaption>Our note as a mind map</figcaption>
+<svg class="mindmap" viewBox="0 0 560 250" role="img" aria-label="Mind map: Maya, Tuesday in the centre, with branches to Launch (June), Pilot (Galway), Book (habit design) and Budget (Friday)">
+<g class="mm-lines"><path d="M280 125 C220 125 200 60 150 55"/><path d="M280 125 C340 125 360 60 410 55"/><path d="M280 125 C220 125 200 190 150 195"/><path d="M280 125 C340 125 360 190 410 195"/><path d="M110 55 L60 20"/><path d="M450 55 L500 20"/><path d="M110 195 L60 230"/><path d="M450 195 L500 230"/></g>
+<g class="mm-center"><rect x="215" y="102" width="130" height="46" rx="23"/><text x="280" y="131">Maya · Tuesday</text></g>
+<g class="mm-node"><rect x="100" y="38" width="100" height="34" rx="17"/><text x="150" y="60">Launch</text><rect x="360" y="38" width="100" height="34" rx="17"/><text x="410" y="60">Pilot</text><rect x="100" y="178" width="100" height="34" rx="17"/><text x="150" y="200">Book</text><rect x="360" y="178" width="100" height="34" rx="17"/><text x="410" y="200">Budget</text></g>
+<g class="mm-leaf"><text x="48" y="16">June</text><text x="512" y="16">Galway</text><text x="40" y="244">habit design</text><text x="516" y="244">Friday</text></g>
+</svg></figure>
+<h3>How to do it</h3>
+<p>Write the topic in the centre. Draw a branch for each main theme, using a single keyword per branch. Add smaller branches for details, and use colour or small drawings to make groups stand out.</p>
+<div class="fit"><div><strong>Great for</strong><span>Brainstorming, planning essays and seeing a whole topic at once.</span></div><div><strong>Less good for</strong><span>Detailed or sequential information, and quick typing on a phone.</span></div></div>
+
+<h2 id="charting">4. The charting method</h2>
+<div class="answer"><p><strong>The charting method records notes in a table, with a column for each category you care about.</strong> It works best when information naturally falls into the same categories again and again.</p></div>
+<figure class="specimen"><figcaption>Our note as a chart</figcaption>
+<div class="table-scroll"><table><thead><tr><th>Topic</th><th>Decision</th><th>Who</th><th>When</th></tr></thead><tbody><tr><td>Launch</td><td>Moved to June</td><td>Maya</td><td>June</td></tr><tr><td>Pilot</td><td>Galway first</td><td>Maya</td><td>Before launch</td></tr><tr><td>Budget</td><td>Follow up</td><td>Me</td><td>Friday</td></tr><tr><td>Reading</td><td>Book on habit design</td><td>Me</td><td>—</td></tr></tbody></table></div></figure>
+<h3>How to do it</h3>
+<p>Decide your columns before you start — for example date, event, people and outcome for a history lecture, or option, cost and pros for a decision. Then fill one row per item.</p>
+<div class="fit"><div><strong>Great for</strong><span>Comparing options, facts-heavy subjects and recurring meetings with the same structure.</span></div><div><strong>Less good for</strong><span>Ideas and conversations that don't fit the columns you chose in advance.</span></div></div>
+
+<h2 id="zettelkasten">5. Zettelkasten</h2>
+<div class="answer"><p><strong>Zettelkasten (German for "slip box") is a method of writing one idea per note, in your own words, and linking each note to related notes so that a web of thinking grows over time.</strong> It is associated with the sociologist Niklas Luhmann, who kept a box of around 90,000 index cards and credited it with his remarkable output of books and papers.</p></div>
+<figure class="specimen"><figcaption>Our note, as linked slips</figcaption>
+<div class="zettels"><div class="zettel"><span class="zid">12a</span><strong>Pilots in a small market reduce launch risk</strong><p>Maya wants to test in Galway before the wider June launch: a small, contained market shows problems early and cheaply.</p><span class="zlink">→ see 12 (launch timing trade-offs)</span></div><div class="zettel"><span class="zid">12a1</span><strong>A delay can be a feature, not a failure</strong><p>Moving launch to June buys time for the pilot's lessons. Question: when does caution become avoidance?</p><span class="zlink">→ see 12a · 31c (habit design)</span></div></div>
+<p class="specimen-note">Notice what is missing: the coffee, the day and the Friday task. A Zettelkasten keeps ideas, not events — the task belongs somewhere else.</p></figure>
+<h3>How to do it</h3>
+<ol><li><strong>Fleeting notes:</strong> jot quick thoughts as they come.</li><li><strong>Literature notes:</strong> summarise what you read, briefly, in your own words.</li><li><strong>Permanent notes:</strong> turn the best ideas into single-idea notes written to stand on their own.</li><li><strong>Link</strong> each permanent note to related ones, and explain why they are related.</li></ol>
+<div class="fit"><div><strong>Great for</strong><span>Researchers, writers and students producing essays or theses. Ideas compound over years.</span></div><div><strong>Less good for</strong><span>Tasks, meetings and everyday life. It takes real, ongoing effort — many people stop before it pays off.</span></div></div>
+
+<h2 id="para">6. The PARA method</h2>
+<div class="answer"><p><strong>PARA is a way of organising digital notes and files into four top-level categories: Projects, Areas, Resources and Archives.</strong> Created by productivity writer Tiago Forte as part of his "Building a Second Brain" approach, it sorts information by how soon you will act on it rather than by subject.</p></div>
+<figure class="specimen"><figcaption>Our note, filed with PARA</figcaption>
+<div class="para"><div class="para-col hot"><b>Projects</b><span>June launch</span><em>↳ Launch moved to June; Galway pilot; budget follow-up Friday</em></div><div class="para-col"><b>Areas</b><span>Team 1:1s</span><em>↳ Coffee with Maya</em></div><div class="para-col"><b>Resources</b><span>Habit design</span><em>↳ Book recommendation</em></div><div class="para-col"><b>Archives</b><span>Finished projects</span><em>↳ (June launch, once it ships)</em></div></div>
+<p class="specimen-note">One conversation, three destinations. PARA asks you to decide where each piece lives.</p></figure>
+<h3>How to do it</h3>
+<ul><li><strong>Projects</strong> have a goal and a deadline — "launch in June".</li><li><strong>Areas</strong> are ongoing responsibilities with no end date — health, finances, your team.</li><li><strong>Resources</strong> are topics of interest you might use one day.</li><li><strong>Archives</strong> hold anything inactive from the other three.</li></ul>
+<div class="fit"><div><strong>Great for</strong><span>Knowledge workers juggling many projects, documents and files across apps.</span></div><div><strong>Less good for</strong><span>Personal notes that don't belong to a project, and people who dislike deciding where things go.</span></div></div>
+
+<h2 id="bullet-journal">7. The Bullet Journal</h2>
+<div class="answer"><p><strong>The Bullet Journal is a paper-based system for tasks, events and notes that uses short entries marked with simple symbols, reviewed and "migrated" forward each month.</strong> It was created by designer Ryder Carroll and shared publicly in 2013.</p></div>
+<figure class="specimen"><figcaption>Our note, rapid-logged</figcaption>
+<div class="bujo"><div class="bujo-date">Tuesday</div><div><span class="sym">○</span> Coffee with Maya</div><div><span class="sym">–</span> Launch moving to June</div><div><span class="sym">–</span> Pilot in Galway first</div><div><span class="sym">–</span> Book rec: habit design</div><div><span class="sym">•</span> Follow up on budget <em>(Friday)</em></div></div>
+<p class="specimen-note">• task &nbsp; ○ event &nbsp; – note. Unfinished tasks are migrated to the next day or month, or crossed out.</p></figure>
+<h3>How to do it</h3>
+<p>Keep an index at the front, a future log for the months ahead, a monthly log and daily logs. Write short entries with symbols as the day goes. At the end of each month, review open tasks and either migrate them forward or let them go.</p>
+<div class="fit"><div><strong>Great for</strong><span>People who love paper and want tasks, plans and notes in one place.</span></div><div><strong>Less good for</strong><span>Searching years of entries — paper has no search box.</span></div></div>
+
+<h2 id="commonplace">8. The commonplace book</h2>
+<div class="answer"><p><strong>A commonplace book is a single notebook for collecting quotes, ideas, lessons and observations, usually grouped under topic headings.</strong> The practice dates back centuries — the philosopher John Locke even published his own method for indexing one in the late 1600s.</p></div>
+<figure class="specimen"><figcaption>Our note, commonplaced</figcaption>
+<div class="commonplace"><div class="cp-head">Launches &amp; risk</div><blockquote>"Test it small before you go big."</blockquote><cite>— Maya, over coffee</cite><div class="cp-head">To read</div><p>A book on habit design (Maya's recommendation)</p></div>
+<p class="specimen-note">Only the lasting ideas make it in. The dates and the task don't.</p></figure>
+<h3>How to do it</h3>
+<p>Copy in anything worth keeping — a line from a book, advice from a friend, a lesson learned — under a topic heading. Keep a simple index at the back so you can find themes again. Reread it regularly; that is where the value comes from.</p>
+<div class="fit"><div><strong>Great for</strong><span>Readers, writers and anyone who wants a personal collection of wisdom.</span></div><div><strong>Less good for</strong><span>Tasks, plans and detailed records of what happened.</span></div></div>
+
+<h2 id="daily-notes">9. Daily notes</h2>
+<div class="answer"><p><strong>With daily notes, you keep one note per day and write everything into it — thoughts, meetings, tasks and ideas — without sorting anything.</strong> The date is the only structure, which makes it one of the easiest methods to keep up.</p></div>
+<figure class="specimen"><figcaption>Our note, in the day's log</figcaption>
+<div class="daily"><div class="daily-date">Tuesday</div><div><time>09:10</time> Coffee with Maya. Launch moving to June, pilot in Galway first.</div><div><time>09:40</time> She recommended a book on habit design.</div><div><time>09:42</time> TODO: budget follow-up on Friday.</div><div><time>14:05</time> …</div></div></figure>
+<h3>How to do it</h3>
+<p>Open today's note and write. Add a time if you like. At the end of the week, skim the week's notes and pull out anything that needs action.</p>
+<div class="fit"><div><strong>Great for</strong><span>People who want zero friction and a natural record of their days.</span></div><div><strong>Less good for</strong><span>Finding things later. Three months on, "which day did Maya mention Galway?" is hard to answer without good search.</span></div></div>
+
+<h2 id="write-first">10. Write-first (connected) notes</h2>
+<div class="answer"><p><strong>Write-first note-taking means writing in ordinary sentences, without folders, tags or templates, and relying on software to recognise the people, places, dates and ideas in your writing and connect related notes automatically.</strong> It keeps the ease of daily notes and fixes their biggest weakness: finding things again.</p></div>
+<figure class="specimen live"><figcaption>Our note, written first — tap a highlight</figcaption>
+<p class="entity-note">Coffee with <button type="button" class="ent person" data-ent="maya">Maya</button> on <button type="button" class="ent date" data-ent="tue">Tuesday</button>. She's moving the launch to <button type="button" class="ent date" data-ent="june">June</button> and wants to pilot it in <button type="button" class="ent place" data-ent="galway">Galway</button> first. Recommended a book on <button type="button" class="ent idea" data-ent="habit">habit design</button>. Follow up about the budget on <button type="button" class="ent date" data-ent="fri">Friday</button>.</p>
+<div class="ent-panel" id="ent-panel" aria-live="polite"><span class="ent-hint">Tap Maya, Galway or habit design to see what connected notes might show you.</span></div>
+<div class="legend"><span class="ent person">person</span><span class="ent place">place</span><span class="ent date">date</span><span class="ent idea">idea</span></div>
+</figure>
+<p>The note is untouched: no filing decision, no reformatting. The structure lives <em>underneath</em>. Months later you don't need to remember the day, the folder or the exact words — you remember "something about Galway", tap it, and every note mentioning Galway is there.</p>
+<h3>How to do it</h3>
+<ol><li><strong>Just write</strong> — full sentences, the way you'd tell a friend.</li><li><strong>Keep the specifics.</strong> Names, places and dates are what make notes findable later, so write "Maya" rather than "she".</li><li><strong>Don't file.</strong> Resist creating folders; let connections do the work.</li><li><strong>Come back through the connections.</strong> Start from a person, a place or an idea and follow it through time.</li></ol>
+<p>This is the method <a href="/">Onuri</a> is built around. On iPhone, Onuri recognises people, places, dates and ideas <strong>on the device</strong> as you write, turns them into tappable paths through your notes, and never asks you to create a folder. Read more about <a href="folderless-notes.html">folderless notes</a> and the <a href="automatic-second-brain.html">automatic second brain</a> idea.</p>
+<div class="fit"><div><strong>Great for</strong><span>Everyday life, people, conversations, ideas and anyone who has abandoned a system before.</span></div><div><strong>Less good for</strong><span>Exam revision (Cornell is better) or formal research writing (a Zettelkasten is better). It also depends on software; on paper, it's just a diary.</span></div></div>
+<section class="screen-grid two" aria-label="Onuri screenshots"><figure><img alt="Writing a note in Onuri on iPhone" decoding="async" height="2048" loading="lazy" src="onuri-add-note.webp" width="941"/><figcaption>Write normally — no folder to choose.</figcaption></figure><figure><img alt="Onuri showing all notes connected to one keyword" decoding="async" height="2048" loading="lazy" src="onuri-connected-keyword.webp" width="941"/><figcaption>Tap a person, place or idea to see every connected note.</figcaption></figure></section>
+
+<h2 id="compare">Note-taking methods compared</h2>
+<div class="table-scroll"><table class="compare"><thead><tr><th scope="col">Method</th><th scope="col">Best for</th><th scope="col">Setup</th><th scope="col">Upkeep</th><th scope="col">On a phone</th></tr></thead><tbody>
+<tr><th scope="row"><a href="#cornell">Cornell</a></th><td>Lectures, revision</td><td>Low</td><td>Low</td><td>Fair</td></tr>
+<tr><th scope="row"><a href="#outline">Outline</a></th><td>Meetings, talks</td><td>None</td><td>Low</td><td>Good</td></tr>
+<tr><th scope="row"><a href="#mind-map">Mind map</a></th><td>Brainstorming</td><td>Low</td><td>Low</td><td>Fiddly</td></tr>
+<tr><th scope="row"><a href="#charting">Charting</a></th><td>Comparing facts</td><td>Medium</td><td>Low</td><td>Fiddly</td></tr>
+<tr><th scope="row"><a href="#zettelkasten">Zettelkasten</a></th><td>Research, writing</td><td>High</td><td>High</td><td>Fair</td></tr>
+<tr><th scope="row"><a href="#para">PARA</a></th><td>Projects, work files</td><td>Medium</td><td>Medium</td><td>Good</td></tr>
+<tr><th scope="row"><a href="#bullet-journal">Bullet Journal</a></th><td>Tasks, planning</td><td>Medium</td><td>Medium</td><td>Paper-first</td></tr>
+<tr><th scope="row"><a href="#commonplace">Commonplace</a></th><td>Quotes, lessons</td><td>Low</td><td>Medium</td><td>Good</td></tr>
+<tr><th scope="row"><a href="#daily-notes">Daily notes</a></th><td>Capturing everything</td><td>None</td><td>Low</td><td>Good</td></tr>
+<tr><th scope="row"><a href="#write-first">Write-first</a></th><td>Life, people, memory</td><td>None</td><td>None*</td><td>Excellent</td></tr>
+</tbody></table></div>
+<p class="table-note">*When software handles the connecting. "Upkeep" means the organising you must keep doing for the method to keep working.</p>
+
+<h2 id="choose">How to choose a note-taking method</h2>
+<p>The right method depends less on which is "best" and more on what the notes are for. A simple rule of thumb:</p>
+<ul class="rules"><li><strong>Studying for exams?</strong> Use <a href="#cornell">Cornell</a>. The cue column is built-in revision.</li><li><strong>Writing essays, a thesis or a book?</strong> Try a <a href="#zettelkasten">Zettelkasten</a>, and give it months.</li><li><strong>Managing lots of work projects and files?</strong> <a href="#para">PARA</a> keeps what's active in front of you.</li><li><strong>Brainstorming or planning?</strong> Start with a <a href="#mind-map">mind map</a>, then turn it into an <a href="#outline">outline</a>.</li><li><strong>Love paper and to-do lists?</strong> The <a href="#bullet-journal">Bullet Journal</a>.</li><li><strong>Want to remember your life — people, places, conversations?</strong> <a href="#write-first">Write-first notes</a>, or <a href="#daily-notes">daily notes</a> with good search.</li></ul>
+<p class="pull">Most people don't need one method. They need a place to capture everything, plus one method for the thing that matters most right now.</p>
+<p>Methods combine well. Plenty of students use Cornell for lectures and a simple daily note for everything else. Many writers keep a Zettelkasten for ideas but write-first notes for their life. The mistake is forcing every kind of note through the heaviest system you own.</p>
+
+<h2 id="abandon">Why most note-taking systems get abandoned</h2>
+<p>If you've started a note-taking system with enthusiasm and quietly stopped a few weeks later, you're in good company. The pattern is usually the same, and it has little to do with willpower.</p>
+<p><strong>Every method has two costs: the cost of capturing and the cost of maintaining.</strong> Capturing is the part you see — writing the note. Maintaining is the hidden part — filing, tagging, linking, reviewing and migrating. Methods that ask for a lot of maintenance work beautifully for the weeks you have energy for it, then collapse when life gets busy, because the notes you skipped filing make the whole system feel untrustworthy.</p>
+<p>The methods people stick with tend to have a maintenance cost close to zero, or a payoff that clearly exceeds it. That's why daily notes survive so often: nothing to maintain. And it's why write-first tools try to take maintenance off your plate entirely — so the system keeps working on the weeks you don't.</p>
+<p>So before choosing a method, ask one honest question: <strong>what will this system look like on my busiest week of the year?</strong> Choose the one that still works then.</p>
+
+<h2 id="faq">Frequently asked questions</h2>
+<h3>What is the best note-taking method?</h3>
+<p>There is no single best method. Cornell is the most effective for studying, Zettelkasten for research and writing, PARA for organising work projects, and write-first or daily notes for everyday life. The best method is the one you will still be using in six months.</p>
+<h3>What is the easiest note-taking method?</h3>
+<p>Daily notes and write-first notes are the easiest, because they require no setup and no filing. The outline method is the easiest structured method, since most people already write in bullet points.</p>
+<h3>Which note-taking method is best for students?</h3>
+<p>The Cornell method is the most recommended for students because it builds review into the page: cue questions become a self-test before exams. Mind maps are useful for planning essays, and the outline method suits well-structured lectures.</p>
+<h3>Is Zettelkasten worth it?</h3>
+<p>For people who write and think for a living — academics, researchers, authors — a Zettelkasten can be extremely valuable, because ideas compound over years. For most other people, the upkeep is higher than the payoff, and a lighter method works better.</p>
+<h3>What is the difference between PARA and Zettelkasten?</h3>
+<p>PARA organises notes by how actionable they are — projects, areas, resources and archives — and is mainly for getting work done. Zettelkasten organises ideas by linking them to each other, and is mainly for developing thinking and writing. Some people use both.</p>
+<h3>Can you take notes without folders?</h3>
+<p>Yes. Daily notes use only dates, and write-first notes rely on search and automatic connections between people, places, dates and ideas instead of folders. Many people find they retrieve notes more reliably this way, because they remember what a note was about rather than where they filed it.</p>
+
+<section class="article-cta"><p class="eyebrow">Onuri: Notes &amp; Life Tracker</p><h2>Try the write-first method on your iPhone.</h2><p>Write naturally. Onuri recognises the people, places, dates and ideas in your notes on your device and connects them for you — no folders, no tags. Unlimited notes, private iCloud sync, search and TXT/CSV export are free.</p><span class="onuri-download-cluster"><a class="cta" href="https://apps.apple.com/app/id6796028277">Download Onuri Free</a><span aria-label="Scan with your iPhone to download Onuri" class="onuri-download-qr"><img alt="QR code to download Onuri on the App Store" decoding="async" height="58" loading="lazy" src="onuri-app-store-qr.png" width="58"/><span class="onuri-download-qr-copy"><strong>On your computer?</strong><span>Scan with your iPhone</span></span></span></span></section>
+
+<section class="related"><h2>Related guides</h2><div class="mini-grid"><a class="mini" href="note-taking-app-second-brain.html"><strong>Note-taking apps &amp; second brains</strong><span>The complete guide to choosing a notes app.</span></a><a class="mini" href="folderless-notes.html"><strong>Folderless notes</strong><span>Why writing first beats filing first.</span></a><a class="mini" href="personal-knowledge-management-app.html"><strong>Personal knowledge management</strong><span>A knowledge system that organises itself.</span></a><a class="mini" href="life-tracking-ideas.html"><strong>100 life tracking ideas</strong><span>What's worth writing down about your life.</span></a></div></section>
+
+</article></div></div></main>
+<footer><div class="wrap footer-row"><span>© 2026 Onuri · John Henry Roche</span><nav aria-label="Footer navigation" class="footer-links"><a href="note-taking-app-second-brain.html">Note-Taking &amp; Second Brain Guide</a><a href="note-taking-methods.html">Note-Taking Methods</a><a href="automatic-second-brain.html">Automatic Second Brain</a><a href="folderless-notes.html">Folderless Notes</a><a href="notes-app.html">Notes App</a><a href="free-notes-app.html">Free Notes App</a><a href="free-note-taking-app.html">Free Note Taking App</a><a href="life-tracker-app.html">Life Tracker</a><a href="capabilities.html">Capabilities</a><a href="resources.html">Resources</a><a href="https://apps.apple.com/app/id6796028277">App Store</a><a href="privacy.html">Website Privacy</a></nav></div></footer>
+<script>(function(){
+  'use strict';
+  var M={
+    cornell:{name:'The Cornell method',id:'cornell',why:'You want notes that help you learn and remember. Cornell builds review into every page, so revision is already done when you need it.'},
+    outline:{name:'The outline method',id:'outline',why:'You think in structure. Nested bullet points are fast to write, easy to scan and work anywhere.'},
+    mindmap:{name:'Mind mapping',id:'mind-map',why:'You see ideas as a picture. A mind map shows the whole topic at once and makes connections visible.'},
+    charting:{name:'The charting method',id:'charting',why:'You like facts side by side. A simple table makes comparing and reviewing effortless.'},
+    zettel:{name:'Zettelkasten',id:'zettelkasten',why:'You want your notes to become thinking and writing. Linked single-idea notes compound over years, if you give them the time.'},
+    para:{name:'The PARA method',id:'para',why:'You juggle projects and responsibilities. PARA keeps what you are acting on right now in front of you.'},
+    bujo:{name:'The Bullet Journal',id:'bullet-journal',why:'You like paper and want tasks, plans and notes in one place, with a regular review to keep things moving.'},
+    commonplace:{name:'A commonplace book',id:'commonplace',why:'You collect ideas, quotes and lessons. A commonplace book turns what you read and hear into a personal library of wisdom.'},
+    daily:{name:'Daily notes',id:'daily-notes',why:'You want zero friction. One note per day, everything in it, nothing to file, and a habit that survives busy weeks.'},
+    writefirst:{name:'Write-first notes',id:'write-first',why:'You want to capture life as it happens and find it again later, without ever filing anything. Write naturally and let the connections appear.'}
+  };
+  var order=['writefirst','daily','cornell','outline','zettel','para','bujo','commonplace','mindmap','charting'];
+  var form=document.getElementById('method-quiz');
+  if(!form)return;
+  var result=document.getElementById('quiz-result'),hint=document.getElementById('quiz-hint');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var s={},missing=0;
+    for(var i=1;i<=5;i++){
+      var c=form.querySelector('input[name=q'+i+']:checked');
+      if(!c){missing++;continue;}
+      c.value.split(',').forEach(function(p){var kv=p.split(':');s[kv[0]]=(s[kv[0]]||0)+Number(kv[1]);});
+    }
+    if(missing){hint.textContent=missing===1?'Answer one more question to see your result.':'Answer '+missing+' more questions to see your result.';return;}
+    hint.textContent='';
+    var ranked=order.slice().sort(function(a,b){return (s[b]||0)-(s[a]||0)||order.indexOf(a)-order.indexOf(b);});
+    var top=M[ranked[0]],second=M[ranked[1]];
+    document.getElementById('result-name').textContent=top.name;
+    document.getElementById('result-why').textContent=top.why;
+    var r=document.getElementById('result-runner');
+    r.textContent='Also a good fit: ';
+    var a=document.createElement('a');a.href='#'+second.id;a.textContent=second.name;r.appendChild(a);r.appendChild(document.createTextNode('.'));
+    var link=document.getElementById('result-link');link.href='#'+top.id;link.textContent='See how it works';
+    result.dataset.method=top.name;
+    form.hidden=true;result.hidden=false;result.focus();
+    try{if(window.gtag)window.gtag('event','quiz_result',{method:ranked[0]});}catch(err){}
+  });
+  document.getElementById('retake-btn').addEventListener('click',function(){
+    form.reset();result.hidden=true;form.hidden=false;
+    var q=document.getElementById('quiz');if(q)q.scrollIntoView({behavior:'smooth'});
+  });
+  var share=document.getElementById('share-btn');
+  share.addEventListener('click',function(){
+    var url=location.origin+location.pathname+'#quiz';
+    var text='My note-taking method is '+(result.dataset.method||'')+'. Which is yours?';
+    if(navigator.share){navigator.share({title:'Which note-taking method suits you?',text:text,url:url}).catch(function(){});return;}
+    var done=function(){share.textContent='Link copied';setTimeout(function(){share.textContent='Share the quiz';},2000);};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text+' '+url).then(done,function(){prompt('Copy this link:',url);});}
+    else{prompt('Copy this link:',url);}
+  });
+
+  var E={
+    maya:{t:'Maya · person',n:['Tuesday — Coffee with Maya: launch moving to June, pilot in Galway first.','Two weeks ago — Maya asked about hiring for the pilot team.','Last month — Maya’s birthday is on the 3rd; she loves Lebanese food.']},
+    galway:{t:'Galway · place',n:['Tuesday — Pilot the launch in Galway first.','Last summer — Weekend in Galway with Sam, the cafe by the Spanish Arch.','March — Galway office visit: great feedback from the sales team.']},
+    habit:{t:'habit design · idea',n:['Tuesday — Maya recommended a book on habit design.','April — Idea: design onboarding so the first note takes under 10 seconds.','January — Habits stick when they are easy, not when they are ambitious.']},
+    june:{t:'June · date',n:['Tuesday — Launch moving to June.','Reminder — Sam’s wedding is the last weekend of June.']},
+    tue:{t:'Tuesday · date',n:['Coffee with Maya.','Gym at 7, then the budget review.']},
+    fri:{t:'Friday · date',n:['Follow up with Maya about the budget.','Dinner with Aoife and Ciarán at 8.']}
+  };
+  var panel=document.getElementById('ent-panel');
+  var btns=document.querySelectorAll('button.ent[data-ent]');
+  Array.prototype.forEach.call(btns,function(b){
+    b.setAttribute('aria-pressed','false');
+    b.addEventListener('click',function(){
+      var d=E[b.dataset.ent];if(!d)return;
+      Array.prototype.forEach.call(btns,function(x){x.setAttribute('aria-pressed','false');});
+      b.setAttribute('aria-pressed','true');
+      panel.innerHTML='';
+      var st=document.createElement('strong');st.textContent=d.t+' — '+d.n.length+' connected notes';panel.appendChild(st);
+      var ul=document.createElement('ul');d.n.forEach(function(x){var li=document.createElement('li');li.textContent=x;ul.appendChild(li);});panel.appendChild(ul);
+      var sm=document.createElement('small');sm.textContent='Illustrative example of connected notes.';panel.appendChild(sm);
+    });
+  });
+})();
+</script><script defer="" src="onuri-analytics-consent.js"></script>
+</body></html>

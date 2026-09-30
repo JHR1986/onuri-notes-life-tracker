@@ -4,6 +4,7 @@
 
 ## Core Links
 - Complete Note-Taking & Second Brain Guide: https://onuri.app/note-taking-app-second-brain.html
+- Note-Taking Methods Explained (Cornell, Zettelkasten, PARA, Bullet Journal and more, with a quiz): https://onuri.app/note-taking-methods.html
 - Official Website: https://onuri.app/
 - App Store: https://apps.apple.com/app/id6796028277
 - Master Resource Index: https://onuri.app/resources.html

@@ -11,3 +11,9 @@ Languages: English (`/`), Japanese (`/ja/`), Korean (`/ko/`).
 - When adding a new English page, add matching Japanese/Korean pages before adding it to `hreflang`/sitemap.
 - Avoid unsupported product/privacy claims in translations.
 - If legal/privacy text changes in English, review Japanese and Korean copies in the same release.
+
+## Page structure
+- Every `/ja/` and `/ko/` page is a clone of the English page with the same file name: identical markup, classes, inline CSS, scripts, images, QR code and cookie UI.
+- Only visible text and language-specific SEO fields differ (`lang`, title, meta/OG/Twitter text, canonical, `og:url`, `og:locale`, structured-data text/URLs/`inLanguage`, language-switcher `aria-current`).
+- Localized pages reference shared assets from the site root (`../`); internal page links stay relative so they resolve within the same language.
+- There is no separate localized template or stylesheet. When an English page changes, regenerate its Japanese and Korean clones from it.

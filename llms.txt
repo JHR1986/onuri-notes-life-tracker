@@ -3,6 +3,7 @@
 > Onuri is a private-first notes app for iPhone that helps your writing become more useful over time by automatically connecting the people, places, dates, and ideas inside your notes.
 
 ## Core Links
+- What’s New in Onuri v2: https://onuri.app/whats-new-v2.html
 - Complete Note-Taking & Second Brain Guide: https://onuri.app/note-taking-app-second-brain.html
 - Note-Taking Methods Explained (Cornell, Zettelkasten, PARA, Bullet Journal and more, with a quiz): https://onuri.app/note-taking-methods.html
 - Official Website: https://onuri.app/
@@ -36,11 +37,13 @@ Onuri is designed as a calm, low-maintenance personal knowledge system: write fi
 - **Unlimited Notes:** The free tier supports unlimited note-taking.
 - **Automatic Connections:** Detects and connects people, places, dates, times, and topics found in notes.
 - **Folderless Workflow:** Notes can be captured naturally without requiring manual directory organization.
-- **Fast Search:** Full-text and entity-based discovery helps users return to relevant notes and context.
+- **Fast Search & Filters:** Full-text search combines with people, place, date, time and topic filters plus connected terms.
+- **Related Entries:** Notes with similar meaning can surface from an entry even when the wording differs.
+- **Light & Dark Mode:** The free app supports both light and dark appearance.
 - **Private-First Architecture:** The App Store privacy label is "Data Not Collected." The Onuri app uses no ads, tracking, or third-party analytics SDKs.
 - **Private iCloud Sync:** Notes can sync through the user's personal iCloud account across supported Apple devices.
 - **Export:** Notes can be exported in TXT and CSV formats.
-- **Premium Insights & Connections:** The optional Premium tier provides deeper relationship, theme, and connection insights.
+- **Premium Insights, Statuses & Personalization:** Premium adds expanded Insights, Ongoing and Done statuses with filtering, five additional themes, light/dark theme variants, and matching alternate app icons.
 - **Multilingual Support:** Localized in English, Japanese, and Korean.
 
 ## How Onuri Is Organized
@@ -109,7 +112,7 @@ Onuri is designed around personal, private writing. The app does not use adverti
 
 ## Pricing
 - **Free:** Unlimited notes and core automatic connection features.
-- **Premium:** Optional subscription upgrade for deeper relationship, theme, and connection insights.
+- **Premium:** Optional subscription upgrade for expanded Insights, statuses, additional themes and matching app icons.
 
 ## Developer
 Onuri is built independently in Dublin, Ireland.

@@ -1,4 +1,4 @@
-# Onuri — Private Notes & Life Tracker for iPhone
+# Onuri — Private Notes & Second Brain for iPhone
 
 <p align="left">
   <a href="https://apps.apple.com/app/id6796028277">

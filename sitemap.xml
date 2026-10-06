@@ -1,95 +1,555 @@
-<?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://onuri.app/</loc>
-    <lastmod>2026-10-06</lastmod>
-  </url>
-  <url>
-    <loc>https://onuri.app/life-tracker-app.html</loc>
-    <lastmod>2026-10-06</lastmod>
-  </url>
-  <url>
-    <loc>https://onuri.app/resources.html</loc>
-    <lastmod>2026-10-06</lastmod>
-  </url>
-  <url>
-    <loc>https://onuri.app/capabilities.html</loc>
-    <lastmod>2026-10-06</lastmod>
-  </url>
-  <url>
-    <loc>https://onuri.app/free-notes-app.html</loc>
-    <lastmod>2026-10-06</lastmod>
-  </url>
-  <url>
-    <loc>https://onuri.app/free-note-taking-app.html</loc>
-    <lastmod>2026-10-06</lastmod>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://onuri.app/automatic-second-brain.html</loc>
     <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/automatic-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/automatic-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/automatic-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/automatic-second-brain.html"/>
   </url>
   <url>
-    <loc>https://onuri.app/folderless-notes.html</loc>
+    <loc>https://onuri.app/ja/automatic-second-brain.html</loc>
     <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/automatic-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/automatic-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/automatic-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/automatic-second-brain.html"/>
   </url>
   <url>
-    <loc>https://onuri.app/notes-app.html</loc>
+    <loc>https://onuri.app/ko/automatic-second-brain.html</loc>
     <lastmod>2026-10-06</lastmod>
-  </url>
-  <url>
-    <loc>https://onuri.app/notes-app-alternative.html</loc>
-    <lastmod>2026-10-06</lastmod>
-  </url>
-  <url>
-    <loc>https://onuri.app/life-tracking-ideas.html</loc>
-    <lastmod>2026-10-06</lastmod>
-  </url>
-  <url>
-    <loc>https://onuri.app/note-taking-app-second-brain.html</loc>
-    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/automatic-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/automatic-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/automatic-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/automatic-second-brain.html"/>
   </url>
   <url>
     <loc>https://onuri.app/blog.html</loc>
     <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/blog.html"/>
   </url>
   <url>
-    <loc>https://onuri.app/notepad.html</loc>
+    <loc>https://onuri.app/ja/blog.html</loc>
     <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/blog.html"/>
   </url>
   <url>
-    <loc>https://onuri.app/notes.html</loc>
+    <loc>https://onuri.app/ko/blog.html</loc>
     <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/blog.html"/>
   </url>
   <url>
-    <loc>https://onuri.app/notebook.html</loc>
+    <loc>https://onuri.app/capabilities.html</loc>
     <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/capabilities.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/capabilities.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/capabilities.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/capabilities.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/capabilities.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/capabilities.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/capabilities.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/capabilities.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/capabilities.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/capabilities.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/capabilities.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/capabilities.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/capabilities.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/capabilities.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/folderless-notes.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/folderless-notes.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/folderless-notes.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/folderless-notes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/folderless-notes.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/folderless-notes.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/folderless-notes.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/folderless-notes.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/folderless-notes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/folderless-notes.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/folderless-notes.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/folderless-notes.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/folderless-notes.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/folderless-notes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/folderless-notes.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/free-note-taking-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/free-note-taking-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/free-note-taking-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/free-note-taking-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/free-note-taking-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/free-note-taking-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/free-note-taking-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/free-note-taking-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/free-note-taking-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/free-note-taking-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/free-note-taking-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/free-note-taking-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/free-note-taking-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/free-note-taking-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/free-note-taking-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/free-notes-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/free-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/free-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/free-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/free-notes-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/free-notes-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/free-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/free-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/free-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/free-notes-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/free-notes-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/free-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/free-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/free-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/free-notes-app.html"/>
   </url>
   <url>
     <loc>https://onuri.app/how-onuri-works.html</loc>
     <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/how-onuri-works.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/how-onuri-works.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/how-onuri-works.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/how-onuri-works.html"/>
   </url>
   <url>
-    <loc>https://onuri.app/personal-crm-app.html</loc>
+    <loc>https://onuri.app/ja/how-onuri-works.html</loc>
     <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/how-onuri-works.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/how-onuri-works.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/how-onuri-works.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/how-onuri-works.html"/>
   </url>
   <url>
-    <loc>https://onuri.app/private-notes-app.html</loc>
+    <loc>https://onuri.app/ko/how-onuri-works.html</loc>
     <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/how-onuri-works.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/how-onuri-works.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/how-onuri-works.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/how-onuri-works.html"/>
   </url>
   <url>
-    <loc>https://onuri.app/personal-knowledge-management-app.html</loc>
+    <loc>https://onuri.app/</loc>
     <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/"/>
   </url>
   <url>
-    <loc>https://onuri.app/privacy.html</loc>
+    <loc>https://onuri.app/ja/</loc>
     <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/life-tracker-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/life-tracker-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/life-tracker-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/life-tracker-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/life-tracker-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/life-tracker-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/life-tracker-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/life-tracker-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/life-tracker-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/life-tracker-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/life-tracker-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/life-tracker-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/life-tracker-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/life-tracker-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/life-tracker-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/life-tracking-ideas.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/life-tracking-ideas.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/life-tracking-ideas.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/life-tracking-ideas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/life-tracking-ideas.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/life-tracking-ideas.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/life-tracking-ideas.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/life-tracking-ideas.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/life-tracking-ideas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/life-tracking-ideas.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/life-tracking-ideas.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/life-tracking-ideas.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/life-tracking-ideas.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/life-tracking-ideas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/life-tracking-ideas.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/note-taking-app-second-brain.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/note-taking-app-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/note-taking-app-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/note-taking-app-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/note-taking-app-second-brain.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/note-taking-app-second-brain.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/note-taking-app-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/note-taking-app-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/note-taking-app-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/note-taking-app-second-brain.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/note-taking-app-second-brain.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/note-taking-app-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/note-taking-app-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/note-taking-app-second-brain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/note-taking-app-second-brain.html"/>
   </url>
   <url>
     <loc>https://onuri.app/note-taking-methods.html</loc>
     <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/note-taking-methods.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/note-taking-methods.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/note-taking-methods.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/note-taking-methods.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/note-taking-methods.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/note-taking-methods.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/note-taking-methods.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/note-taking-methods.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/note-taking-methods.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/note-taking-methods.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/note-taking-methods.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/note-taking-methods.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/note-taking-methods.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/note-taking-methods.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/notebook.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notebook.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notebook.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notebook.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notebook.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/notebook.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notebook.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notebook.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notebook.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notebook.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/notebook.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notebook.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notebook.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notebook.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notebook.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/notepad.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notepad.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notepad.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notepad.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notepad.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/notepad.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notepad.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notepad.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notepad.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notepad.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/notepad.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notepad.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notepad.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notepad.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notepad.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/notes-app-alternative.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notes-app-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notes-app-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notes-app-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notes-app-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/notes-app-alternative.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notes-app-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notes-app-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notes-app-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notes-app-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/notes-app-alternative.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notes-app-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notes-app-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notes-app-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notes-app-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/notes-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notes-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/notes-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notes-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/notes-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notes-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/notes.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notes.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notes.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notes.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/notes.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notes.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notes.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notes.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/notes.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/notes.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/notes.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/notes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/notes.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/personal-crm-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/personal-crm-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/personal-crm-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/personal-crm-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/personal-crm-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/personal-crm-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/personal-crm-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/personal-crm-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/personal-crm-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/personal-crm-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/personal-crm-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/personal-crm-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/personal-crm-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/personal-crm-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/personal-crm-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/personal-knowledge-management-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/personal-knowledge-management-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/personal-knowledge-management-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/personal-knowledge-management-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/personal-knowledge-management-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/personal-knowledge-management-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/personal-knowledge-management-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/personal-knowledge-management-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/personal-knowledge-management-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/personal-knowledge-management-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/personal-knowledge-management-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/personal-knowledge-management-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/personal-knowledge-management-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/personal-knowledge-management-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/personal-knowledge-management-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/privacy.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/privacy.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/privacy.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/private-notes-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/private-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/private-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/private-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/private-notes-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/private-notes-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/private-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/private-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/private-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/private-notes-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/private-notes-app.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/private-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/private-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/private-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/private-notes-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/resources.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/resources.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/resources.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/resources.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/resources.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/resources.html"/>
   </url>
   <url>
     <loc>https://onuri.app/whats-new-v2.html</loc>
     <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/whats-new-v2.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/whats-new-v2.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/whats-new-v2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/whats-new-v2.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/whats-new-v2.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/whats-new-v2.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/whats-new-v2.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/whats-new-v2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/whats-new-v2.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/whats-new-v2.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/whats-new-v2.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/whats-new-v2.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/whats-new-v2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/whats-new-v2.html"/>
   </url>
 </urlset>

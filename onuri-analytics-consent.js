@@ -76,14 +76,41 @@
     document.head.appendChild(style);
   }
 
+  function copy() {
+    var lang = (document.documentElement.lang || 'en').toLowerCase();
+    if (lang.indexOf('ja') === 0) return {
+      choices: 'プライバシー設定',
+      choicesAria: 'ウェブサイト分析のプライバシー設定を変更',
+      dialogAria: '分析Cookieの選択',
+      title: '分析Cookieを使用してもよいですか？',
+      body: '同意すると、このウェブサイトはGoogle Analyticsを使用して訪問数や役立つページを確認します。端末にCookieが設定され、閲覧ページや端末の種類などの情報がGoogleと共有されます。拒否した場合、Google Analyticsは読み込まれず、分析Cookieも設定されません。ページ下部の「プライバシー設定」からいつでも変更できます。この設定はウェブサイトのみに適用され、Onuriアプリは分析機能を使用しません。',
+      privacy: 'ウェブサイトのプライバシー通知', reject: '分析を拒否', accept: '分析を許可', privacyHref: '/ja/privacy.html'
+    };
+    if (lang.indexOf('ko') === 0) return {
+      choices: '개인정보 설정',
+      choicesAria: '웹사이트 분석 개인정보 설정 변경',
+      dialogAria: '분석 쿠키 선택',
+      title: '분석 쿠키를 사용해도 될까요?',
+      body: '동의하면 이 웹사이트는 Google Analytics를 사용해 방문 수와 유용한 페이지를 확인합니다. 기기에 쿠키가 설정되고, 조회한 페이지와 기기 유형 같은 정보가 Google과 공유됩니다. 거부하면 Google Analytics가 로드되지 않고 분석 쿠키도 설정되지 않습니다. 페이지 아래의 “개인정보 설정”에서 언제든 선택을 변경할 수 있습니다. 이 설정은 웹사이트에만 적용되며 Onuri 앱은 분석 기능을 사용하지 않습니다.',
+      privacy: '웹사이트 개인정보 보호 안내', reject: '분석 거부', accept: '분석 허용', privacyHref: '/ko/privacy.html'
+    };
+    return {
+      choices: 'Privacy choices', choicesAria: 'Change website analytics privacy choice', dialogAria: 'Analytics cookie choice',
+      title: 'Can we use analytics cookies?',
+      body: 'If you accept, this website uses Google Analytics to count visits and see which pages are useful. This sets cookies on your device and shares information such as the pages you view and your device type with Google. If you reject, Google Analytics is not loaded and no analytics cookies are set. You can change your choice at any time using “Privacy choices” at the bottom of the page. This applies to the website only; the Onuri app does not use analytics.',
+      privacy: 'Website privacy notice', reject: 'Reject analytics', accept: 'Accept analytics', privacyHref: '/privacy.html'
+    };
+  }
+
   function showChoicesButton() {
     ensureStyles();
     if (document.getElementById('onuri-privacy-choices')) return;
     var button = document.createElement('button');
     button.id = 'onuri-privacy-choices';
     button.type = 'button';
-    button.textContent = 'Privacy choices';
-    button.setAttribute('aria-label', 'Change website analytics privacy choice');
+    var t = copy();
+    button.textContent = t.choices;
+    button.setAttribute('aria-label', t.choicesAria);
     button.addEventListener('click', showBanner);
     document.body.appendChild(button);
   }
@@ -100,17 +127,13 @@
     var banner = document.createElement('div');
     banner.id = 'onuri-consent';
     banner.setAttribute('role', 'dialog');
-    banner.setAttribute('aria-label', 'Analytics cookie choice');
+    var t = copy();
+    banner.setAttribute('aria-label', t.dialogAria);
     banner.setAttribute('tabindex', '-1');
     banner.innerHTML =
-      '<p><strong>Can we use analytics cookies?</strong><br>' +
-      'If you accept, this website uses Google Analytics to count visits and see which pages are useful. ' +
-      'This sets cookies on your device and shares information such as the pages you view and your device type with Google. ' +
-      'If you reject, Google Analytics is not loaded and no analytics cookies are set. ' +
-      'You can change your choice at any time using \u201cPrivacy choices\u201d at the bottom of the page. ' +
-      'This applies to the website only; the Onuri app does not use analytics. ' +
-      '<a href="/privacy.html">Website privacy notice</a></p>' +
-      '<div id="onuri-consent-actions"><button type="button" class="onuri-reject">Reject analytics</button><button type="button" class="onuri-accept">Accept analytics</button></div>';
+      '<p><strong>' + t.title + '</strong><br>' + t.body + ' ' +
+      '<a href="' + t.privacyHref + '">' + t.privacy + '</a></p>' +
+      '<div id="onuri-consent-actions"><button type="button" class="onuri-reject">' + t.reject + '</button><button type="button" class="onuri-accept">' + t.accept + '</button></div>';
     document.body.appendChild(banner);
 
     banner.querySelector('.onuri-accept').addEventListener('click', function () {

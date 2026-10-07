@@ -7,6 +7,7 @@
 - Complete Note-Taking & Second Brain Guide: https://onuri.app/note-taking-app-second-brain.html
 - Note-Taking Methods Explained (Cornell, Zettelkasten, PARA, Bullet Journal and more, with a quiz): https://onuri.app/note-taking-methods.html
 - Official Website: https://onuri.app/
+- About Onuri: https://onuri.app/about.html
 - App Store: https://apps.apple.com/app/id6796028277
 - Master Resource Index: https://onuri.app/resources.html
 - How Onuri Works: https://onuri.app/how-onuri-works.html
@@ -27,6 +28,11 @@
 - Privacy Policy: https://jhr1986.github.io/onuri-legal/privacy.html
 - Terms of Service: https://jhr1986.github.io/onuri-legal/terms.html
 - Community: https://www.reddit.com/r/SideProject/comments/1vqqpvs/i_built_a_notes_app_where_your_words_connect/
+
+## About Onuri
+Onuri launched on the Apple App Store in August 2026. It is an iPhone notes and personal knowledge app developed by John Henry Roche in Dublin, Ireland. The product grew from a second-brain idea: computers traditionally organise information through files and folders, while human memory connects people, places, dates, times and topics by association. Onuri applies that model to everyday writing so useful structure can emerge automatically.
+
+Official product profiles: App Store (https://apps.apple.com/app/id6796028277), Crunchbase (https://www.crunchbase.com/organization/onuri-notes-life-tracker), SaaSHub (https://www.saashub.com/onuri), GitHub (https://github.com/JHR1986/onuri-notes-life-tracker), and X (https://x.com/stillkeeponuri). The developer also makes Stillkeep (https://stillkeep.app), a private journal for Apple devices focused on preserving and revisiting personal memories.
 
 ## Overview
 Onuri is a native iPhone notes and life-tracking app designed for natural writing, automatic connections, and easy rediscovery. Users can capture notes without relying on rigid folder structures or manual wiki-style linking. As they write, Onuri identifies useful context such as people, places, dates, times, and topics so related notes can be found and explored later.

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fff8fa" name="theme-color"/>
+<meta content="light" name="color-scheme"/>
+<title>Onuriについて — iPhone向け連結型ノート＆セカンドブレイン</title>
+<meta content="Onuriについて。2026年に登場したiPhone向けノートアプリで、人・場所・日付・時間・トピックをつなぎ、書いたことを後から見つけやすくします。" name="description"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+<link href="https://onuri.app/ja/about.html" rel="canonical"/>
+<link href="../favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="../android-icon-48x48.png" rel="icon" sizes="48x48" type="image/png"/>
+<meta content="website" property="og:type"/>
+<meta content="Onuri" property="og:site_name"/>
+<meta content="ja_JP" property="og:locale"/>
+<meta content="https://onuri.app/ja/about.html" property="og:url"/>
+<meta content="Onuriについて — iPhone向け連結型ノート＆セカンドブレイン" property="og:title"/>
+<meta content="Onuriについて。2026年に登場したiPhone向けノートアプリで、人・場所・日付・時間・トピックをつなぎ、書いたことを後から見つけやすくします。" property="og:description"/>
+<meta content="https://onuri.app/onuri-social-preview.jpg" property="og:image"/>
+<meta content="iPhone向け連結型ノート＆ライフトラッカーアプリ Onuri" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Onuriについて — iPhone向け連結型ノート＆セカンドブレイン" name="twitter:title"/>
+<meta content="Onuriについて。2026年に登場したiPhone向けノートアプリで、人・場所・日付・時間・トピックをつなぎ、書いたことを後から見つけやすくします。" name="twitter:description"/>
+<meta content="https://onuri.app/onuri-social-preview.jpg" name="twitter:image"/>
+<link href="https://apps.apple.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap" rel="stylesheet"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"AboutPage","@id":"https://onuri.app/ja/about.html#webpage","url":"https://onuri.app/ja/about.html","name":"Onuriについて — iPhone向け連結型ノート＆セカンドブレイン","description":"Onuriについて。2026年に登場したiPhone向けノートアプリで、人・場所・日付・時間・トピックをつなぎ、書いたことを後から見つけやすくします。","isPartOf":{"@type":"WebSite","@id":"https://onuri.app/#website","url":"https://onuri.app/","name":"Onuri"},"mainEntity":{"@id":"https://onuri.app/#application"},"inLanguage":"ja","dateModified":"2026-10-07"},{"@type":"MobileApplication","@id":"https://onuri.app/#application","name":"Onuri: Notes & Life Tracker","url":"https://onuri.app/","operatingSystem":"iOS 17.6 or later","applicationCategory":"ProductivityApplication","description":"A connected notes and personal knowledge app for iPhone that identifies people, places, dates, times and topics as you write and helps you rediscover related entries.","downloadUrl":"https://apps.apple.com/app/id6796028277","installUrl":"https://apps.apple.com/app/id6796028277","isAccessibleForFree":true,"inLanguage":["en","ja","ko"],"author":{"@id":"https://onuri.app/about.html#developer"},"sameAs":["https://apps.apple.com/app/id6796028277","https://www.crunchbase.com/organization/onuri-notes-life-tracker","https://www.saashub.com/onuri","https://github.com/JHR1986/onuri-notes-life-tracker","https://x.com/stillkeeponuri"],"featureList":["Unlimited notes and journal entries","Recognition of people, places, dates, times and topics","Home-screen filters and connected terms","Related entries based on similar meaning","Fast text search","iCloud sync","TXT and CSV export","Optional Premium Insights"]},{"@type":"Person","@id":"https://onuri.app/about.html#developer","name":"John Henry Roche","jobTitle":"Developer","knowsAbout":["iOS development","note-taking software","personal knowledge management"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Onuri","item":"https://onuri.app/"},{"@type":"ListItem","position":2,"name":"Onuriについて","item":"https://onuri.app/ja/about.html"}]}]}</script>
+<style>
+    :root{
+      --bg:#fff9fb;
+      --surface:#ffffff;
+      --surface-soft:#fff3f7;
+      --ink:#2b2529;
+      --muted:#6d6469;
+      --pink:#ef85a5;
+      --pink-deep:#b33c68;
+      --pink-dark:#8f2f52;
+      --pink-soft:#fde3eb;
+      --lavender:#f3eefe;
+      --line:#eee4e8;
+      --shadow:0 18px 48px rgba(116,54,76,.12);
+      --shadow-soft:0 10px 30px rgba(116,54,76,.08);
+      --radius:20px;
+      --max:1060px;
+    }
+
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+    body{
+      margin:0;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 8% -4%,rgba(239,133,165,.14),transparent 28rem),
+        radial-gradient(circle at 92% 8%,rgba(243,238,254,.9),transparent 26rem),
+        var(--bg);
+      font:16px/1.68 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      overflow-x:hidden;
+    }
+
+    a{color:var(--pink-dark)}
+    a:focus-visible{outline:3px solid var(--pink-deep);outline-offset:3px;border-radius:8px}
+    .skip-link{position:absolute;left:-9999px;top:8px;z-index:100;background:#fff;color:var(--ink);padding:10px 14px;border-radius:10px}
+    .skip-link:focus{left:12px}
+    .wrap{width:min(calc(100% - 40px),var(--max));margin-inline:auto}
+    h1,h2,h3,.brand-name{font-family:"Newsreader",Georgia,serif;letter-spacing:-.02em}
+    h1,h2,h3{font-weight:500;text-wrap:balance}
+    p{margin:12px 0}
+
+    header{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 0}
+    .brand{display:inline-flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;flex-shrink:0}
+    .brand img{width:38px;height:38px;border-radius:10px}
+    .brand-name{font-size:1.42rem;font-weight:600}
+    .nav{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}
+    .nav a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:8px 13px;border-radius:999px;text-decoration:none;color:var(--muted);font-size:.91rem;font-weight:600}
+    .nav a:hover{background:rgba(255,255,255,.75);color:var(--pink-dark)}
+    .nav .nav-cta{color:#fff;background:var(--pink-deep);padding-inline:16px;box-shadow:0 7px 20px rgba(179,60,104,.2)}
+    .nav .nav-cta:hover{background:var(--pink-dark);color:#fff}
+
+    .hero{padding:62px 0 58px;max-width:800px}
+    .eyebrow{margin:0 0 14px;color:var(--pink-dark);font-size:.78rem;line-height:1.3;font-weight:800;text-transform:uppercase;letter-spacing:.13em}
+    h1{font-size:clamp(2.8rem,6vw,4.6rem);line-height:1.02;margin:0 0 20px;max-width:13ch}
+    h1 em{font-style:normal;color:var(--pink-deep)}
+    .lede{max-width:66ch;margin:0;color:var(--muted);font-size:1.1rem}
+    .lede strong{color:var(--ink)}
+
+    .jump-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+    .jump-links a{display:inline-flex;padding:7px 11px;border:1px solid var(--line);background:rgba(255,255,255,.7);border-radius:999px;text-decoration:none;color:var(--muted);font-size:.86rem;font-weight:650}
+    .jump-links a:hover{border-color:#f2aec3;color:var(--pink-dark)}
+
+    .section{padding:34px 0 24px}
+    .section-head{max-width:720px;margin-bottom:22px}
+    h2{font-size:clamp(1.9rem,4vw,2.65rem);line-height:1.08;margin:0 0 10px}
+    .section-head p{color:var(--muted);font-size:1rem}
+    .resource-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .resource-card{display:flex;flex-direction:column;min-height:100%;background:rgba(255,255,255,.84);border:1px solid var(--line);border-radius:var(--radius);padding:23px;box-shadow:var(--shadow-soft);transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+    .resource-card:hover{transform:translateY(-2px);border-color:#f2aec3;box-shadow:var(--shadow)}
+    .resource-card .label{display:inline-flex;align-self:flex-start;margin-bottom:12px;padding:4px 9px;border-radius:999px;background:var(--pink-soft);color:var(--pink-dark);font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+    .resource-card .label.alt{background:var(--lavender);color:#5e4a8d}
+    .resource-card .label.neutral{background:#f5f1f3;color:#6a5d63}
+    .resource-card h3{font-size:1.35rem;line-height:1.16;margin:0 0 8px}
+    .resource-card h3 a{text-decoration:none;color:var(--ink)}
+    .resource-card h3 a:hover{color:var(--pink-dark);text-decoration:underline;text-underline-offset:4px}
+    .resource-card p{margin:0;color:var(--muted);font-size:.94rem}
+    .resource-card .meta{margin-top:auto;padding-top:14px;font-size:.82rem;color:#8a7e84}
+
+    .feature-card{grid-column:1/-1;display:grid;grid-template-columns:1.05fr .95fr;gap:26px;align-items:center;background:linear-gradient(145deg,#fff,#fff3f7);border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:var(--shadow-soft)}
+    .feature-card h3{font-size:1.6rem;margin:0 0 8px}
+    .feature-card p{color:var(--muted);margin:0}
+    .feature-links{display:grid;gap:8px}
+    .feature-links a{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:13px;background:#fff;text-decoration:none;font-weight:650;color:var(--ink)}
+    .feature-links a::after{content:"→";color:var(--pink-deep)}
+    .feature-links a:hover{border-color:#f2aec3;color:var(--pink-dark)}
+
+    .band{position:relative;overflow:hidden;margin:64px 0;padding:46px 30px;border-radius:24px;background:#342a30;color:#fff;text-align:center;box-shadow:var(--shadow)}
+    .band::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 10% 0%,rgba(239,133,165,.35),transparent 38%),radial-gradient(circle at 95% 100%,rgba(214,197,248,.26),transparent 40%)}
+    .band>*{position:relative}.band h2{color:#fff}.band p{max-width:630px;margin:0 auto 22px;color:#eee7eb}
+    .cta{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:13px 22px;border-radius:14px;background:#fff;color:var(--pink-dark);text-decoration:none;font-weight:750}
+    .cta:hover{background:#fff3f7}
+
+    footer{border-top:1px solid var(--line);padding:30px 0 54px;color:var(--muted);font-size:.88rem}
+    .footer-row{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .footer-links{display:flex;gap:14px 18px;flex-wrap:wrap}
+    .footer-links a{color:var(--muted);text-decoration:none}.footer-links a:hover{color:var(--pink-dark);text-decoration:underline;text-underline-offset:3px}
+
+    @media(max-width:760px){
+      .resource-grid,.feature-card{grid-template-columns:1fr}
+      .hero{padding:40px 0 34px}
+      h1{font-size:clamp(2.65rem,13vw,3.55rem)}
+    }
+    @media(max-width:660px){
+      .wrap{width:min(calc(100% - 28px),var(--max))}
+      header{align-items:flex-start}.nav{gap:4px}.nav a:not(.nav-cta){display:none}.brand-name{font-size:1.34rem}
+      .section{padding-top:28px}.resource-card,.feature-card{padding:20px}.band{margin-top:48px;padding:40px 20px}
+      .footer-row{justify-content:center;text-align:center}.footer-links{justify-content:center}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+  
+/* Final Onuri brand/header consistency */
+header .brand,
+.brand{
+  font-size:clamp(1.72rem,2.2vw,2.05rem) !important;
+  line-height:1 !important;
+  letter-spacing:-0.025em;
+  font-weight:700;
+}
+
+header{
+  min-height:76px;
+  display:flex;
+  align-items:center;
+}
+
+header .navlinks-group,
+.navlinks-group{
+  align-items:center;
+}
+
+header .navlink,
+.navlink{
+  min-height:42px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:.66rem .95rem;
+  border-radius:999px;
+  line-height:1.1;
+}
+
+@media (max-width:760px){
+  header{
+    min-height:66px;
+  }
+
+  header .brand,
+  .brand{
+    font-size:1.62rem !important;
+  }
+
+  header .navlink,
+  .navlink{
+    min-height:38px;
+    padding:.58rem .8rem;
+  }
+}
+
+
+/* Final Onuri wordmark */
+.brand{
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-weight:800 !important;
+  letter-spacing:-0.045em !important;
+  font-size:clamp(1.78rem,2.25vw,2.08rem) !important;
+  line-height:1 !important;
+  color:var(--ink,#1f2430);
+  text-decoration:none;
+  white-space:nowrap;
+}
+
+
+.updated-stamp{margin:18px 0 0;color:var(--muted);font-size:.8rem;text-align:center}
+</style>
+<link href="../onuri-download-qr.css" rel="stylesheet"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="iPhone向け連結型ノート＆ライフトラッカーアプリ Onuri" name="twitter:image:alt"/>
+<link href="https://onuri.app/about.html" hreflang="en" rel="alternate"/>
+<link href="https://onuri.app/ja/about.html" hreflang="ja" rel="alternate"/>
+<link href="https://onuri.app/ko/about.html" hreflang="ko" rel="alternate"/>
+<link href="https://onuri.app/about.html" hreflang="x-default" rel="alternate"/>
+<style id="onuri-language-switcher-style">.onuri-language-switcher{position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;background:rgba(255,255,255,.96);border:1px solid rgba(0,0,0,.16);border-radius:999px;box-shadow:0 4px 18px rgba(0,0,0,.10);overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.onuri-language-switcher a{padding:8px 10px;color:#1d1d1f;text-decoration:none;font-size:12px;line-height:1;border-right:1px solid rgba(0,0,0,.12)}.onuri-language-switcher a:last-child{border-right:0}.onuri-language-switcher a[aria-current="page"]{font-weight:800;background:#f0eee7}.onuri-language-switcher a:focus-visible{outline:3px solid #456f61;outline-offset:-3px}@media(max-width:480px){.onuri-language-switcher{right:10px;bottom:10px}.onuri-language-switcher a{padding:8px 9px}}</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">本文へ移動</a>
+<header class="wrap">
+<a aria-label="Onuriホーム" class="brand" href="/ja/">Onuri</a>
+<nav aria-label="メインナビゲーション" class="nav">
+<a href="automatic-second-brain.html">セカンドブレイン</a>
+<a href="folderless-notes.html">フォルダ不要のノート</a>
+<a href="notes-app.html">ノートアプリ</a>
+<a href="blog.html">ブログ</a>
+<a aria-label="App StoreでOnuriを無料で入手" class="nav-cta" href="https://apps.apple.com/app/id6796028277">無料で入手</a>
+</nav>
+</header>
+<main id="main-content"><div class="wrap">
+<section class="hero">
+<p class="eyebrow">Onuriについて</p>
+<h1>ノートを捉える、<em>別の考え方。</em></h1>
+<p class="lede"><strong>Onuri: Notes &amp; Life Tracker</strong>は、人の記憶が「連想」でつながることを出発点にしたiPhone向けノートアプリです。ひとつの出来事は、人、場所、日付、時間、トピックに同時につながっています。Onuriは書くそばからそうした手がかりを結び、先に整理の仕組みを作らなくても、あとから役立つ構造が自然に育つことを目指しています。</p>
+<div class="jump-links">
+<a href="#idea">発想</a><a href="#works">仕組み</a><a href="#facts">製品情報</a><a href="#category">位置づけ</a><a href="#official">公式リンク</a>
+</div>
+</section>
+<section aria-labelledby="facts-title" class="section" id="facts">
+<div class="section-head"><p class="eyebrow">ひと目でわかるOnuri</p><h2 id="facts-title">iPhoneのための、つながるノートアプリ。</h2><p>Onuriの基本情報をまとめました。</p></div>
+<div class="resource-grid">
+<article class="resource-card"><span class="label">製品</span><h3>Onuri: Notes &amp; Life Tracker</h3><p>文章を残し、文脈を見つけ、関連する記録を再発見するためのノート／パーソナル知識管理アプリです。</p></article>
+<article class="resource-card"><span class="label alt">プラットフォーム</span><h3>iPhone · iOS 17.6以降</h3><p>App Storeの「仕事効率化」カテゴリで提供。基本機能は無料で、任意のOnuri Premiumがあります。</p></article>
+<article class="resource-card"><span class="label neutral">公開</span><h3>2026年8月</h3><p>2026年8月にApp Storeで公開。書くことを起点に、自動でつながりを見つける考え方を発展させています。</p></article>
+<article class="resource-card"><span class="label">言語</span><h3>英語 · 日本語 · 韓国語</h3><p>アプリとウェブサイトを3言語でローカライズしています。</p></article>
+<article class="resource-card"><span class="label alt">開発者</span><h3>John Henry Roche</h3><p>Onuriはアイルランド・ダブリンで開発されています。</p></article>
+<article class="resource-card"><span class="label neutral">カテゴリ</span><h3>ノート · パーソナル知識管理</h3><p>自然に書くこと、自動のつながり、検索、長期的な再発見を重視しています。</p></article>
+</div>
+</section>
+<section aria-labelledby="idea-title" class="section" id="idea">
+<div class="feature-card">
+<div>
+<p class="eyebrow">Onuriの発想</p>
+<h2 id="idea-title">コンピュータは分類する。人は連想で思い出す。</h2>
+<p>Onuriは、コンピュータが情報を整理する方法と、人が記憶する方法の違いについて考えた「セカンドブレイン」のアイデアから始まりました。</p>
+<p>コンピュータは、ファイル、フォルダ、固定された階層を得意とします。一方、人の記憶はもっと柔軟です。ひとつの記憶に「誰と」「どこで」「いつ」「何について」が同時に結びついています。</p>
+<p>Onuriはその感覚をノートに持ち込むために作られました。書くたびに保存場所を決めるのではなく、文章そのものから意味のある文脈を見つけます。目指すのは、<strong>まず書く。つながりは自然に生まれ、必要なときにもう一度見つけられること。</strong></p>
+</div>
+<div class="feature-links">
+<a href="how-onuri-works.html">Onuriの仕組みを見る</a>
+<a href="automatic-second-brain.html">自動セカンドブレインという考え方</a>
+<a href="folderless-notes.html">なぜフォルダ不要なのか</a>
+</div>
+</div>
+</section>
+<section aria-labelledby="works-title" class="section" id="works">
+<div class="section-head"><p class="eyebrow">Onuriがつなぐもの</p><h2 id="works-title">文章の中に、すでにある文脈。</h2><p>書いている内容から役立つ手がかりを認識し、絞り込み、関連をたどり、あとから見つけ直すための入口にします。</p></div>
+<div class="resource-grid">
+<article class="resource-card"><span class="label">人</span><h3>誰について書いたか</h3><p>文章に登場する人を軸に、その人について残してきた記録や文脈をたどれます。</p></article>
+<article class="resource-card"><span class="label alt">場所</span><h3>どこで起きたか</h3><p>ノートに出てくる場所をつなぎ、特定の場所に関係する文章を再発見できます。</p></article>
+<article class="resource-card"><span class="label neutral">日付と時間</span><h3>いつ、何とつながるか</h3><p>ノートを作成した日時だけでなく、文章に含まれる日付や時間も文脈として扱えます。</p></article>
+<article class="resource-card"><span class="label">トピック</span><h3>何が繰り返し現れるか</h3><p>先に分類体系を作らなくても、文章の中で繰り返し現れるテーマをたどれます。</p></article>
+<article class="resource-card"><span class="label alt">意味の近さ</span><h3>同じ言葉を使わなくても</h3><p>表現が異なるノート同士でも、意味が近ければ「関連する記録」として見つけられます。</p></article>
+<article class="resource-card"><span class="label neutral">Insights</span><h3>時間の中に現れるパターン</h3><p>Onuri Premiumでは、繰り返すテーマ、勢い、人や場所のパターン、意味のクラスター、強いつながりをより深く見渡せます。</p></article>
+</div>
+</section>
+<section aria-labelledby="for-title" class="section">
+<div class="section-head"><p class="eyebrow">こんな人のために</p><h2 id="for-title">ノートの「管理」を増やさず、役立つ記録を残したい人へ。</h2></div>
+<div class="resource-grid">
+<article class="resource-card"><h3>保存先を決める前に書きたい</h3><p>アイデア、会話、プロジェクトの考え、日々の出来事を、フォルダやノートブックのルールを考える前に残せます。</p></article>
+<article class="resource-card"><h3>人と文脈を覚えておきたい</h3><p>会話や関係、出会いの周辺情報を、普段の文章の中にそのまま残せます。</p></article>
+<article class="resource-card"><h3>知識ベースを自然に育てたい</h3><p>すべてを手動リンクしなくても、ノートが増えるほど関係性が見えてくる仕組みです。</p></article>
+<article class="resource-card"><h3>昔の記録を見つけ直したい</h3><p>全文検索、文脈フィルタ、関連する記録を使い、「一部は覚えているけれど保存場所はわからない」情報を探せます。</p></article>
+</div>
+</section>
+<section aria-labelledby="category-title" class="section" id="category">
+<div class="feature-card">
+<div>
+<p class="eyebrow">Onuriの位置づけ</p>
+<h2 id="category-title">現代のノート／PKMという大きな領域の中で。</h2>
+<p>Onuriは、Apple Notes、Bear、Obsidian、Notion、Evernoteなどと同じ、ノートおよびパーソナル知識管理の広いカテゴリに属します。</p>
+<p>それぞれ、ノートブック、フォルダ、タグ、データベース、手動リンクなど異なる設計を持っています。Onuriが特に重視するのは、<strong>文脈を自動でつなぐこと</strong>。まず自然に書き、その文章にすでに含まれている人、場所、日付、時間、トピック、意味の関係をあとから活用します。</p>
+<p>他のアプリのあらゆるワークフローを再現することが目的ではありません。個人的な情報を低いメンテナンス負担で残し、必要なときに取り出しやすくすることに焦点を当てています。</p>
+</div>
+<div class="feature-links">
+<a href="personal-knowledge-management-app.html">Onuriでパーソナル知識管理</a>
+<a href="personal-crm-app.html">パーソナルCRMとしてのOnuri</a>
+<a href="notes-app-alternative.html">異なるノートアプリの考え方</a>
+</div>
+</div>
+</section>
+<section aria-labelledby="history-title" class="section">
+<div class="section-head"><p class="eyebrow">製品の歩み</p><h2 id="history-title">公開からOnuri v2まで。</h2></div>
+<div class="resource-grid">
+<article class="resource-card"><span class="label">2026年8月</span><h3>Onuriを公開</h3><p>自然な文章と自動のつながりを中心に据えたiPhone向けノート＆ライフトラッキングアプリとしてApp Storeに登場しました。</p></article>
+<article class="resource-card"><span class="label alt">Onuri v2</span><h3>より速い絞り込みと、より深いつながり</h3><p>人・場所・日付・時間・トピックのホーム画面フィルタ、ダークモード、拡張Insights、ステータス、追加テーマ、関連する記録の改善を導入しました。</p></article>
+</div>
+</section>
+<section aria-labelledby="stillkeep-title" class="section">
+<div class="feature-card">
+<div>
+<p class="eyebrow">同じ開発者によるアプリ</p>
+<h2 id="stillkeep-title">Stillkeep</h2>
+<p>John Henry Rocheは、Appleデバイス向けのプライベートジャーナル<strong>Stillkeep</strong>も開発しています。写真、ストーリー、人、場所を、人生の記録として整理して残すためのアプリです。</p>
+<p>Onuriが「つながるノートと個人知識」に焦点を当てるのに対し、Stillkeepは「個人的な思い出を残し、振り返ること」に焦点を当てています。</p>
+</div>
+<div class="feature-links"><a href="https://stillkeep.app">stillkeep.appを見る</a></div>
+</div>
+</section>
+<section aria-labelledby="official-title" class="section" id="official">
+<div class="section-head"><p class="eyebrow">Onuri公式リンク</p><h2 id="official-title">オンラインでOnuriを見つける。</h2><p>Onuriに関連する公式または運営中のページと掲載情報です。</p></div>
+<div class="feature-card">
+<div><h3>Onuri</h3><p>公式サイト、App Store、公開プロフィール。</p></div>
+<div class="feature-links">
+<a href="https://onuri.app/">公式サイト</a>
+<a href="https://apps.apple.com/app/id6796028277">Apple App Store</a>
+<a href="https://www.crunchbase.com/organization/onuri-notes-life-tracker">Crunchbase</a>
+<a href="https://www.saashub.com/onuri">SaaSHub</a>
+<a href="https://github.com/JHR1986/onuri-notes-life-tracker">GitHub</a>
+<a href="https://x.com/stillkeeponuri">X</a>
+</div>
+</div>
+</section>
+<section aria-labelledby="faq-title" class="section">
+<div class="section-head"><p class="eyebrow">簡単な回答</p><h2 id="faq-title">Onuriについて</h2></div>
+<div class="resource-grid">
+<article class="resource-card"><h3>Onuriとは？</h3><p>Onuriは、人、場所、日付、時間、トピック、意味の近さを文章の中でつなぐ、iPhone向けノート／パーソナル知識アプリです。</p></article>
+<article class="resource-card"><h3>誰が作っていますか？</h3><p>Onuriは、アイルランド・ダブリンでJohn Henry Rocheが開発しています。</p></article>
+<article class="resource-card"><h3>いつ公開されましたか？</h3><p>2026年8月にApple App Storeで公開されました。</p></article>
+<article class="resource-card"><h3>セカンドブレインとして使えますか？</h3><p>はい。Onuriは、すべてのリンクを手作業で作るのではなく、普段の文章から役立つ文脈を自動で育てるアプローチです。</p></article>
+</div>
+</section>
+<section aria-labelledby="explore-title" class="section">
+<div class="feature-card">
+<div><p class="eyebrow">Onuriをさらに知る</p><h2 id="explore-title">詳しく見る。</h2><p>製品のウォークスルーとテーマ別ガイドで、仕組みをさらに詳しく紹介しています。</p></div>
+<div class="feature-links">
+<a href="how-onuri-works.html">Onuriの仕組み</a>
+<a href="private-notes-app.html">プライベートなノートアプリ</a>
+<a href="folderless-notes.html">フォルダ不要のノート</a>
+<a href="automatic-second-brain.html">自動セカンドブレイン</a>
+<a href="personal-knowledge-management-app.html">パーソナル知識管理</a>
+<a href="resources.html">リソースハブ</a>
+</div>
+</div>
+</section>
+<section class="band">
+<h2>自然に書く。あとから、すべて見つける。</h2>
+<p>OnuriはiPhone向けにApp Storeで配信中です。</p>
+<a class="cta" href="https://apps.apple.com/app/id6796028277">Onuriを無料で入手</a>
+</section>
+</div></main>
+<p class="updated-stamp wrap">2026年10月更新</p>
+<footer>
+<div class="wrap footer-row">
+<span>© 2026 Onuri · John Henry Roche</span>
+<nav aria-label="フッターナビゲーション" class="footer-links">
+<a href="automatic-second-brain.html">自動セカンドブレイン</a>
+<a href="folderless-notes.html">フォルダ不要のノート</a>
+<a href="notes-app.html">ノートアプリ</a>
+<a href="notes-app-alternative.html">ノートアプリの代替</a>
+<a href="capabilities.html">機能</a>
+<a href="free-note-taking-app.html">無料アプリ</a>
+<a href="resources.html">リソース</a>
+<a href="blog.html">ブログ</a>
+<a href="note-taking-app-second-brain.html">ノート完全ガイド</a><a href="https://www.behance.net/gallery/255962531/Onuri-Write-Naturally-Discover-What-Connects" rel="noopener" target="_blank">Behanceケーススタディ</a>
+<a href="https://apps.apple.com/app/id6796028277">App Store</a>
+<a href="privacy.html">ウェブサイトのプライバシー</a><a href="https://jhr1986.github.io/onuri-legal/privacy.html">アプリのプライバシー</a>
+<a href="https://jhr1986.github.io/onuri-legal/terms.html">利用規約</a>
+<a href="whats-new-v2.html">v2の新機能</a></nav>
+</div>
+</footer>
+<script defer="" src="../onuri-analytics-consent.js"></script>
+<nav aria-label="言語を選択" class="onuri-language-switcher"><a href="https://onuri.app/about.html" hreflang="en" lang="en">EN</a><a aria-current="page" href="https://onuri.app/ja/about.html" hreflang="ja" lang="ja">日本語</a><a href="https://onuri.app/ko/about.html" hreflang="ko" lang="ko">한국어</a></nav>
+</body>
+</html>

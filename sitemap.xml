@@ -580,6 +580,24 @@
     <loc>https://onuri.app/what-to-remember.html</loc>
     <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/what-to-remember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/what-to-remember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/what-to-remember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/what-to-remember.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/what-to-remember.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/what-to-remember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/what-to-remember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/what-to-remember.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/what-to-remember.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/what-to-remember.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/what-to-remember.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/what-to-remember.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/what-to-remember.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/what-to-remember.html"/>
   </url>
 </urlset>

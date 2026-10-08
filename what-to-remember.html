@@ -8,6 +8,8 @@
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" href="https://onuri.app/what-to-remember.html">
 <link rel="alternate" hreflang="en" href="https://onuri.app/what-to-remember.html">
+<link rel="alternate" hreflang="ja" href="https://onuri.app/ja/what-to-remember.html">
+<link rel="alternate" hreflang="ko" href="https://onuri.app/ko/what-to-remember.html">
 <link rel="alternate" hreflang="x-default" href="https://onuri.app/what-to-remember.html">
 <meta name="theme-color" content="#c9577f">
 <meta name="color-scheme" content="light dark">
@@ -23,6 +25,8 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="What do you need to remember?">
 <meta name="twitter:description" content="20 things worth writing down, mapped by people, places, dates, times and topics.">
@@ -42,8 +46,8 @@
   --p-dates:#2f6fc4; --p-dates-bg:#e3eefc;
   --p-times:#4f5d6b; --p-times-bg:#e9edf1;
   --p-topics:#a86a12; --p-topics-bg:#fbefd9;
-  --display:"Shippori Mincho","Hiragino Mincho ProN",Georgia,serif;
-  --body:"Zen Kaku Gothic New","Hiragino Sans","Segoe UI",system-ui,sans-serif;
+  --display:"Shippori Mincho","Nanum Myeongjo","Hiragino Mincho ProN","Yu Mincho","AppleMyungjo",Georgia,serif;
+  --body:"Zen Kaku Gothic New","Noto Sans KR","Hiragino Sans","Apple SD Gothic Neo","Segoe UI",system-ui,sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#1c1317; --surface:#28191f; --card:#22161b; --line:#6e3c51; --accent:#f09bbd;
@@ -174,6 +178,18 @@ h4{margin:0;font-size:.92rem;line-height:1.35}
 .ix a:hover{text-decoration:underline}
 h4{scroll-margin-top:20px}
 h4:target{background:var(--surface);border-radius:6px;box-shadow:0 0 0 4px var(--surface)}
+
+/* language switcher and CJK text */
+.top-right{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.langs{display:flex;gap:4px;font-size:.82rem}
+.langs a{color:var(--muted);text-decoration:none;padding:3px 8px;border-radius:999px}
+.langs a[aria-current="true"]{color:var(--fg);background:var(--surface);font-weight:700}
+.langs a:hover{color:var(--accent)}
+.site-foot .langs{justify-content:center}
+:lang(ja) body{line-break:strict}
+:lang(ko) body{word-break:keep-all;overflow-wrap:break-word}
+:lang(ja) .eyebrow,:lang(ko) .eyebrow,:lang(ja) .sub-cat,:lang(ko) .sub-cat,:lang(ja) .note .when,:lang(ko) .note .when,:lang(ja) .ix h3,:lang(ko) .ix h3{letter-spacing:.04em}
+:lang(ja) h1{word-break:keep-all}
 </style>
 <script defer src="onuri-analytics-consent.js"></script>
 </head>
@@ -182,7 +198,10 @@ h4:target{background:var(--surface);border-radius:6px;box-shadow:0 0 0 4px var(-
 <div class="wrap">
 <header class="top">
   <a class="brand" href="/">Onuri</a>
-  <a class="cta" href="https://apps.apple.com/app/id6796028277">Get Onuri free</a>
+  <div class="top-right">
+    <nav class="langs" aria-label="Language"><a href="/what-to-remember.html" hreflang="en" lang="en" aria-current="true">EN</a><a href="/ja/what-to-remember.html" hreflang="ja" lang="ja">日本語</a><a href="/ko/what-to-remember.html" hreflang="ko" lang="ko">한국어</a></nav>
+    <a class="cta" href="https://apps.apple.com/app/id6796028277">Get Onuri free</a>
+  </div>
 </header>
 <main id="main">
 <div class="hero">
@@ -311,7 +330,7 @@ h4:target{background:var(--surface);border-radius:6px;box-shadow:0 0 0 4px var(-
     <article class="item" id="renewal-and-due-dates">
       <h3>Renewal and due dates to remember</h3>
       <p class="answer">Insurance, NCT, passport and subscriptions. Note last year's price so you can check the renewal quote.</p>
-      <div class="note"><span class="when">Tuesday, 21 January</span><span class="pill to">Car insurance</span> renews <span class="pill da">21 January</span>. Last year's quote was €640. Check before it auto-renews.</div>
+      <div class="note"><span class="when">Wednesday, 21 January</span><span class="pill to">Car insurance</span> renews <span class="pill da">21 January</span>. Last year's quote was €640. Check before it auto-renews.</div>
       <details class="around"><summary><span class="sum-ic"><span aria-hidden="true">🏷️</span><span aria-hidden="true">👥</span><span aria-hidden="true">🕒</span></span><span>Around renewals · 3 more to remember</span></summary><div class="subs"><div class="sub"><span class="sub-ic to" aria-hidden="true">🏷️</span><div class="sub-txt"><span class="sub-cat">Topics</span><h4 id="documents-with-expiry-dates">Documents with expiry dates</h4><p>Passport, driving licence, NCT and home insurance.</p></div></div><div class="sub"><span class="sub-ic pe" aria-hidden="true">👥</span><div class="sub-txt"><span class="sub-cat">People</span><h4 id="who-to-contact-for-renewals">Who to contact for renewals</h4><p>Your broker or provider, with the policy number.</p></div></div><div class="sub"><span class="sub-ic ti" aria-hidden="true">🕒</span><div class="sub-txt"><span class="sub-cat">Times</span><h4 id="how-far-ahead-to-renew-a-passport">How far ahead to renew a passport</h4><p>Passports can take weeks, so set the note months ahead.</p></div></div></div></details>
       <p class="links">See also <a href="#weekly-routines-to-write-down">Weekly routines</a></p>
     </article>
@@ -418,6 +437,7 @@ h4:target{background:var(--surface);border-radius:6px;box-shadow:0 0 0 4px var(-
   <nav aria-label="More from Onuri">
     <a href="/">Home</a><a href="resources.html">Resources</a><a href="life-tracking-ideas.html">100 Life Tracking Ideas</a><a href="privacy.html">Website Privacy</a><a href="https://jhr1986.github.io/onuri-legal/privacy.html">App Privacy Policy</a><a href="https://jhr1986.github.io/onuri-legal/terms.html">Terms of Use</a>
   </nav>
+  <nav class="langs" aria-label="Language"><a href="/what-to-remember.html" hreflang="en" lang="en" aria-current="true">EN</a><a href="/ja/what-to-remember.html" hreflang="ja" lang="ja">日本語</a><a href="/ko/what-to-remember.html" hreflang="ko" lang="ko">한국어</a></nav>
   <p>Updated 8 October 2026 · All names and notes are fictional examples</p>
   <p>© 2026 Onuri · Made in Ireland by John Henry Roche</p>
 </footer>

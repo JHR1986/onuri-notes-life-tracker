@@ -14,6 +14,7 @@
 - Behance Case Study: https://www.behance.net/gallery/255962531/Onuri-Write-Naturally-Discover-What-Connects
 - Blog: https://onuri.app/blog.html
 - Life Tracker App: https://onuri.app/life-tracker-app.html
+- What Do You Need to Remember? (20 things worth writing down, by people, places, dates, times and topics): https://onuri.app/what-to-remember.html
 - System Capabilities & Architecture: https://onuri.app/capabilities.html
 - Free Notes App: https://onuri.app/free-notes-app.html
 - Free Note-Taking App: https://onuri.app/free-note-taking-app.html

@@ -74,6 +74,7 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius
 .eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.75rem;color:var(--muted);font-weight:500}
 h1{font-family:var(--display);font-size:clamp(2rem,6vw,3.2rem);line-height:1.15;margin:.3em 0 .35em;text-wrap:balance}
 .lede{max-width:34em;margin:0 auto;color:var(--muted);font-size:1.05rem}
+.lede strong{color:var(--fg);font-weight:700}
 .hook{display:inline-block;margin-top:18px;font-size:.95rem;background:var(--surface);border:1px solid var(--line);padding:6px 14px;border-radius:999px}
 .hook b{font-variant-numeric:tabular-nums;color:var(--accent)}
 
@@ -142,6 +143,13 @@ h4{margin:0;font-size:.92rem;line-height:1.35}
 .faq p{margin:.5em 0 0;color:var(--muted);max-width:62ch}
 .end{text-align:center;margin-top:48px}
 .end p{color:var(--muted)}
+.get{display:flex;align-items:center;justify-content:center;gap:16px 28px;flex-wrap:wrap}
+.qr{display:flex;align-items:center;gap:12px;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:10px 14px 10px 10px}
+.qr-img{display:block;background:#fff;border-radius:8px;padding:5px;line-height:0}
+.qr-img img{width:88px;height:88px;display:block}
+.qr-txt{display:flex;flex-direction:column;font-size:.85rem;color:var(--muted);line-height:1.4}
+.qr-txt b{color:var(--fg);font-weight:700}
+@media (max-width:700px){.qr{display:none}}
 .foot{margin-top:40px;font-size:.78rem;color:var(--muted);text-align:center}
 
 .skip{position:absolute;left:-999px;top:8px;background:var(--accent);color:var(--bg);padding:8px 14px;border-radius:8px;z-index:10}
@@ -164,7 +172,7 @@ h4{margin:0;font-size:.92rem;line-height:1.35}
 <div class="hero">
   <div class="eyebrow">A map of everything worth writing down</div>
   <h1>What do you need to remember?</h1>
-  <p class="lede">Almost everything worth remembering is a person, a place, a date, a time or a topic. Tap one to see what's worth noting, with an example note for each.</p>
+  <p class="lede">Almost everything worth remembering is a person, a place, a date, a time or a topic. <strong>Tap a circle below to see what's worth noting</strong>, with an example note for each.</p>
   <div class="hook">These 20 things alone can be combined in <b>1,048,555</b> different ways.</div>
 </div>
 
@@ -374,7 +382,13 @@ h4{margin:0;font-size:.92rem;line-height:1.35}
 <div class="end">
   <h2>Write it down while you still remember it.</h2>
   <p>Onuri is a free, private notes app for iPhone.</p>
-  <a class="cta" href="https://apps.apple.com/app/id6796028277">Download Onuri free</a>
+  <div class="get">
+    <a class="cta" href="https://apps.apple.com/app/id6796028277">Download Onuri free</a>
+    <div class="qr">
+      <span class="qr-img"><img src="onuri-app-store-qr.png" alt="QR code to download Onuri on the App Store" width="88" height="88" loading="lazy" decoding="async"></span>
+      <span class="qr-txt"><b>On your computer?</b>Scan with your iPhone camera</span>
+    </div>
+  </div>
 </div>
 </main>
 <footer class="site-foot">

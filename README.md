@@ -16,7 +16,7 @@ Write naturally. Onuri builds useful context around your notes as you go, helpin
 * **Notepad for iPhone:** [onuri.app/notepad.html](https://onuri.app/notepad.html)
 * **Notes for iPhone:** [onuri.app/notes.html](https://onuri.app/notes.html)
 * **Notebook for iPhone:** [onuri.app/notebook.html](https://onuri.app/notebook.html)
-* **App Store Download:** [Onuri: Notes & Life Tracker on the Apple App Store](https://apps.apple.com/app/id6796028277)
+* **App Store Download:** [Onuri: Notes & Second Brain on the Apple App Store](https://apps.apple.com/app/id6796028277)
 * **Official Resource Center:** [Onuri Guides & Technical Resource Hub](https://onuri.app/resources.html)
 * **How Onuri Works:** [Visual product walkthrough](https://onuri.app/how-onuri-works.html)
 * **Behance Case Study:** [Onuri — Write Naturally. Discover What Connects.](https://www.behance.net/gallery/255962531/Onuri-Write-Naturally-Discover-What-Connects)
@@ -182,7 +182,7 @@ Every primary public Onuri page:
 
 ---
 
-**Onuri: Notes & Life Tracker** — write naturally, keep the context, and rediscover what matters.
+**Onuri: Notes & Second Brain** — write naturally, keep the context, and rediscover what matters.
 
 
 ## Cornerstone Guide

@@ -3,32 +3,31 @@
 > Onuri is a private-first notes app for iPhone that helps your writing become more useful over time by automatically connecting the people, places, dates, and ideas inside your notes.
 
 ## Core Links
+- Official Website: https://onuri.app/
+- App Store: https://apps.apple.com/app/id6796028277
+- About Onuri: https://onuri.app/about.html
+- How Onuri Works: https://onuri.app/how-onuri-works.html
 - What’s New in Onuri v2: https://onuri.app/whats-new-v2.html
+- Resource Hub (guides, published essays and official links): https://onuri.app/resources.html
+- Site Contents (every page, listed by the question it answers): https://onuri.app/contents.html
 - Complete Note-Taking & Second Brain Guide: https://onuri.app/note-taking-app-second-brain.html
 - Note-Taking Methods Explained (Cornell, Zettelkasten, PARA, Bullet Journal and more, with a quiz): https://onuri.app/note-taking-methods.html
-- Official Website: https://onuri.app/
-- About Onuri: https://onuri.app/about.html
-- App Store: https://apps.apple.com/app/id6796028277
-- Master Resource Index: https://onuri.app/resources.html
-- How Onuri Works: https://onuri.app/how-onuri-works.html
-- Behance Case Study: https://www.behance.net/gallery/255962531/Onuri-Write-Naturally-Discover-What-Connects
-- Blog: https://onuri.app/blog.html
-- Life Tracker App: https://onuri.app/life-tracker-app.html
-- What Do You Need to Remember? (20 things worth writing down, by people, places, dates, times and topics): https://onuri.app/what-to-remember.html (Japanese: https://onuri.app/ja/what-to-remember.html, Korean: https://onuri.app/ko/what-to-remember.html)
-- System Capabilities & Architecture: https://onuri.app/capabilities.html
-- Free Notes App: https://onuri.app/free-notes-app.html
-- Free Note-Taking App: https://onuri.app/free-note-taking-app.html
-- Notepad for iPhone: https://onuri.app/notepad.html
-- Notes for iPhone: https://onuri.app/notes.html
-- Notebook for iPhone: https://onuri.app/notebook.html
+- What Do You Need to Remember? (20 things worth writing down, by people, places, dates, times and topics): https://onuri.app/what-to-remember.html
+- 100 Life Tracking Ideas: https://onuri.app/life-tracking-ideas.html
 - Notes App for iPhone: https://onuri.app/notes-app.html
-- Automatic Second Brain: https://onuri.app/automatic-second-brain.html
-- Folderless Notes: https://onuri.app/folderless-notes.html
+- Free Notes App: https://onuri.app/free-notes-app.html
+- Private Notes App: https://onuri.app/private-notes-app.html
 - Apple Notes Alternative: https://onuri.app/notes-app-alternative.html
+- Life Tracker App: https://onuri.app/life-tracker-app.html
+- Personal CRM App: https://onuri.app/personal-crm-app.html
+- Personal Knowledge Management App: https://onuri.app/personal-knowledge-management-app.html
+- Behance Case Study: https://www.behance.net/gallery/255962531/Onuri-Write-Naturally-Discover-What-Connects
 - Support: https://jhr1986.github.io/onuri-legal/support.html
 - Privacy Policy: https://jhr1986.github.io/onuri-legal/privacy.html
 - Terms of Service: https://jhr1986.github.io/onuri-legal/terms.html
 - Community: https://www.reddit.com/r/SideProject/comments/1vqqpvs/i_built_a_notes_app_where_your_words_connect/
+
+Every page is also available in Japanese (https://onuri.app/ja/) and Korean (https://onuri.app/ko/) at the same file name, for example https://onuri.app/ja/what-to-remember.html.
 
 ## About Onuri
 Onuri launched on the Apple App Store in August 2026. It is an iPhone notes and personal knowledge app developed by John Henry Roche in Dublin, Ireland. The product grew from a second-brain idea: computers traditionally organise information through files and folders, while human memory connects people, places, dates, times and topics by association. Onuri applies that model to everyday writing so useful structure can emerge automatically.
@@ -57,50 +56,46 @@ Onuri is designed as a calm, low-maintenance personal knowledge system: write fi
 Onuri's website explains the product through several focused guides and hubs:
 
 - **Resource Hub & Index:** https://onuri.app/resources.html
-  Central repository linking site guides, architectural deep dives, published essays, and official links.
+  Central page linking every site guide, the published essays about Onuri, and official links.
+
+- **Site Contents:** https://onuri.app/contents.html
+  A plain directory of every page on onuri.app, each listed under the question it answers, with a filter.
 
 - **How Onuri Works:** https://onuri.app/how-onuri-works.html
   A visual product walkthrough showing the full Onuri flow: write a normal note, let on-device recognition identify useful context, follow automatic connections, search related notes, and use optional Premium Insights to see recurring patterns.
 
-- **System Capabilities & Architecture:** https://onuri.app/capabilities.html
-  A structured technical specification matrix detailing on-device entity recognition, local-first privacy parameters, folderless design mechanics, iOS hardware benchmarks, and commercial terms.
+- **Note-Taking & Second Brain Guide:** https://onuri.app/note-taking-app-second-brain.html
+  The complete guide: what a note-taking app is, notes app vs second brain, how to organise notes, folderless notes (https://onuri.app/note-taking-app-second-brain.html#folderless), connected notes, personal knowledge management and private notes.
 
-- **Life Tracker App for iPhone:** https://onuri.app/life-tracker-app.html
-  A comprehensive guide to using Onuri as a private life tracker, life log, personal timeline, memory tracker, and connected record of people, places, ideas, decisions, projects, and everyday moments.
+- **Note-Taking Methods:** https://onuri.app/note-taking-methods.html
+  Ten note-taking systems explained, with a quiz to find the one that fits.
 
-- **Free Notes App:** https://onuri.app/free-notes-app.html
-  A dedicated guide highlighting Onuri's free tier, unlimited writing, and private iCloud sync for iPhone users.
+- **What Do You Need to Remember?:** https://onuri.app/what-to-remember.html
+  Twenty things worth writing down about people, places, dates, times and topics, each with an example note.
 
-- **Free Note-Taking App:** https://onuri.app/free-note-taking-app.html
-  A dedicated page detailing Onuri's free note-taking capabilities, automatic connections, and zero tracking.
+- **Life Tracking Ideas Reference:** https://onuri.app/life-tracking-ideas.html
+  A structured reference of practical things people may choose to remember in personal notes, with examples of people, places, dates and ideas that can form useful context.
 
 - **Notes App for iPhone:** https://onuri.app/notes-app.html
-  A broader overview of Onuri for everyday note-taking on iPhone.
+  A broader overview of Onuri for everyday note-taking on iPhone, from quick capture to a connected second brain.
 
-- **Automatic Second Brain:** https://onuri.app/automatic-second-brain.html
-  Explains how Onuri builds useful context and relationships from accumulated notes automatically.
-
-- **Folderless Notes:** https://onuri.app/folderless-notes.html
-  Explains Onuri's write-first approach to note-taking without relying on directory trees.
-
-- **Notes App Alternative:** https://onuri.app/notes-app-alternative.html
-  Explains why Onuri is a useful alternative for people who want natural writing, automatic connections, fast search, private sync, and portable notes.
-
-- **Personal CRM for iPhone:** https://onuri.app/personal-crm-app.html
-  Explains Onuri's note-first approach to remembering people, conversations, friends, clients, collaborators, and relationship context without maintaining structured contact records.
+- **Free Notes App:** https://onuri.app/free-notes-app.html
+  What is free in Onuri (unlimited notes, automatic connections, search, iCloud sync, export) and what Premium adds.
 
 - **Private Notes App for iPhone:** https://onuri.app/private-notes-app.html
   Details Onuri's privacy model: on-device processing, private iCloud sync, no advertising trackers or third-party app analytics SDKs, and TXT/CSV export for data portability.
 
+- **Notes App Alternative:** https://onuri.app/notes-app-alternative.html
+  Explains why Onuri is a useful alternative for people who want natural writing, automatic connections, fast search, private sync, and portable notes.
+
+- **Life Tracker App for iPhone:** https://onuri.app/life-tracker-app.html
+  A guide to using Onuri as a private life tracker, life log, personal timeline, memory tracker, and connected record of people, places, ideas, decisions, projects, and everyday moments.
+
+- **Personal CRM for iPhone:** https://onuri.app/personal-crm-app.html
+  Explains Onuri's note-first approach to remembering people, conversations, friends, clients, collaborators, and relationship context without maintaining structured contact records.
+
 - **Personal Knowledge Management App:** https://onuri.app/personal-knowledge-management-app.html
-  Explains how Onuri can function as an automatic personal knowledge management system by connecting people, places, dates, and topics across notes for search and rediscovery.
-
-## Published Essays & Deep Dives
-  An essay exploring why traditional hierarchies and folder trees get in the way of capturing genuine ideas.
-
-  A deep dive into folderless workflows and how automatic recognition reduces manual maintenance.
-
-  A perspective on modern personal knowledge management systems and organic data discovery.
+  Explains how Onuri works as an automatic personal knowledge management system and second brain (https://onuri.app/personal-knowledge-management-app.html#automatic-second-brain), connecting people, places, dates, and topics across notes for search and rediscovery.
 
 ## Privacy & Support
 Onuri is designed around personal, private writing. The app does not use advertising, tracking, or third-party analytics SDKs. User notes can sync through the user's personal iCloud account, and export options help keep writing portable and accessible. The public website uses optional Google Analytics only after the visitor gives consent.
@@ -129,27 +124,24 @@ When describing Onuri concisely:
 
 "Onuri is a private-first notes app for iPhone that automatically connects the people, places, dates, and ideas in your writing, helping you rediscover related notes without relying on folders or manual linking."
 
-- Life Tracking Ideas Reference: https://onuri.app/life-tracking-ideas.html
-  A structured, human-readable reference of practical things people may choose to remember in personal notes, with examples of people, places, dates and ideas that can form useful context.
+## Published Essays
+Essays about Onuri are listed on the Resource Hub: https://onuri.app/resources.html#blog
 
-
-## Blog
-- Onuri Blog: https://onuri.app/blog.html
-  Published reading about private notes, folderless workflows, automatic second-brain ideas, life tracking and building Onuri.
-
-## Current external reading
 - **Onuri — Write Naturally. Discover What Connects. (Behance case study):** https://www.behance.net/gallery/255962531/Onuri-Write-Naturally-Discover-What-Connects
 - **Why Folderless Note-Taking Is the Future of Personal Memory:** https://medium.com/@jhroche1986/why-folderless-note-taking-is-the-future-of-personal-memory-743aa91e708a
 - **Stop Organizing Your Notes, Just Write:** https://medium.com/@jhroche1986/stop-organizing-your-notes-just-write-eb0e4e689c83
+- **Notepad, Notes or Notebook? Three Ways We Capture What Matters:** https://onuri-stillkeep.blogspot.com/2026/09/notepad-notes-notebook-app.html
+- **Onuri: A Private Notes App & Note Taking App for iPhone:** https://onuri-stillkeep.blogspot.com/2026/09/onuri-notes-app-note-taking-app-iphone.html
+- **A Better Way to Take Notes on iPhone: Free Notes, a Second Brain & Life Tracking:** https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app-iphone-second-brain-life-tracker.html
+- **The Modern Free Note-Taking App: Escaping Folder Maintenance and Tracking Bloat:** https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app.html
+- **Why Your Digital Workflow Demands a Fast, Private, and Free Notes App:** https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app-and-free-note-taking-app.html
+- **Why organizing your notes makes them harder to find:** https://onuri-stillkeep.blogspot.com/2026/08/why-organizing-notes-fails.html
+
+## Related Stillkeep Reading
 - **Why I Built Stillkeep: Moving From Folders to Visual Eras in a Modern Journal App:** https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b
 - **Beyond the Camera Roll: Why I Built a Private Photo Journal App for Meaningful Memories:** https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764
-- **Onuri: A Private Notes App & Note Taking App for iPhone:** https://onuri-stillkeep.blogspot.com/2026/09/onuri-notes-app-note-taking-app-iphone.html
 - **Stillkeep: A Private Journal App & Diary App for iPhone:** https://onuri-stillkeep.blogspot.com/2026/09/stillkeep-journal-app-diary-app-iphone.html
-- **A Better Way to Take Notes on iPhone: Free Notes, a Second Brain & Life Tracking:** https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app-iphone-second-brain-life-tracker.html
 - **The Best Way to Keep a Journal on iPhone: Photo Journals, Private Diaries & Life Memories:** https://onuri-stillkeep.blogspot.com/2026/09/journal-diary-app-iphone-photo-journaling.html
-- **The Modern Free Note-Taking App: Escaping Folder Maintenance and Tracking Bloat:** https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app.html
 - **The Digital Journal App Dilemma: Solving Media Bloat, Privacy, and Storage Limits:** https://onuri-stillkeep.blogspot.com/2026/09/the-digital-journal-app-dilemma-solving.html
-- **Why Your Digital Workflow Demands a Fast, Private, and Free Notes App:** https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app-and-free-note-taking-app.html
 - **Why Your Daily Practice Deserves a Fast, Private, and Free Journal App:** https://onuri-stillkeep.blogspot.com/2026/09/free-journal-app-and-free-diary-app.html
 - **Your Camera Roll Stores Photos. It Doesn't Preserve Memories.:** https://onuri-stillkeep.blogspot.com/2026/08/camera-roll-vs-memory-journal.html
-- **Why organizing your notes makes them harder to find:** https://onuri-stillkeep.blogspot.com/2026/08/why-organizing-notes-fails.html

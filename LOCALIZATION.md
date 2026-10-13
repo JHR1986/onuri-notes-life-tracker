@@ -23,4 +23,5 @@ Languages: English (`/`), Japanese (`/ja/`), Korean (`/ko/`).
 - The language switcher lives in the header (inside the mobile menu on phones) and in the footer. There is no floating switcher any more.
 - Header/footer labels are translated per language; links inside them stay relative within the language folder, and the home link is `/`, `/ja/` or `/ko/`.
 - When adding a page, add it to the header/footer link lists in all three languages and give it a translated label.
+- Exception: `contents.html` (and its `/ja/` and `/ko/` versions) is a standalone directory page with its own design. It does not use the shared header/footer/CSS; its top bar links only to Home and Resources. It is generated from one source, so when a page is added or renamed, update all three contents pages together.
 - Breadcrumbs: Home › page, or Home › Resources › guide for guide pages. The BreadcrumbList structured data mirrors the visible breadcrumb in each language.

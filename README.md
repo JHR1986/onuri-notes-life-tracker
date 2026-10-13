@@ -13,9 +13,8 @@ Write naturally. Onuri builds useful context around your notes as you go, helpin
 ## Download Onuri & Resources
 
 * **Official Website:** [onuri.app](https://onuri.app/)
-* **Notepad for iPhone:** [onuri.app/notepad.html](https://onuri.app/notepad.html)
-* **Notes for iPhone:** [onuri.app/notes.html](https://onuri.app/notes.html)
-* **Notebook for iPhone:** [onuri.app/notebook.html](https://onuri.app/notebook.html)
+* **Notes App for iPhone:** [onuri.app/notes-app.html](https://onuri.app/notes-app.html)
+* **Note-Taking & Second Brain Guide:** [onuri.app/note-taking-app-second-brain.html](https://onuri.app/note-taking-app-second-brain.html)
 * **App Store Download:** [Onuri: Notes & Second Brain on the Apple App Store](https://apps.apple.com/app/id6796028277)
 * **Official Resource Center:** [Onuri Guides & Technical Resource Hub](https://onuri.app/resources.html)
 * **How Onuri Works:** [Visual product walkthrough](https://onuri.app/how-onuri-works.html)
@@ -119,8 +118,8 @@ The Onuri website includes focused guides detailing how connected, folderless no
 * **[How Onuri Works](https://onuri.app/how-onuri-works.html):** A visual walkthrough of writing a note, automatic context recognition, connections, search, and optional Premium Insights.
 * **[Life Tracker App for iPhone](https://onuri.app/life-tracker-app.html):** A comprehensive guide to using Onuri as a private life tracker, life log, personal timeline, memory tracker, and connected record of the people, places, ideas, decisions, projects, and everyday moments that make up your life.
 * **[Notes App for iPhone](https://onuri.app/notes-app.html):** An overview of Onuri for everyday note-taking and instant thought capture.
-* **[Automatic Second Brain](https://onuri.app/automatic-second-brain.html):** How accumulated notes become connected context over time.
-* **[Folderless Notes](https://onuri.app/folderless-notes.html):** A write-first approach to personal knowledge management without relying on directory trees.
+* **[Personal Knowledge Management App](https://onuri.app/personal-knowledge-management-app.html):** How accumulated notes become an automatic second brain of connected context over time.
+* **[Note-Taking & Second Brain Guide](https://onuri.app/note-taking-app-second-brain.html):** The complete guide, including the write-first, [folderless](https://onuri.app/note-taking-app-second-brain.html#folderless) approach to note-taking without directory trees.
 * **[Notes App Alternative](https://onuri.app/notes-app-alternative.html):** Why Onuri is a useful alternative for connected, low-maintenance note-taking on iOS.
 * **[Onuri Official System Hub](https://onuri.app/resources.html):** The primary resource base explaining automatic entity linking, folderless structures, and on-device privacy.
 
@@ -160,12 +159,22 @@ Every primary public Onuri page:
 
 1. [Onuri — Private Notes & Life Tracker for iPhone](https://onuri.app/)
 2. [How Onuri Works](https://onuri.app/how-onuri-works.html)
-3. [Onuri Resource Hub & System Index](https://onuri.app/resources.html)
-4. [Life Tracker App for iPhone](https://onuri.app/life-tracker-app.html)
-5. [Notes App for iPhone](https://onuri.app/notes-app.html)
-6. [Automatic Second Brain](https://onuri.app/automatic-second-brain.html)
-7. [Folderless Notes](https://onuri.app/folderless-notes.html)
-8. [Notes App Alternative](https://onuri.app/notes-app-alternative.html)
+3. [What’s New in Onuri v2](https://onuri.app/whats-new-v2.html)
+4. [About Onuri](https://onuri.app/about.html)
+5. [Onuri Resource Hub & System Index](https://onuri.app/resources.html)
+6. [Notes App for iPhone](https://onuri.app/notes-app.html)
+7. [Free Notes App](https://onuri.app/free-notes-app.html)
+8. [Private Notes App](https://onuri.app/private-notes-app.html)
+9. [Notes App Alternative](https://onuri.app/notes-app-alternative.html)
+10. [Life Tracker App for iPhone](https://onuri.app/life-tracker-app.html)
+11. [Personal CRM App](https://onuri.app/personal-crm-app.html)
+12. [Personal Knowledge Management App](https://onuri.app/personal-knowledge-management-app.html)
+13. [Note-Taking & Second Brain Guide](https://onuri.app/note-taking-app-second-brain.html)
+14. [Note-Taking Methods](https://onuri.app/note-taking-methods.html)
+15. [100 Life Tracking Ideas](https://onuri.app/life-tracking-ideas.html)
+16. [What Do You Need to Remember?](https://onuri.app/what-to-remember.html)
+17. [Website Privacy Notice](https://onuri.app/privacy.html)
+18. [Site Contents](https://onuri.app/contents.html)
 
 ---
 

@@ -14,6 +14,7 @@
 - Note-Taking Methods Explained (Cornell, Zettelkasten, PARA, Bullet Journal and more, with a quiz): https://onuri.app/note-taking-methods.html
 - What Do You Need to Remember? (20 things worth writing down, by people, places, dates, times and topics): https://onuri.app/what-to-remember.html
 - 100 Life Tracking Ideas: https://onuri.app/life-tracking-ideas.html
+- Reading Log Case Study (keep track of books you have read by month, author, person and book club with one line per book): https://onuri.app/reading-log-book-club.html
 - Notes App for iPhone: https://onuri.app/notes-app.html
 - Free Notes App: https://onuri.app/free-notes-app.html
 - Private Notes App: https://onuri.app/private-notes-app.html

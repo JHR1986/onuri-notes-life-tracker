@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://onuri.app/contents.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/contents.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/contents.html"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/contents.html"/>
@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://onuri.app/life-tracking-ideas.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/life-tracking-ideas.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/life-tracking-ideas.html"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/life-tracking-ideas.html"/>
@@ -362,7 +362,7 @@
   </url>
   <url>
     <loc>https://onuri.app/resources.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/resources.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/resources.html"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/resources.html"/>
@@ -431,5 +431,11 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/whats-new-v2.html"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/whats-new-v2.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/whats-new-v2.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/reading-log-book-club.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/reading-log-book-club.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/reading-log-book-club.html"/>
   </url>
 </urlset>

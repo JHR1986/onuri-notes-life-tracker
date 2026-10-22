@@ -1,4 +1,4 @@
-# Onuri — Private Notes & Life Tracker for iPhone
+# Onuri: Notes & Second Brain — Private Notes & Life Tracker for iPhone
 
 <p align="left">
   <a href="https://apps.apple.com/app/id6796028277">
@@ -6,9 +6,9 @@
   </a>
 </p>
 
-**Onuri** is a private-first notes and life-tracking app for iPhone that automatically connects the people, places, dates, times and ideas in your writing.
+**Onuri: Notes & Second Brain** is a private-first notes and life-tracking app for iPhone that automatically connects the people, places, dates, times and ideas in your writing.
 
-Write naturally. Onuri builds useful context around your notes as you go, so related thoughts, memories, people and places resurface later — without making organisation another task to maintain.
+Write naturally. Onuri: Notes & Second Brain builds useful context around your notes as you go, so related thoughts, memories, people and places resurface later — without making organisation another task to maintain.
 
 * **Website:** [onuri.app](https://onuri.app/)
 * **App Store:** [Onuri: Notes & Second Brain](https://apps.apple.com/app/id6796028277)

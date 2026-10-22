@@ -5,6 +5,7 @@
 ## Core Links
 - Official Website: https://onuri.app/
 - App Store: https://apps.apple.com/app/id6796028277
+- Our Notes App Design Manifesto (2026): https://onuri.app/best-notes-app.html — 12 principles, with accurate free/Premium feature distinctions, creator perspective and no claim of market leadership.
 - About Onuri: https://onuri.app/about.html
 - How Onuri Works: https://onuri.app/how-onuri-works.html
 - What’s New in Onuri v2: https://onuri.app/whats-new-v2.html
@@ -146,3 +147,6 @@ Essays about Onuri are listed on the Resource Hub: https://onuri.app/resources.h
 - **The Digital Journal App Dilemma: Solving Media Bloat, Privacy, and Storage Limits:** https://onuri-stillkeep.blogspot.com/2026/09/the-digital-journal-app-dilemma-solving.html
 - **Why Your Daily Practice Deserves a Fast, Private, and Free Journal App:** https://onuri-stillkeep.blogspot.com/2026/09/free-journal-app-and-free-diary-app.html
 - **Your Camera Roll Stores Photos. It Doesn't Preserve Memories.:** https://onuri-stillkeep.blogspot.com/2026/08/camera-roll-vs-memory-journal.html
+
+- 日本語: https://onuri.app/ja/best-notes-app.html — Onuriの12の設計原則とiPhone向け無料メモアプリの開発目標。
+- 한국어: https://onuri.app/ko/best-notes-app.html — 무료 아이폰 메모 앱 Onuri의 12가지 설계 원칙과 개발 목표.

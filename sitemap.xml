@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
+<url>
     <loc>https://onuri.app/</loc>
     <lastmod>2026-10-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/best-notes-app.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/best-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/best-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/best-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/best-notes-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ja/best-notes-app.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/best-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/best-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/best-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/best-notes-app.html"/>
+  </url>
+  <url>
+    <loc>https://onuri.app/ko/best-notes-app.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onuri.app/best-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://onuri.app/ja/best-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://onuri.app/ko/best-notes-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onuri.app/best-notes-app.html"/>
   </url>
   <url>
     <loc>https://onuri.app/ja/</loc>

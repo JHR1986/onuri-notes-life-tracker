@@ -228,6 +228,29 @@ h4:target{background:var(--surface);border-radius:6px;box-shadow:0 0 0 4px var(-
 <ul class="jump" aria-label="セクションへ移動">
   <li><a href="#people">人物</a></li><li><a href="#places">場所</a></li><li><a href="#dates">日付</a></li><li><a href="#times">時刻</a></li><li><a href="#topics">トピック</a></li><li><a href="#all-questions">すべての問い</a></li><li><a href="#faq">よくある質問</a></li>
 </ul>
+<style>/* ---------- Onuri photos (photo with note card, home strip) ---------- */
+.on-photo{position:relative;margin:30px 0 56px;padding:0}
+.on-photo img{display:block;width:100%;height:auto;aspect-ratio:21/9;object-fit:cover;border-radius:28px;background:#f6e9ee;box-shadow:0 18px 48px rgba(116,54,76,.14)}
+.on-photo__note{position:absolute;left:26px;bottom:-30px;max-width:min(440px,calc(100% - 52px));margin:0;padding:12px 16px 12px;border:1px solid #efc2d2;border-radius:18px;background:#fff;color:#2b2529;box-shadow:0 14px 32px rgba(116,54,76,.16);text-align:left}
+.on-photo__title{display:block;font:700 .72rem/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#9a8f95;margin-bottom:2px}
+.on-photo__note p,.on-life__note p{margin:0!important;font-size:1rem;line-height:1.95;color:#2b2529!important}
+.on-pill{display:inline-block;padding:0 9px;border-radius:999px;border:1.5px solid;font-weight:600;line-height:1.55;white-space:nowrap}
+.on-pill--p{background:#efe9f6;border-color:#b9a7d1;color:#4b3a63}.on-pill--l{background:#e5eee3;border-color:#9fb89b;color:#2f4a2c}
+.on-pill--d{background:#f5ebde;border-color:#d3b48d;color:#6a4a22}.on-pill--c{background:#e7edf4;border-color:#a9b9cd;color:#2f4560}
+.on-pill--hit{background:linear-gradient(110deg,#b33c68,#d9577f);border-color:transparent;color:#fff;box-shadow:0 0 0 4px rgba(217,87,127,.16)}
+.on-life{margin-top:72px}
+.on-life__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin:26px 0 0;padding:0;list-style:none}
+.on-life__grid li::marker{content:none}
+.on-life__grid figure{margin:0}
+.on-life__grid img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:24px;background:#f6e9ee;box-shadow:0 10px 30px rgba(116,54,76,.10)}
+.on-life__note{position:relative;margin:-54px 14px 0;padding:12px 15px 9px;border:1px solid #efc2d2;border-radius:18px;background:#fff;box-shadow:0 12px 28px rgba(116,54,76,.14);text-align:left}
+.on-life__when{display:block;margin-top:2px;font-size:.76rem;color:#9a8f95}
+.on-life__conn{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px 10px;max-width:520px;margin:24px auto 0;padding:12px 16px;border-radius:16px;background:#fff3f7;border:1px dashed #e8b9ca;color:#6d6469;font-size:.9rem}
+.on-life__conn small{font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+html[lang="ja"] .on-photo__title,html[lang="ko"] .on-photo__title,html[lang="ja"] .on-life__conn small,html[lang="ko"] .on-life__conn small{text-transform:none;letter-spacing:.04em}
+@media (max-width:760px){.on-life__grid{grid-template-columns:1fr;gap:26px}.on-life__grid img{aspect-ratio:16/10}}
+@media (max-width:640px){.on-photo{margin:22px 0 36px}.on-photo img{aspect-ratio:4/3;border-radius:22px}.on-photo__note{position:relative;left:auto;bottom:auto;max-width:none;margin:-44px 12px 0}}</style><figure class="on-photo"><img alt="公園のピクニックで誕生日ケーキを囲んで盛り上がる友人たち" decoding="async" height="1066" loading="lazy" sizes="(max-width: 1100px) 100vw, 1060px" src="../images/onuri-photo-birthday-picnic-1600.webp" srcset="../images/onuri-photo-birthday-picnic-800.webp 800w, ../images/onuri-photo-birthday-picnic-1600.webp 1600w" style="object-position:45% 40%" width="1600"/><figcaption class="on-photo__note"><span class="on-photo__title">覚えておきたいこと</span><p><span style="white-space:nowrap"><span class="on-pill on-pill--d">10月12日</span>、</span><span class="on-pill on-pill--l">フェニックス・パーク</span>で<span class="on-pill on-pill--p">コフィ</span>の<span class="on-pill on-pill--c">誕生日</span>ピクニック。</p></figcaption></figure>
+
 <div class="legend" aria-label="色の見方">
   <span class="pill pe">人物</span><span class="pill pl">場所</span><span class="pill da">日付</span><span class="pill ti">時刻</span><span class="pill to">トピック</span>
 </div>

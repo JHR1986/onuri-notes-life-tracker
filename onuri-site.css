@@ -371,3 +371,19 @@ html[lang="ja"] .eyebrow,html[lang="ko"] .eyebrow,html[lang="ja"] .kicker,html[l
 html[lang="ja"] .on-photo__title,html[lang="ko"] .on-photo__title,html[lang="ja"] .on-life__conn small,html[lang="ko"] .on-life__conn small{text-transform:none;letter-spacing:.04em}
 @media (max-width:760px){.on-life__grid{grid-template-columns:1fr;gap:26px}.on-life__grid img{aspect-ratio:16/10}}
 @media (max-width:640px){.on-photo{margin:22px 0 36px}.on-photo img{aspect-ratio:4/3;border-radius:22px}.on-photo__note{position:relative;left:auto;bottom:auto;max-width:none;margin:-44px 12px 0}}
+
+
+/* Optional App Store review invitation on the homepages */
+.onuri-review-invitation{width:min(calc(100% - 40px),1120px);margin:64px auto 44px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.92fr);align-items:center;gap:34px;padding:38px 38px 38px 48px;border:1px solid #f3d7e3;border-radius:30px;background:linear-gradient(120deg,#fff8fb 0%,#fcebf3 100%);overflow:hidden;box-shadow:0 14px 42px rgba(137,55,98,.055)}
+.onuri-review-invitation__copy{min-width:0}
+.onuri-review-invitation__eyebrow{font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:.76rem;color:#ad477a;margin:0 0 12px}
+.onuri-review-invitation h2{font-size:clamp(1.8rem,3vw,2.65rem);line-height:1.15;color:#352b34;margin:0 0 18px}
+.onuri-review-invitation__copy>p:not(.onuri-review-invitation__eyebrow):not(.onuri-review-invitation__footnote){font-size:1rem;line-height:1.75;color:#675660;margin:0 0 13px}
+.onuri-review-invitation__link{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;margin-top:12px;border-radius:14px;background:#ad3d73;color:#fff!important;text-decoration:none;font-weight:700;box-shadow:0 7px 18px rgba(173,61,115,.16);transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
+.onuri-review-invitation__link:hover{background:#922d60;transform:translateY(-2px);box-shadow:0 10px 24px rgba(173,61,115,.22)}
+.onuri-review-invitation__link:focus-visible{outline:3px solid #392137;outline-offset:4px}
+.onuri-review-invitation__footnote{font-size:.84rem!important;color:#786774!important;margin:15px 0 0!important}
+.onuri-review-invitation__art{min-width:0}
+.onuri-review-invitation__art img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:22px}
+@media(max-width:760px){.onuri-review-invitation{width:min(calc(100% - 28px),1120px);grid-template-columns:1fr;margin:46px auto 34px;padding:28px 22px;gap:22px;border-radius:23px}.onuri-review-invitation__art{max-width:580px;margin:0 auto}.onuri-review-invitation__link{max-width:100%;text-align:center}}
+@media(prefers-reduced-motion:reduce){.onuri-review-invitation__link{transition:none}}

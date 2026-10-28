@@ -60,10 +60,6 @@ onuri.app has 18 pages, each available in English, [Japanese](https://onuri.app/
 * [What’s New in v2](https://onuri.app/whats-new-v2.html) — filters, dark mode, related entries, themes and Insights
 
 **Deciding if it’s right for you**
-* [Notes App for iPhone](https://onuri.app/notes-app.html) — quick capture, found again later
-* [Free Notes App](https://onuri.app/free-notes-app.html) — what is free and what Premium adds
-* [Apple Notes Alternative](https://onuri.app/notes-app-alternative.html) — how the two approaches differ
-* [Private Notes App](https://onuri.app/private-notes-app.html) — on-device processing, your own iCloud, export
 
 **What you can use it for**
 * [Life Tracker App](https://onuri.app/life-tracker-app.html) — a private life log written in plain notes
@@ -85,20 +81,11 @@ onuri.app has 18 pages, each available in English, [Japanese](https://onuri.app/
 
 ## Writing about Onuri
 
-* [Why Folderless Note-Taking Is the Future of Personal Memory](https://medium.com/@jhroche1986/why-folderless-note-taking-is-the-future-of-personal-memory-743aa91e708a) (Medium)
-* [Stop Organizing Your Notes: Why Frictionless Writing Beats Complex Productivity Systems](https://medium.com/@jhroche1986/stop-organizing-your-notes-just-write-eb0e4e689c83) (Medium)
-* [Onuri: A Private Notes App & Note Taking App for iPhone](https://onuri-stillkeep.blogspot.com/2026/09/onuri-notes-app-note-taking-app-iphone.html)
-* [A Better Way to Take Notes on iPhone: Free Notes, a Second Brain & Life Tracking](https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app-iphone-second-brain-life-tracker.html)
-* [The Modern Free Note-Taking App: Escaping Folder Maintenance and Tracking Bloat](https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app.html)
-* [Why Your Digital Workflow Demands a Fast, Private, and Free Notes App](https://onuri-stillkeep.blogspot.com/2026/09/free-notes-app-and-free-note-taking-app.html)
-* [Why organizing your notes makes them harder to find](https://onuri-stillkeep.blogspot.com/2026/08/why-organizing-notes-fails.html)
-* [Behance case study: Write Naturally. Discover What Connects.](https://www.behance.net/gallery/255962531/Onuri-Write-Naturally-Discover-What-Connects)
 
 More essays: [medium.com/@jhroche1986](https://medium.com/@jhroche1986)
 
 ## Also by the maker: Stillkeep
 
-[Stillkeep](https://stillkeep.app/) is a private photo journal and diary for iPhone that pairs photos with their stories and groups them into chapters of life. See its [guides and resources](https://stillkeep.app/resources.html), or read [Why Photos Make More Sense as Chapters, Not Folders](https://medium.com/@jhroche1986/why-i-built-stillkeep-moving-from-folders-to-visual-eras-in-a-modern-journal-app-8e938f792c3b) and [Why a Camera Roll Isn’t Enough to Preserve Meaningful Memories](https://medium.com/@jhroche1986/beyond-the-camera-roll-why-i-built-a-private-photo-journal-app-for-meaningful-memories-cc7f99597764).
 
 ---
 

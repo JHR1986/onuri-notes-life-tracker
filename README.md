@@ -1,3 +1,4 @@
+
 # Onuri: Notes & Second Brain — Private Notes & Life Tracker for iPhone
 
 <p align="left">
@@ -23,6 +24,10 @@ Write naturally. Onuri: Notes & Second Brain builds useful context around your n
 Your notes should become more useful over time without constant filing. Onuri recognises **people, places, dates, times and topics** inside ordinary writing on the device and turns them into connections you can follow later.
 
 That makes Onuri work as a private notes app, a folderless writing space, a personal knowledge system, a daily journal and a life tracker — from the same notes.
+
+### Travel notes and destination inspiration
+
+Travel is one way Onuri's automatic connections become useful. Capture the places you visit, people you meet, dates, discoveries and everyday experiences in natural notes, then rediscover those connections later. For inspiration when planning your next trip, explore the maker's [first-hand travel guides and itineraries at Words for Travel](https://wordsfortravel.com/), an independent travel website featuring personal destination experiences, practical travel advice and recommendations.
 
 ## Key features
 
@@ -101,5 +106,3 @@ More essays: [medium.com/@jhroche1986](https://medium.com/@jhroche1986)
 | Free | Unlimited notes and core automatic connections |
 | Premium | Optional subscription for expanded Insights, statuses and themes |
 | Developer | John Henry Roche, independently built in Dublin, Ireland |
-
-**Onuri** — write naturally, keep the context, find everything again.
